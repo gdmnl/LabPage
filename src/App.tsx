@@ -1,24 +1,77 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import * as React from 'react';
+
+import { Layout } from 'antd';
+import { Content, Header, Footer } from 'antd/es/layout/layout';
+import type { MenuProps } from 'antd';
+import Banner from './components/Banner';
+import Project from './components/Project'
+import ResearchInterest from './components/ResearchInterest'
+import PeopleList from './components/People';
+import { Menu } from 'antd';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import SelfIntro from './components/self';
+
+type MenuItem = Required<MenuProps>['items'][number];
+
+const items: MenuItem[] = [
+  {
+    label: 'Lab',
+    key: 'home',
+  },
+  {
+    label: 'Publication',
+    key: 'pub',
+  },
+  {
+    label: 'Services',
+    key: 'mail',
+  },
+  {
+    label: 'Projects',
+    key: 'project',
+  },
+  {
+    label: 'Teaching',
+    key: 'teach',
+  },
+];
+
+class LabHome extends React.Component {
+  render() {
+    return (
+      <div>
+        <Banner />
+        <Project />
+        <ResearchInterest />
+        <PeopleList />
+      </div>
+    );
+  }
+};
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout>
+        <Header style={{ position: 'fixed', top: 0, zIndex: 1000, width: '100%' }}>
+          <div className='ntulogo'>
+          </div>
+          <Menu theme="dark" mode="horizontal" items={items} style={{justifyContent: 'right', fontSize: '20px' }} />
+        </Header>
+        <Content>
+          <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<LabHome />} />
+            <Route path="/about" element={<SelfIntro />} />
+          </Routes>
+        </BrowserRouter>
+        </Content>
+        <Footer style={{ height: '15vh', backgroundColor: 'black', color: 'white' }}>
+          Contact Us:
+        </Footer>
+      </Layout>
     </div>
   );
 }

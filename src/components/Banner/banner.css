@@ -1,0 +1,12 @@
+.banner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url(../../../public/banner_flat_1.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
