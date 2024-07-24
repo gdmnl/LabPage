@@ -1,0 +1,977 @@
+[
+  {
+    "title": "Benchmarking Spectral Graph Neural Networks: A Comprehensive Study on Effectiveness and Efficiency.",
+    "authors": [
+      "Ningyi Liao",
+      "Haoyu Liu",
+      "Zulun Zhu",
+      "Siqiang Luo",
+      "Laks V.S. Lakshmanan"
+    ],
+    "conference": "",
+    "year": 0,
+    "video": "",
+    "href": "https://arxiv.org/abs/2406.09675",
+    "description": "The paper benchmarks spectral graph neural networks (GNNs), focusing on their ability to capture graph signals in the frequency domain. Despite their growing popularity, few studies systematically assess their spectral characteristics. This work categorizes over 30 GNNs with 27 filters, implementing them within a unified framework with optimized computations and training schemes. Through extensive experiments, the paper evaluates these models on effectiveness and efficiency, providing practical guidelines for selecting suitable spectral GNNs for large-scale tasks. The findings aim to aid in comparing performances and making informed decisions on model selection for specific scenarios.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "SIMGA: A simple and effective heterophilous graph neural network with efficient global aggregation.",
+    "authors": [
+      "Haoyu Liu",
+      "Ningyi Liao",
+      "Siqiang Luo"
+    ],
+    "conference": "",
+    "year": 0,
+    "video": "",
+    "href": "https://arxiv.org/pdf/2305.09958",
+    "description": "Graph neural networks (GNNs) struggle with heterophily, where neighboring nodes are dissimilar, causing performance loss due to local and uniform aggregation. Existing methods incorporating global aggregation face scalability issues with O(n^2) complexity. This paper introduces SIMGA, a GNN that integrates SimRank for structural similarity as global aggregation. SIMGA's design is simple yet effective, achieving near-linear propagation efficiency to n. The paper theoretically demonstrates SIMGA's effectiveness and evaluates its performance on 12 benchmark datasets, often outperforming state-of-the-art models. Efficiency studies show SIMGA is up to 5× faster than the best existing method on the largest heterophily dataset, Pokec, with over 30 million edges.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "CAMAL: Optimizing LSM-trees via Active Learning.",
+    "authors": [
+      "Weiping Yu",
+      "Siqiang Luo",
+      "Zihao Yu",
+      "Gao Cong"
+    ],
+    "conference": "SIGMOD",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Structural Designs Meet Optimality: Exploring Optimized LSM-tree Structures in A Colossal Configuration Space.",
+    "authors": [
+      "Junfeng Liu*",
+      "Fan Wang*",
+      "Dingheng Mo",
+      "Siqiang Luo. (* Equal Contribution)"
+    ],
+    "conference": "SIGMOD",
+    "year": 2024,
+    "video": "https://www.youtube.com/watch?v=ZgNyIsNxlGk",
+    "href": "/docs/SIGMOD24_MOOSE_Camera___Junfeng___Fan.pdf",
+    "description": "This paper delves into optimizing Log-Structured Merge (LSM) tree structures, widely used in modern databases. It examines the vast configuration space of LSM-trees, which balances write and read performance via multiple tunable parameters. The authors propose an automated framework to explore and identify optimal configurations, leveraging advanced search techniques and cost models. Their approach significantly improves performance compared to traditional methods, offering a robust solution for efficiently managing LSM-trees in diverse database environments.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Learning to Optimize LSM-trees: Towards A Reinforcement Learning based Key-Value Store for Dynamic Workloads.",
+    "authors": [
+      "Dingheng Mo",
+      "Fanchao Chen",
+      "Siqiang Luo",
+      "Caihua Shan"
+    ],
+    "conference": "SIGMOD",
+    "year": 2024,
+    "video": "https://drive.google.com/file/d/13wJmJ9tQEyB9M_Gt9dvius0LvkKgAfXd/view?pli=1",
+    "href": "https://arxiv.org/pdf/2308.07013.pdf",
+    "description": "This paper investigates the use of reinforcement learning to optimize Log-Structured Merge (LSM) tree configurations for key-value stores. It addresses the challenge of dynamic workloads, where traditional static tuning methods fall short. By employing a reinforcement learning framework, the authors develop an adaptive system that continuously learns and adjusts LSM-tree parameters to improve performance. This approach demonstrates significant gains in efficiency and adaptability, making it a promising solution for managing dynamic database workloads effectively.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Oasis: An Optimal Disjoint Segmented Learned Range Filter.",
+    "authors": [
+      "Guanduo Chen",
+      "Zhenying He",
+      "Meng Li",
+      "Siqiang Luo"
+    ],
+    "conference": "PVLDB",
+    "year": 2024,
+    "video": "",
+    "href": "/docs/Oasis_Camera_ready.pdf",
+    "description": "This paper introduces a novel data structure called Oasis, designed to efficiently handle range queries in databases. Oasis leverages machine learning to create segmented filters that optimize the trade-off between false positives and memory usage. By partitioning data into disjoint segments and applying learned models to each segment, Oasis significantly improves query performance. The approach achieves optimal filtering by adapting to data distribution and query patterns, resulting in faster and more accurate range queries compared to traditional methods.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "BIRD: Efficient Approximation of Bidirectional Hidden Personalized PageRank.",
+    "authors": [
+      "Haoyu Liu",
+      "Siqiang Luo"
+    ],
+    "conference": "PVLDB",
+    "year": 2024,
+    "video": "",
+    "href": "/docs/VLDB24_BIRD.pdf",
+    "description": "This paper presents presents BIRD, an algorithm designed to approximate bidirectional hidden Personalized PageRank (PPR) efficiently. Personalized PageRank is a measure of node importance tailored to individual users or contexts in a graph. BIRD achieves this by introducing a bidirectional search strategy and leveraging graph sparsity, which reduces computational overhead. The approach provides accurate approximations of PPR scores quickly, making it suitable for large-scale graphs. This advancement enhances applications such as recommendation systems, web search, and social network analysis by providing fast and personalized relevance scores.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "GENTI: GPU-powered Walk-based Subgraph Extraction for Scalable Representation Learning on Dynamic Graphs.",
+    "authors": [
+      "Zihao Yu",
+      "Ningyi Liao",
+      "Siqiang Luo"
+    ],
+    "conference": "PVLDB",
+    "year": 2024,
+    "video": "",
+    "href": "/docs/VLDB24_Genti.pdf",
+    "description": "The paper introduces GENTI, a framework leveraging GPU capabilities to efficiently perform walk-based subgraph extraction for dynamic graphs. GENTI focuses on improving the scalability and speed of representation learning tasks by utilizing parallel processing power of GPUs. The method involves extracting relevant subgraphs through random walks, which are then used for learning robust graph representations. This approach enables handling large, evolving graphs in real-time, offering significant performance improvements over traditional CPU-based methods. GENTI is particularly beneficial for applications like social network analysis, real-time recommendation systems, and anomaly detection.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "TIGER: Training Inductive Graph Neural Network for Large-scale Knowledge Graph Reasoning.",
+    "authors": [
+      "Kai Wang",
+      "Yuwei Xu",
+      "Siqiang Luo"
+    ],
+    "conference": "PVLDB",
+    "year": 2024,
+    "video": "",
+    "href": "/docs/PVLDB24_Kai_TIGER_Final",
+    "description": "The paper presents TIGER, an innovative framework for reasoning over large-scale knowledge graphs using inductive graph neural networks (GNNs). TIGER addresses the challenges of scalability and efficiency by employing an inductive approach, enabling the model to generalize to unseen nodes and subgraphs during training. The framework leverages advanced GNN architectures to capture complex relationships and patterns within the knowledge graph, enhancing the reasoning capabilities. TIGER demonstrates significant improvements in performance and scalability, making it suitable for applications such as knowledge inference, entity linking, and relation prediction in large-scale knowledge bases.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Personalized PageRanks over Dynamic Graphs -- The Case for Optimizing Quality of Service.",
+    "authors": [
+      "Zulun Zhu",
+      "Siqiang Luo",
+      "Wenqing Lin",
+      "Sibo Wang",
+      "Dingheng Mo",
+      "Chunbo Li"
+    ],
+    "conference": "ICDE",
+    "year": 2024,
+    "video": "",
+    "href": "/docs/Zulun_ICDE.pdf",
+    "description": "This paper explores methods for maintaining high-quality service when computing Personalized PageRanks (PPR) in dynamic graph environments. It addresses the challenge of rapidly changing graphs, which can degrade the accuracy and efficiency of PPR calculations. The authors propose optimization techniques that adapt to graph updates, ensuring timely and accurate PPR results. These methods focus on balancing computational overhead with service quality, leading to improved performance in applications such as recommendation systems, search engines, and social networks where graph structures frequently change.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Resurrecting Label Propagation for Graphs with Heterophily and Label Noise.",
+    "authors": [
+      "Yao Cheng",
+      "Caihua Shan",
+      "Yifei Shen",
+      "Xiang Li",
+      "Siqiang Luo",
+      "Dongsheng Li"
+    ],
+    "conference": "KDD",
+    "year": 2024,
+    "video": "",
+    "href": "https://arxiv.org/pdf/2310.16560v2",
+    "description": "This paper revisits the label propagation algorithm (LPA) to enhance its effectiveness on graphs exhibiting heterophily and label noise. Traditional LPA performs poorly in such conditions where connected nodes often have different labels and labels are noisy. The authors propose modifications to the standard LPA to address these challenges, improving its robustness and accuracy. Their approach involves adjusting the propagation mechanism to better handle diverse and noisy label distributions, resulting in significant performance gains. This work demonstrates the potential of LPA in applications like social network analysis and semi-supervised learning on noisy datasets.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Topology-monitorable Contrastive Learning on Dynamic Graphs.",
+    "authors": [
+      "Zulun Zhu",
+      "Kai Wang",
+      "Haoyu Liu",
+      "Jintang Li",
+      "Siqiang Luo"
+    ],
+    "conference": "KDD",
+    "year": 2024,
+    "video": "",
+    "href": "/docs/KDD24_Zulun.pdf",
+    "description": "This paper introduces a novel approach for contrastive learning on dynamic graphs that monitors and adapts to changes in graph topology. The proposed method leverages the evolving structure of the graph to enhance the learning process, ensuring that the learned representations remain relevant and accurate over time. By incorporating topology-aware mechanisms, the approach effectively captures temporal dynamics and structural variations, leading to improved performance in tasks such as node classification, link prediction, and anomaly detection. This advancement in contrastive learning is particularly beneficial for applications involving continuously changing graph data, like social networks and communication networks.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Scalable Decoupling Graph Neural Network with Feature-Oriented Optimization.",
+    "authors": [
+      "Ningyi Liao",
+      "Dingheng Mo",
+      "Siqiang Luo",
+      "Xiang Li",
+      "Pengcheng Yin"
+    ],
+    "conference": "VLDBJ",
+    "year": 2024,
+    "video": "",
+    "href": "/docs/VLDBJ_2024.pdf",
+    "description": "This paper introduces a novel graph neural network (GNN) architecture designed to enhance scalability and performance through decoupling and feature-oriented optimization. The approach separates the learning of node features from the aggregation of graph topology information, allowing for more efficient computation and better scalability. Feature-oriented optimization techniques are applied to improve the quality and relevance of the learned node features. This decoupling strategy significantly boosts the GNN's ability to handle large-scale graphs while maintaining high accuracy, making it ideal for applications such as social network analysis, recommendation systems, and large-scale knowledge graph processing.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Information-Oriented Random Walks and Pipeline Optimization for Distributed Graph Embedding.",
+    "authors": [
+      "Peng Fang",
+      "Zhenli Li",
+      "Arijit Khan",
+      "Siqiang Luo",
+      "Fang Wang",
+      "Zhan Shi",
+      "Dan Feng"
+    ],
+    "conference": "IEEE TKDE",
+    "year": 2024,
+    "video": "",
+    "href": "",
+    "description": "This paper presents a new method for generating graph embeddings in distributed systems. The approach employs information-oriented random walks to capture more relevant structural and semantic information from the graph. Additionally, it introduces pipeline optimization techniques to enhance the efficiency and scalability of the embedding process. This combination allows for more accurate and meaningful embeddings while reducing computational overhead. The proposed method significantly improves performance in various graph-related tasks such as node classification, link prediction, and community detection, particularly in large-scale distributed environments.",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Massively Parallel Single-Source SimRanks in o(log n) Rounds.",
+    "authors": [
+      "Siqiang Luo*",
+      "Zulun Zhu* (* Order Alphabetically)"
+    ],
+    "conference": "IJCAI",
+    "year": 2024,
+    "video": "",
+    "href": "/docs/IJCAI2024_tech.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "StructAM: Enhancing Address Matching through Semantic Understanding of Structure-aware Information.",
+    "authors": [
+      "Zhaoqi Zhang",
+      "Pasquale Balsebre",
+      "Siqiang Luo",
+      "Zhen Hai",
+      "Jianping Huang"
+    ],
+    "conference": "COLING",
+    "year": 2024,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs.",
+    "authors": [
+      "Kai Wang",
+      "Yuwei Xu",
+      "Zhiyong Wu",
+      "Siqiang Luo"
+    ],
+    "conference": "ACL (Findings)",
+    "year": 2024,
+    "video": "",
+    "href": "https://arxiv.org/pdf/2402.11804",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Machine Learning for Subgraph Extraction: Methods, Applications and Challenges.",
+    "authors": [
+      "Yow Kai Siong",
+      "Ningyi Liao",
+      "Siqiang Luo",
+      "Reynold Cheng"
+    ],
+    "conference": "PVLDB",
+    "year": 2023,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Effective and Efficient Route Planning Using Historical Trajectories on Road Networks.",
+    "authors": [
+      "Wei Tian",
+      "Jieming Shi",
+      "Siqiang Luo",
+      "Hui Li",
+      "Xike Xie",
+      "Yuanhang Zou"
+    ],
+    "conference": "PVLDB",
+    "year": 2023,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Distributed Graph Embedding with Information-Oriented Random Walks.",
+    "authors": [
+      "Peng Fang",
+      "Arijit Khan",
+      "Siqiang Luo",
+      "Fang Wang",
+      "Dan Feng",
+      "Zhenli Li",
+      "Wei Yin",
+      "Yuchao Cao"
+    ],
+    "conference": "PVLDB",
+    "year": 2023,
+    "video": "",
+    "href": "https://arxiv.org/pdf/2303.15702.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "COCLEP: Contrastive Learning-based Semi-Supervised Community Search.",
+    "authors": [
+      "Ling Li",
+      "Siqiang Luo",
+      "Yuhai Zhao",
+      "Caihua Shan",
+      "Zhengkui Wang",
+      "Qin Lu"
+    ],
+    "conference": "ICDE",
+    "year": 2023,
+    "video": "",
+    "href": "/docs/COCLEP__Contrastive_Learning_based_Semi_Supervised_Community_Search__camera_ready_.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Example Searcher: A Spatial Query System via Example.",
+    "authors": [
+      "Jun Xuan Yew",
+      "Ningyi Liao",
+      "Dingheng Mo",
+      "Siqiang Luo"
+    ],
+    "conference": "ICDE",
+    "year": 2023,
+    "video": "https://drive.google.com/drive/folders/1IpTMZLlT2978GYs911JUoCcb2tGZvaRi",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Multi-Task Processing in Vertex-Centric Graph Systems: Evaluations and Insights.",
+    "authors": [
+      "Siqiang Luo*",
+      "Zichen Zhu*",
+      "Xiaokui Xiao",
+      "Yin Yang",
+      "Chunbo Li",
+      "Ben Kao. (* Equal Contribution)"
+    ],
+    "conference": "EDBT",
+    "year": 2023,
+    "video": "",
+    "href": "https://openproceedings.org/2023/conf/edbt/paper-176.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Seesaw Counting Filter: A Dynamic Filtering Framework for Vulnerable Negative Keys.",
+    "authors": [
+      "Meng Li",
+      "Deyi Chen",
+      "Haipeng Dai",
+      "Rongbiao Xie",
+      "Siqiang Luo",
+      "Rong Gu",
+      "Tong Yang",
+      "Guihai Chen"
+    ],
+    "conference": "TKDE",
+    "year": 2023,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Efficient Community Search in Edge-Attributed Graphs.",
+    "authors": [
+      "Ling Li",
+      "Yuhai Zhao",
+      "Siqiang Luo",
+      "Guoren Wang",
+      "Zhengkui Wang"
+    ],
+    "conference": "TKDE",
+    "year": 2023,
+    "video": "",
+    "href": "/docs/Efficient_Community_Search_in_Edge-Attributed_Graphs.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "LD2: Scalable Heterophilous Graph Neural Network with Decoupled Embedding.",
+    "authors": [
+      "Ningyi Liao",
+      "Siqiang Luo",
+      "Xiang Li",
+      "Jieming Shi. "
+    ],
+    "conference": "NeurIPS",
+    "year": 2023,
+    "video": "https://neurips.cc/virtual/2023/poster/72677",
+    "href": "https://openreview.net/pdf?id=7zkFc9TGKz",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Deep Graph Structural Infomax.",
+    "authors": [
+      "Wenting Zhao",
+      "Gongping Xu",
+      "Zhen Cui",
+      "Siqiang Luo",
+      "Cheng Long",
+      "Tong Zhang. "
+    ],
+    "conference": "AAAI",
+    "year": 2023,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "DMCS : Density Modularity based Community Search.",
+    "authors": [
+      "Junghoon Kim",
+      "Siqiang Luo",
+      "Gao Cong",
+      "Wenyuan Yu. "
+    ],
+    "conference": "SIGMOD",
+    "year": 2022,
+    "video": "",
+    "href": "https://arxiv.org/pdf/2204.07720.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Proteus: A Self-Designing Range Filter.",
+    "authors": [
+      "Eric Knorr*",
+      "Baptiste Lemaire*",
+      "Andrew Lim*",
+      "Siqiang Luo",
+      "Huanchen Zhang",
+      "Stratos Idreos",
+      "Michael Mitzenmacher. (* Equal Contribution) "
+    ],
+    "conference": "SIGMOD",
+    "year": 2022,
+    "video": "",
+    "href": "https://arxiv.org/pdf/2207.01503.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "SCARA: Scalable Graph Neural Networks with Feature-Oriented Optimization.",
+    "authors": [
+      "Ningyi Liao*",
+      "Dingheng Mo*",
+      "Siqiang Luo",
+      "Xiang Li",
+      "Pengcheng Yin. (* Equal Contribution) "
+    ],
+    "conference": "PVLDB",
+    "year": 2022,
+    "video": "",
+    "href": "https://arxiv.org/pdf/2207.09179.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Example-based Spatial Search at Scale.",
+    "authors": [
+      "Hanyuan Zhang",
+      "Siqiang Luo",
+      "Jieming Shi",
+      "Jing Nathan Yan",
+      "Weiwei Sun. "
+    ],
+    "conference": "ICDE",
+    "year": 2022,
+    "video": "",
+    "href": "https://474ed25d-65f4-464c-95bf-ac85d6c4e9a3.filesusr.com/ugd/87d776_a17c1904528c4288be7d9ec92e377598.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "VC-Tune: Tuning and Exploring Distributed Vertex-Centric Graph Systems.",
+    "authors": [
+      "Zichen Zhu",
+      "Siqiang Luo",
+      "Xiaokui Xiao",
+      "Yin Yang",
+      "Dingheng Mo",
+      "Yufei Han. "
+    ],
+    "conference": "ICDE",
+    "year": 2022,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Single-Source Personalized PageRanks with Workload Robustness.",
+    "authors": [
+      "Dingheng Mo",
+      "Siqiang Luo. "
+    ],
+    "conference": "TKDE",
+    "year": 2022,
+    "video": "",
+    "href": "https://474ed25d-65f4-464c-95bf-ac85d6c4e9a3.filesusr.com/ugd/87d776_661bdefe98314f55b88ea71c92815c73.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Seesaw Counting Filter: An Efficient Guardian for Vulnerable Negative Keys During Dynamic Filtering. ",
+    "authors": [
+      "Li Meng",
+      "Deyi Chen",
+      "Haipeng Dai",
+      "Rongbiao Xie",
+      "Siqiang Luo",
+      "Rong Gu",
+      "Tong Yang",
+      "Guihai Chen. "
+    ],
+    "conference": "WWW",
+    "year": 2022,
+    "video": "",
+    "href": "https://yangtonghome.github.io/uploads/Seesaw_counting_filter.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Spiking Graph Convolutional Networks. ",
+    "authors": [
+      "Zulun Zhu",
+      "Jiaying Peng",
+      "Jintang Li",
+      "Liang Chen",
+      "Qi Yu",
+      "Siqiang Luo"
+    ],
+    "conference": "IJCAI",
+    "year": 2022,
+    "video": "",
+    "href": "https://arxiv.org/pdf/2205.02767.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Finding Global Homophily in Graph Neural Networks When Meeting Heterophily. ",
+    "authors": [
+      "Xiang Li",
+      "Renyu Zhu",
+      "Yao Cheng",
+      "Caihua Shan",
+      "Siqiang Luo",
+      "Dongsheng Li",
+      "Weining Qian. "
+    ],
+    "conference": "ICML",
+    "year": 2022,
+    "video": "",
+    "href": "https://arxiv.org/pdf/2205.07308.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Agenda: Robust Personalized PageRanks in Evolving Graphs.",
+    "authors": [
+      "Dingheng Mo",
+      "Siqiang Luo. "
+    ],
+    "conference": "CIKM",
+    "year": 2021,
+    "video": "",
+    "href": "https://dl.acm.org/doi/abs/10.1145/3459637.3482317",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Rosetta: A Robust Space-Time Optimized Range Filter for Key-Value Stores.",
+    "authors": [
+      "Siqiang Luo",
+      "Subarna Chatterjee",
+      "Rafael Ketsetsides",
+      "Niv Dayan",
+      "Wilson Qin",
+      "Stratos Idreos. "
+    ],
+    "conference": "SIGMOD",
+    "year": 2020,
+    "video": "https://drive.google.com/file/d/10tMsNwHt-95E7H1b_TDeEHZDOCAxEOCd/view",
+    "href": "https://scholar.harvard.edu/files/stratos/files/rosetta.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Baton: Batch One-Hop Personalized PageRanks with Efficiency and Effectiveness.",
+    "authors": [
+      "Siqiang Luo",
+      "Xiaokui Xiao",
+      "Wenqing Lin",
+      "Ben Kao"
+    ],
+    "conference": "TKDE",
+    "year": 2020,
+    "video": "",
+    "href": "https://lostronghku.github.io/pub/baton_TKDE_revision.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "ROAM: A Fundamental Routing Query on Road Networks with Efficiency.",
+    "authors": [
+      "Siqiang Luo",
+      "Reynold Cheng",
+      "Ben Kao",
+      "Xiaokui Xiao",
+      "Shuigeng Zhou",
+      "Jiafeng Hu"
+    ],
+    "conference": "TKDE",
+    "year": 2020,
+    "video": "",
+    "href": "https://lostronghku.github.io/pub/TKDE19-ROAM.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Improved Communication Cost for Distributed PageRank Computation -- A Theorectical Study.",
+    "authors": [
+      "Siqiang Luo"
+    ],
+    "conference": "ICML",
+    "year": 2020,
+    "video": "",
+    "href": "http://proceedings.mlr.press/v119/luo20a/luo20a.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "MPR - A Partitioning-Replication Framework for Multi-Processing kNN Search on Road Networks.",
+    "authors": [
+      "Siqiang Luo",
+      "Ben Kao",
+      "Xiaowei Wu",
+      "Reynold Cheng"
+    ],
+    "conference": "ICDE",
+    "year": 2019,
+    "video": "",
+    "href": "https://lostronghku.github.io/pub/ParallelKNN.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Efficient Batch One-Hop Personalized PageRanks.",
+    "authors": [
+      "Siqiang Luo",
+      "Xiaokui Xiao",
+      "Wenqing Lin",
+      "Ben Kao"
+    ],
+    "conference": "ICDE",
+    "year": 2019,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Distributed PageRank Computation: An Improved Theoretical Study.",
+    "authors": [
+      "Siqiang Luo"
+    ],
+    "conference": "AAAI",
+    "year": 2019,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "On Spatial-Aware Community Search.",
+    "authors": [
+      "Yixiang Fang",
+      "Zheng Wang",
+      "Reynold Cheng",
+      "Xiaodong Li",
+      "Siqiang Luo",
+      "Jiafeng Hu",
+      "Xiaojun Chen"
+    ],
+    "conference": "TKDE",
+    "year": 2019,
+    "video": "",
+    "href": "https://www.cs.hku.hk/data/techreps/document/TR-2016-04.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "TOAIN: A Throughput Optimizing Adaptive Index for Answering Dynamic kNN Queries on Road Networks.",
+    "authors": [
+      "Siqiang Luo",
+      "Ben Kao",
+      "Guoliang Li",
+      "Jiafeng Hu",
+      "Reynold Cheng",
+      "Yudian Zheng"
+    ],
+    "conference": "PVLDB",
+    "year": 2018,
+    "video": "",
+    "href": "https://www.vldb.org/pvldb/vol11/p594-luo.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "ROSC: Robust Spectral Clustering on Multi-scale Data.",
+    "authors": [
+      "Xiang Li",
+      "Ben Kao",
+      "Siqiang Luo",
+      "Martin Ester"
+    ],
+    "conference": "WWW",
+    "year": 2018,
+    "video": "",
+    "href": "https://dl.acm.org/doi/pdf/10.1145/3178876.3185993?casa_token=buVl8L6leNAAAAAA:g7Ax_y3rIKVmiVcYnUg7Bme7vSF1GdQdKNqx0C38miecEK2CIwFgAy6YpBp48dCZ_6MrKr2wmy8WAfc",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Effective Community Search over Large Spatial Graphs.",
+    "authors": [
+      "Yixiang Fang",
+      "Reynold Cheng",
+      "Xiaodong Li",
+      "Siqiang Luo",
+      "Jiafeng Hu"
+    ],
+    "conference": "PVLDB",
+    "year": 2017,
+    "video": "",
+    "href": "http://www.vldb.org/pvldb/vol10/p709-fang.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "C-Explorer: Browsing Communities in Large Graphs.",
+    "authors": [
+      "Yixiang Fang",
+      "Reynold Cheng",
+      "Siqiang Luo",
+      "Jiafeng Hu",
+      "Kai Huang"
+    ],
+    "conference": "PVLDB",
+    "year": 2017,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "On Minimal Steiner Maximum-Connected Subgraph Queries.",
+    "authors": [
+      "Jiafeng Hu",
+      "Xiaowei Wu",
+      "Reynold Cheng",
+      "Siqiang Luo",
+      "Yixiang Fang"
+    ],
+    "conference": "TKDE",
+    "year": 2017,
+    "video": "",
+    "href": "https://lostronghku.github.io/tkde17-smcs.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Effective and efficient attributed community search.",
+    "authors": [
+      "Yixiang Fang",
+      "Reynold Cheng",
+      "Yankai Chen",
+      "Siqiang Luo",
+      "Jiafeng Hu"
+    ],
+    "conference": "VLDBJ",
+    "year": 2017,
+    "video": "",
+    "href": "https://lostronghku.github.io/pub/VLDBJ2017.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "On Embedding Uncertain Graphs.",
+    "authors": [
+      "Jiafeng Hu",
+      "Reynold Cheng",
+      "Zhipeng Huang",
+      "Yixiang Fang",
+      "Siqiang Luo"
+    ],
+    "conference": "CIKM",
+    "year": 2017,
+    "video": "",
+    "href": "https://lostronghku.github.io/pub/CIKM17-urge.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "SEQ: Example-based Query for Spatial Objects.",
+    "authors": [
+      "Siqiang Luo",
+      "Jiafeng Hu",
+      "Reynold Cheng",
+      "Jing Yan",
+      "Ben Kao"
+    ],
+    "conference": "CIKM",
+    "year": 2017,
+    "video": "",
+    "href": "https://lostronghku.github.io/pub/cikm17-seq.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Effective Community Search for Large Attributed Graphs.",
+    "authors": [
+      "Yixiang Fang",
+      "Reynold Cheng",
+      "Siqiang Luo",
+      "Jiafeng Hu"
+    ],
+    "conference": "PVLDB",
+    "year": 2016,
+    "video": "",
+    "href": "http://www.vldb.org/pvldb/vol9/p1233-fang.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Querying Minimal Steiner Maximum-Connected Subgraphs in Large Graphs.",
+    "authors": [
+      "Jiafeng Hu",
+      "Xiaowei Wu",
+      "Reynold Cheng",
+      "Siqiang Luo",
+      "Yixiang Fang"
+    ],
+    "conference": "CIKM",
+    "year": 2016,
+    "video": "",
+    "href": "https://dl.acm.org/doi/10.1145/2983323.2983748",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Distributed Spatial Keyword Querying on Road Networks.",
+    "authors": [
+      "Siqiang Luo",
+      "Yifeng Luo",
+      "Shuigeng Zhou",
+      "Gao Cong",
+      "Jihong Guan"
+    ],
+    "conference": "EDBT",
+    "year": 2014,
+    "video": "",
+    "href": "https://openproceedings.org/2014/conf/edbt/LuoLZCG14.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "Shortest path and distance queries on road networks: towards bridging theory and practice.",
+    "authors": [
+      "Andy Diwen Zhu",
+      "Hui Ma",
+      "Xiaokui Xiao",
+      "Siqiang Luo",
+      "Youze Tang",
+      "Shuigeng Zhou"
+    ],
+    "conference": "SIGMOD",
+    "year": 2013,
+    "video": "",
+    "href": "https://dl.acm.org/doi/10.1145/2463676.2465277",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  },
+  {
+    "title": "DISKs: A System for Distributed Spatial Group Keyword Search on Road Networks.",
+    "authors": [
+      "Siqiang Luo",
+      "Yifeng Luo",
+      "Shuigeng Zhou",
+      "Gao Cong",
+      "Jihong Guan"
+    ],
+    "conference": "VLDB",
+    "year": 2012,
+    "video": "",
+    "href": "https://dl.acm.org/doi/10.14778/2367502.2367549",
+    "description": "",
+    "imgSrc": "",
+    "keywords": []
+  }
+]

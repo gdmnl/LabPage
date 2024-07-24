@@ -11,6 +11,7 @@ import PeopleList from './components/People';
 import { Menu } from 'antd';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import SelfIntro from './components/self';
+import PublicationList from './components/Publication';
 
 type MenuItem = Required<MenuProps>['items'][number];
 
@@ -32,7 +33,7 @@ const items: MenuItem[] = [
     key: 'project',
   },
   {
-    label: 'Teaching',
+    label: 'News',
     key: 'teach',
   },
 ];
@@ -58,18 +59,22 @@ function App() {
         <Header style={{ position: 'fixed', top: 0, zIndex: 1000, width: '100%' }}>
           <div className='ntulogo'>
           </div>
-          <Menu theme="dark" mode="horizontal" items={items} style={{justifyContent: 'right', fontSize: '20px' }} />
+          <Menu theme="dark" mode="horizontal" items={items} style={{justifyContent: 'right', fontSize: '18px', width: '90%' }} />
         </Header>
         <Content>
           <BrowserRouter>
           <Routes>
             <Route path="/" element={<LabHome />} />
             <Route path="/about" element={<SelfIntro />} />
+            <Route path="/publication" element={<PublicationList />} />
           </Routes>
         </BrowserRouter>
         </Content>
         <Footer style={{ height: '15vh', backgroundColor: 'black', color: 'white' }}>
-          Contact Us:
+          <p>
+            <span>Address: 50 Nanyang Ave, #32 block N4 #02a, Singapore, 639798</span>
+          </p>
+          <p>Copyright © 2022 – 2024 – All Rights Reserved</p>
         </Footer>
       </Layout>
     </div>

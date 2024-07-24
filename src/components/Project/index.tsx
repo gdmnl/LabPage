@@ -20,14 +20,14 @@ export class Project extends React.Component {
   render() {
     return (
       <Content className="project" style={{ marginTop: '1rem' }}>
-        <div style={{ fontSize: '40px', fontFamily: 'Montserrat', fontWeight: 500 }}>Research Projects</div>
+        <div style={{ fontSize: '30px', fontFamily: 'Montserrat', fontWeight: 500 }}>Research Projects</div>
         <Space direction='horizontal'>
             <Row>
               {projectLists.map((project, index) => (
                 <Col span={12} key={index} style={{ padding: '25px' }}>
-                    <div style={{ fontSize: '30px', fontWeight: 600 }}>{project.title}</div>
+                    <div style={{ fontSize: '20px', fontWeight: 600 }}>{project.title}</div>
                     <img src={project.logo} style={{ width: '150px', height: '150px', borderRadius: '50%' }}/>
-                    <div style={{ fontSize: '25px', width: '300px', fontFamily: 'Times' }}>{project.desc}</div>
+                    <div style={{ fontSize: '18px', width: '300px', fontFamily: 'Times', lineHeight: "1.5" }}>{project.desc}</div>
                 </Col>
               ))}
             </Row>

@@ -94,12 +94,14 @@ export class PeopleList extends React.Component {
     }
     return (
       <Content className="people" style={{ marginTop: '1rem', padding: '1rem', fontFamily: 'Droid Serif' }}>
-        <div style={{ fontSize: '40px' }}>People</div>
+        <div style={{ fontSize: '30px' }}>People</div>
         <Row justify='center'>
           <Col span={5} style={{ padding: '20px'}}>
+            <a href="/about">
             <img src="avatar/SiqiangLuo.jpg" style={{ width: '150px', height: '150px', borderRadius: '50%' }}/>
-            <div style={{ fontSize: '25px' }}>Siqiang LUO</div>
-            <div style={{ fontSize: '16px', color: '#7d7d7d' }}> Assistant Professor</div>
+            </a>
+            <div style={{ fontSize: '20px', marginTop: "10px" }}>Siqiang LUO</div>
+            <div style={{ fontSize: '15px', color: '#7d7d7d' }}> Assistant Professor</div>
           </Col>
         </Row>
         <div style={{ fontSize: '30px', marginTop: '10px' }}>PhD Students</div>
@@ -107,10 +109,12 @@ export class PeopleList extends React.Component {
             <Row justify='center'>
               {phdGroup.map((phd, _) => (
                 <Col span={5} style={{ padding: '20px'}}>
-                  <img src={phd.img ? `avatar/${phd.img}` : 'logo192.png'} style={{ width: '150px', height: '150px', borderRadius: '50%' }}/>
-                  <div style={{ fontSize: '25px' }}>{phd.name}</div>
-                  <div style={{ fontSize: '16px', color: '#7d7d7d' }}>{phd.date}</div>
-                  <div style={{ fontSize: '16px' }}>{phd.bg}</div>
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <div style={{ width: '150px', height: '150px', overflow: "hidden", borderRadius: '50%', backgroundImage: `url(${phd.img ? 'avatar/' + phd.img : 'logo192.png'})`, backgroundSize: "cover" }}/>
+                  </div>
+                  <div style={{ fontSize: '20px', marginTop: "10px" }}>{phd.name}</div>
+                  <div style={{ fontSize: '15px', color: '#7d7d7d', lineHeight: "1.5" }}>{phd.date}</div>
+                  <div style={{ fontSize: '15px' }}>{phd.bg}</div>
                 </Col>
               ))}
             </Row>
@@ -120,10 +124,13 @@ export class PeopleList extends React.Component {
             <Row justify='center'>
               {postDocGroup.map((postDoc, _) => (
                 <Col span={5} style={{ padding: '20px'}}>
-                  <img src={postDoc.img ? `avatar/${postDoc.img}` : 'logo192.png'} style={{ width: '150px', height: '150px', borderRadius: '50%' }}/>
-                  <div style={{ fontSize: '25px' }}>{postDoc.name}</div>
-                  <div style={{ fontSize: '16px', color: '#7d7d7d' }}>{postDoc.date}</div>
-                  <div style={{ fontSize: '16px' }}>{postDoc.bg}</div>
+                  {/* <img src={postDoc.img ? `avatar/${postDoc.img}` : 'logo192.png'} style={{ width: '150px', height: '150px', borderRadius: '50%' }}/> */}
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                  <div style={{ width: '150px', height: '150px', overflow: "hidden", borderRadius: '50%', backgroundImage: `url(${postDoc.img ? 'avatar/' + postDoc.img : 'logo192.png'})`, backgroundSize: "cover" }}/>
+                  </div>
+                  <div style={{ fontSize: '20px' }}>{postDoc.name}</div>
+                  <div style={{ fontSize: '15px', color: '#7d7d7d' }}>{postDoc.date}</div>
+                  <div style={{ fontSize: '15px' }}>{postDoc.bg}</div>
                 </Col>
               ))}
             </Row>
