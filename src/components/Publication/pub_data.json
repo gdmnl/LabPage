@@ -14,7 +14,7 @@
     "href": "https://arxiv.org/abs/2406.09675",
     "description": "The paper benchmarks spectral graph neural networks (GNNs), focusing on their ability to capture graph signals in the frequency domain. Despite their growing popularity, few studies systematically assess their spectral characteristics. This work categorizes over 30 GNNs with 27 filters, implementing them within a unified framework with optimized computations and training schemes. Through extensive experiments, the paper evaluates these models on effectiveness and efficiency, providing practical guidelines for selecting suitable spectral GNNs for large-scale tasks. The findings aim to aid in comparing performances and making informed decisions on model selection for specific scenarios.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "SIMGA: A simple and effective heterophilous graph neural network with efficient global aggregation.",
@@ -29,7 +29,7 @@
     "href": "https://arxiv.org/pdf/2305.09958",
     "description": "Graph neural networks (GNNs) struggle with heterophily, where neighboring nodes are dissimilar, causing performance loss due to local and uniform aggregation. Existing methods incorporating global aggregation face scalability issues with O(n^2) complexity. This paper introduces SIMGA, a GNN that integrates SimRank for structural similarity as global aggregation. SIMGA's design is simple yet effective, achieving near-linear propagation efficiency to n. The paper theoretically demonstrates SIMGA's effectiveness and evaluates its performance on 12 benchmark datasets, often outperforming state-of-the-art models. Efficiency studies show SIMGA is up to 5× faster than the best existing method on the largest heterophily dataset, Pokec, with over 30 million edges.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "CAMAL: Optimizing LSM-trees via Active Learning.",
@@ -45,7 +45,7 @@
     "href": "",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["key-value"]
   },
   {
     "title": "Structural Designs Meet Optimality: Exploring Optimized LSM-tree Structures in A Colossal Configuration Space.",
@@ -61,7 +61,7 @@
     "href": "/docs/SIGMOD24_MOOSE_Camera___Junfeng___Fan.pdf",
     "description": "This paper delves into optimizing Log-Structured Merge (LSM) tree structures, widely used in modern databases. It examines the vast configuration space of LSM-trees, which balances write and read performance via multiple tunable parameters. The authors propose an automated framework to explore and identify optimal configurations, leveraging advanced search techniques and cost models. Their approach significantly improves performance compared to traditional methods, offering a robust solution for efficiently managing LSM-trees in diverse database environments.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["key-value"]
   },
   {
     "title": "Learning to Optimize LSM-trees: Towards A Reinforcement Learning based Key-Value Store for Dynamic Workloads.",
@@ -77,7 +77,7 @@
     "href": "https://arxiv.org/pdf/2308.07013.pdf",
     "description": "This paper investigates the use of reinforcement learning to optimize Log-Structured Merge (LSM) tree configurations for key-value stores. It addresses the challenge of dynamic workloads, where traditional static tuning methods fall short. By employing a reinforcement learning framework, the authors develop an adaptive system that continuously learns and adjusts LSM-tree parameters to improve performance. This approach demonstrates significant gains in efficiency and adaptability, making it a promising solution for managing dynamic database workloads effectively.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["key-value"]
   },
   {
     "title": "Oasis: An Optimal Disjoint Segmented Learned Range Filter.",
@@ -93,7 +93,7 @@
     "href": "/docs/Oasis_Camera_ready.pdf",
     "description": "This paper introduces a novel data structure called Oasis, designed to efficiently handle range queries in databases. Oasis leverages machine learning to create segmented filters that optimize the trade-off between false positives and memory usage. By partitioning data into disjoint segments and applying learned models to each segment, Oasis significantly improves query performance. The approach achieves optimal filtering by adapting to data distribution and query patterns, resulting in faster and more accurate range queries compared to traditional methods.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["key-value"]
   },
   {
     "title": "BIRD: Efficient Approximation of Bidirectional Hidden Personalized PageRank.",
@@ -107,7 +107,7 @@
     "href": "/docs/VLDB24_BIRD.pdf",
     "description": "This paper presents presents BIRD, an algorithm designed to approximate bidirectional hidden Personalized PageRank (PPR) efficiently. Personalized PageRank is a measure of node importance tailored to individual users or contexts in a graph. BIRD achieves this by introducing a bidirectional search strategy and leveraging graph sparsity, which reduces computational overhead. The approach provides accurate approximations of PPR scores quickly, making it suitable for large-scale graphs. This advancement enhances applications such as recommendation systems, web search, and social network analysis by providing fast and personalized relevance scores.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "GENTI: GPU-powered Walk-based Subgraph Extraction for Scalable Representation Learning on Dynamic Graphs.",
@@ -122,7 +122,7 @@
     "href": "/docs/VLDB24_Genti.pdf",
     "description": "The paper introduces GENTI, a framework leveraging GPU capabilities to efficiently perform walk-based subgraph extraction for dynamic graphs. GENTI focuses on improving the scalability and speed of representation learning tasks by utilizing parallel processing power of GPUs. The method involves extracting relevant subgraphs through random walks, which are then used for learning robust graph representations. This approach enables handling large, evolving graphs in real-time, offering significant performance improvements over traditional CPU-based methods. GENTI is particularly beneficial for applications like social network analysis, real-time recommendation systems, and anomaly detection.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "TIGER: Training Inductive Graph Neural Network for Large-scale Knowledge Graph Reasoning.",
@@ -137,7 +137,7 @@
     "href": "/docs/PVLDB24_Kai_TIGER_Final",
     "description": "The paper presents TIGER, an innovative framework for reasoning over large-scale knowledge graphs using inductive graph neural networks (GNNs). TIGER addresses the challenges of scalability and efficiency by employing an inductive approach, enabling the model to generalize to unseen nodes and subgraphs during training. The framework leverages advanced GNN architectures to capture complex relationships and patterns within the knowledge graph, enhancing the reasoning capabilities. TIGER demonstrates significant improvements in performance and scalability, making it suitable for applications such as knowledge inference, entity linking, and relation prediction in large-scale knowledge bases.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Personalized PageRanks over Dynamic Graphs -- The Case for Optimizing Quality of Service.",
@@ -155,7 +155,7 @@
     "href": "/docs/Zulun_ICDE.pdf",
     "description": "This paper explores methods for maintaining high-quality service when computing Personalized PageRanks (PPR) in dynamic graph environments. It addresses the challenge of rapidly changing graphs, which can degrade the accuracy and efficiency of PPR calculations. The authors propose optimization techniques that adapt to graph updates, ensuring timely and accurate PPR results. These methods focus on balancing computational overhead with service quality, leading to improved performance in applications such as recommendation systems, search engines, and social networks where graph structures frequently change.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Resurrecting Label Propagation for Graphs with Heterophily and Label Noise.",
@@ -173,7 +173,7 @@
     "href": "https://arxiv.org/pdf/2310.16560v2",
     "description": "This paper revisits the label propagation algorithm (LPA) to enhance its effectiveness on graphs exhibiting heterophily and label noise. Traditional LPA performs poorly in such conditions where connected nodes often have different labels and labels are noisy. The authors propose modifications to the standard LPA to address these challenges, improving its robustness and accuracy. Their approach involves adjusting the propagation mechanism to better handle diverse and noisy label distributions, resulting in significant performance gains. This work demonstrates the potential of LPA in applications like social network analysis and semi-supervised learning on noisy datasets.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Topology-monitorable Contrastive Learning on Dynamic Graphs.",
@@ -190,7 +190,7 @@
     "href": "/docs/KDD24_Zulun.pdf",
     "description": "This paper introduces a novel approach for contrastive learning on dynamic graphs that monitors and adapts to changes in graph topology. The proposed method leverages the evolving structure of the graph to enhance the learning process, ensuring that the learned representations remain relevant and accurate over time. By incorporating topology-aware mechanisms, the approach effectively captures temporal dynamics and structural variations, leading to improved performance in tasks such as node classification, link prediction, and anomaly detection. This advancement in contrastive learning is particularly beneficial for applications involving continuously changing graph data, like social networks and communication networks.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Scalable Decoupling Graph Neural Network with Feature-Oriented Optimization.",
@@ -207,7 +207,7 @@
     "href": "/docs/VLDBJ_2024.pdf",
     "description": "This paper introduces a novel graph neural network (GNN) architecture designed to enhance scalability and performance through decoupling and feature-oriented optimization. The approach separates the learning of node features from the aggregation of graph topology information, allowing for more efficient computation and better scalability. Feature-oriented optimization techniques are applied to improve the quality and relevance of the learned node features. This decoupling strategy significantly boosts the GNN's ability to handle large-scale graphs while maintaining high accuracy, making it ideal for applications such as social network analysis, recommendation systems, and large-scale knowledge graph processing.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Information-Oriented Random Walks and Pipeline Optimization for Distributed Graph Embedding.",
@@ -226,7 +226,7 @@
     "href": "",
     "description": "This paper presents a new method for generating graph embeddings in distributed systems. The approach employs information-oriented random walks to capture more relevant structural and semantic information from the graph. Additionally, it introduces pipeline optimization techniques to enhance the efficiency and scalability of the embedding process. This combination allows for more accurate and meaningful embeddings while reducing computational overhead. The proposed method significantly improves performance in various graph-related tasks such as node classification, link prediction, and community detection, particularly in large-scale distributed environments.",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Massively Parallel Single-Source SimRanks in o(log n) Rounds.",
@@ -240,7 +240,7 @@
     "href": "/docs/IJCAI2024_tech.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "StructAM: Enhancing Address Matching through Semantic Understanding of Structure-aware Information.",
@@ -257,7 +257,7 @@
     "href": "",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs.",
@@ -273,7 +273,7 @@
     "href": "https://arxiv.org/pdf/2402.11804",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["llm"]
   },
   {
     "title": "Machine Learning for Subgraph Extraction: Methods, Applications and Challenges.",
@@ -289,7 +289,7 @@
     "href": "",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Effective and Efficient Route Planning Using Historical Trajectories on Road Networks.",
@@ -307,7 +307,7 @@
     "href": "",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Distributed Graph Embedding with Information-Oriented Random Walks.",
@@ -327,7 +327,7 @@
     "href": "https://arxiv.org/pdf/2303.15702.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "COCLEP: Contrastive Learning-based Semi-Supervised Community Search.",
@@ -345,7 +345,7 @@
     "href": "/docs/COCLEP__Contrastive_Learning_based_Semi_Supervised_Community_Search__camera_ready_.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Example Searcher: A Spatial Query System via Example.",
@@ -361,7 +361,7 @@
     "href": "",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Multi-Task Processing in Vertex-Centric Graph Systems: Evaluations and Insights.",
@@ -379,7 +379,7 @@
     "href": "https://openproceedings.org/2023/conf/edbt/paper-176.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Seesaw Counting Filter: A Dynamic Filtering Framework for Vulnerable Negative Keys.",
@@ -399,7 +399,7 @@
     "href": "",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["key-value"]
   },
   {
     "title": "Efficient Community Search in Edge-Attributed Graphs.",
@@ -416,7 +416,7 @@
     "href": "/docs/Efficient_Community_Search_in_Edge-Attributed_Graphs.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "LD2: Scalable Heterophilous Graph Neural Network with Decoupled Embedding.",
@@ -432,7 +432,7 @@
     "href": "https://openreview.net/pdf?id=7zkFc9TGKz",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Deep Graph Structural Infomax.",
@@ -450,7 +450,7 @@
     "href": "",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "DMCS : Density Modularity based Community Search.",
@@ -466,7 +466,7 @@
     "href": "https://arxiv.org/pdf/2204.07720.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Proteus: A Self-Designing Range Filter.",
@@ -485,7 +485,7 @@
     "href": "https://arxiv.org/pdf/2207.01503.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["key-value"]
   },
   {
     "title": "SCARA: Scalable Graph Neural Networks with Feature-Oriented Optimization.",
@@ -502,7 +502,7 @@
     "href": "https://arxiv.org/pdf/2207.09179.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Example-based Spatial Search at Scale.",
@@ -519,7 +519,7 @@
     "href": "https://474ed25d-65f4-464c-95bf-ac85d6c4e9a3.filesusr.com/ugd/87d776_a17c1904528c4288be7d9ec92e377598.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "VC-Tune: Tuning and Exploring Distributed Vertex-Centric Graph Systems.",
@@ -537,7 +537,7 @@
     "href": "",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Single-Source Personalized PageRanks with Workload Robustness.",
@@ -551,7 +551,7 @@
     "href": "https://474ed25d-65f4-464c-95bf-ac85d6c4e9a3.filesusr.com/ugd/87d776_661bdefe98314f55b88ea71c92815c73.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Seesaw Counting Filter: An Efficient Guardian for Vulnerable Negative Keys During Dynamic Filtering. ",
@@ -571,7 +571,7 @@
     "href": "https://yangtonghome.github.io/uploads/Seesaw_counting_filter.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["key-value"]
   },
   {
     "title": "Spiking Graph Convolutional Networks. ",
@@ -589,7 +589,7 @@
     "href": "https://arxiv.org/pdf/2205.02767.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Finding Global Homophily in Graph Neural Networks When Meeting Heterophily. ",
@@ -608,7 +608,7 @@
     "href": "https://arxiv.org/pdf/2205.07308.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Agenda: Robust Personalized PageRanks in Evolving Graphs.",
@@ -622,7 +622,7 @@
     "href": "https://dl.acm.org/doi/abs/10.1145/3459637.3482317",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Rosetta: A Robust Space-Time Optimized Range Filter for Key-Value Stores.",
@@ -640,7 +640,7 @@
     "href": "https://scholar.harvard.edu/files/stratos/files/rosetta.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["key-value"]
   },
   {
     "title": "Baton: Batch One-Hop Personalized PageRanks with Efficiency and Effectiveness.",
@@ -656,7 +656,7 @@
     "href": "https://lostronghku.github.io/pub/baton_TKDE_revision.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "ROAM: A Fundamental Routing Query on Road Networks with Efficiency.",
@@ -674,7 +674,7 @@
     "href": "https://lostronghku.github.io/pub/TKDE19-ROAM.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Improved Communication Cost for Distributed PageRank Computation -- A Theorectical Study.",
@@ -687,7 +687,7 @@
     "href": "http://proceedings.mlr.press/v119/luo20a/luo20a.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "MPR - A Partitioning-Replication Framework for Multi-Processing kNN Search on Road Networks.",
@@ -703,7 +703,7 @@
     "href": "https://lostronghku.github.io/pub/ParallelKNN.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Efficient Batch One-Hop Personalized PageRanks.",
@@ -719,7 +719,7 @@
     "href": "",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Distributed PageRank Computation: An Improved Theoretical Study.",
@@ -732,7 +732,7 @@
     "href": "",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "On Spatial-Aware Community Search.",
@@ -751,7 +751,7 @@
     "href": "https://www.cs.hku.hk/data/techreps/document/TR-2016-04.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "TOAIN: A Throughput Optimizing Adaptive Index for Answering Dynamic kNN Queries on Road Networks.",
@@ -769,7 +769,7 @@
     "href": "https://www.vldb.org/pvldb/vol11/p594-luo.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "ROSC: Robust Spectral Clustering on Multi-scale Data.",
@@ -785,7 +785,7 @@
     "href": "https://dl.acm.org/doi/pdf/10.1145/3178876.3185993?casa_token=buVl8L6leNAAAAAA:g7Ax_y3rIKVmiVcYnUg7Bme7vSF1GdQdKNqx0C38miecEK2CIwFgAy6YpBp48dCZ_6MrKr2wmy8WAfc",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["key-value"]
   },
   {
     "title": "Effective Community Search over Large Spatial Graphs.",
@@ -802,7 +802,7 @@
     "href": "http://www.vldb.org/pvldb/vol10/p709-fang.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "C-Explorer: Browsing Communities in Large Graphs.",
@@ -819,7 +819,7 @@
     "href": "",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "On Minimal Steiner Maximum-Connected Subgraph Queries.",
@@ -836,7 +836,7 @@
     "href": "https://lostronghku.github.io/tkde17-smcs.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "Effective and efficient attributed community search.",
@@ -853,7 +853,7 @@
     "href": "https://lostronghku.github.io/pub/VLDBJ2017.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "On Embedding Uncertain Graphs.",
@@ -870,7 +870,7 @@
     "href": "https://lostronghku.github.io/pub/CIKM17-urge.pdf",
     "description": "",
     "imgSrc": "",
-    "keywords": []
+    "keywords": ["graph"]
   },
   {
     "title": "SEQ: Example-based Query for Spatial Objects.",

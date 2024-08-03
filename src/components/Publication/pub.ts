@@ -1,6 +1,6 @@
 import pubDatabase from './pub_data.json';
 
-interface PubType {
+export interface PubType {
   title: string;
   keywords: string[];
   year: number;
