@@ -1,0 +1,203 @@
+[
+  {
+    "name": "CE/CZ4123 Big Data Management",
+    "keyword": "",
+    "years": [
+      "4123"
+    ],
+    "category": "Teaching"
+  },
+  {
+    "name": "DS6126 Scalable Data Systems",
+    "keyword": "Graduate Courses",
+    "years": [
+      "6126"
+    ],
+    "category": "Teaching"
+  },
+  {
+    "name": "CE/CZ 2101 Algorithm Design & Analysis",
+    "keyword": "Tutorials",
+    "years": [
+      "2101"
+    ],
+    "category": "Teaching"
+  },
+  {
+    "name": "CE/CZ2007 Introduction to Database",
+    "keyword": "Tutorials",
+    "years": [
+      "2007"
+    ],
+    "category": "Teaching"
+  },
+  {
+    "name": "International Conference on Very Large Data Bases",
+    "keyword": "PVLDB",
+    "years": [
+      "2023",
+      "2025"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "keyword": "SIGKDD",
+    "years": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "Web Conference",
+    "keyword": "WWW",
+    "years": [
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "Conference on Neural Information Processing Systems",
+    "keyword": "NeurIPS",
+    "years": [
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "IEEE International Conference on Data Engineering",
+    "keyword": "ICDE",
+    "years": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "International Conference on Machine Learning",
+    "keyword": "ICML",
+    "years": [
+      "2022",
+      "2023"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "Conference on Information and Knowledge Management",
+    "keyword": "CIKM",
+    "years": [
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "International Conference on Extending Database Technology",
+    "keyword": "EDBT",
+    "years": [
+      "2023"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "AAAI Conference on Artificial Intelligence",
+    "keyword": "AAAI",
+    "years": [
+      "2021",
+      "2024",
+      "2025"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "International Joint Conference on Artificial Intelligence",
+    "keyword": "IJCAI",
+    "years": [
+      "2023",
+      "2024"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "International Conference on Web Information Systems Engineering",
+    "keyword": "WISE",
+    "years": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "ACM Turing Celebration Conference 2020",
+    "keyword": "SIGMOD China",
+    "years": [
+      "2020",
+      "2020"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "Special Interest Group on Management of Data Conference",
+    "keyword": "Reproducibility",
+    "years": [
+      "2019",
+      "2023"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "Asia Pacific Web and Web-Age Information Management",
+    "keyword": "APWeb-WAIM",
+    "years": [
+      "2022"
+    ],
+    "category": "Program Committee & Reviewer"
+  },
+  {
+    "name": "ACM Transactions on Data Systems",
+    "keyword": "",
+    "years": [],
+    "category": "Journal Reviewer"
+  },
+  {
+    "name": "International Journal on Very Large Databases",
+    "keyword": "",
+    "years": [],
+    "category": "Journal Reviewer"
+  },
+  {
+    "name": "IEEE Transactions on Knowledge and Data Engineering",
+    "keyword": "",
+    "years": [],
+    "category": "Journal Reviewer"
+  },
+  {
+    "name": "World Wide Web",
+    "keyword": "",
+    "years": [],
+    "category": "Journal Reviewer"
+  },
+  {
+    "name": "Geoinformatica",
+    "keyword": "",
+    "years": [],
+    "category": "Journal Reviewer"
+  },
+  {
+    "name": "International Journal of Machine Learning and Cybernetics",
+    "keyword": "",
+    "years": [],
+    "category": "Journal Reviewer"
+  }
+]
