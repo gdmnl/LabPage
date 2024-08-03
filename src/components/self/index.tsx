@@ -8,10 +8,15 @@ export class SelfIntro extends React.Component {
     return (
       <Content style={{ marginBottom: "10px" }}>
         <div style={{ height: '64px' }}></div>
-        <div style={{ backgroundColor: "#EBF4F6", paddingTop: "20px", paddingBottom: "20px", display: "flex", justifyContent: "center" }}>
+        <div style={{ backgroundColor: "#EBF4F6", paddingTop: "20px", paddingBottom: "0.5rem", display: "flex", justifyContent: "center" }}>
           <Row justify='center' style={{ width: '70%'}}>
             <Col style={{ flex: 0.5, textAlign: "left" }}>
-              <img src="avatar/SiqiangLuo.jpg" style={{ width: '120px', height: '120px', borderRadius: '50%' }}/>
+              <img src="avatar/SiqiangLuo.jpg" style={{ width: '8rem', height: '8rem', borderRadius: '50%' }}/>
+              <div style={{ width: '8rem', display: 'flex', justifyContent: 'center'}}>
+                <a href="mailto:siqiang.luo@ntu.edu.sg"><img style={{ width: '1.2rem', height: '1.2rem', margin: '0.5rem' }} src="email.svg"/></a>
+                <a href="https://dblp.org/pid/117/5965.html"><img style={{ width: '1.2rem', height: '1.2rem', margin: '0.5rem' }} src="dblp.svg"/></a>
+                <a href="https://scholar.google.com/citations?user=ZDwbMg4AAAAJ"><img style={{ width: '1.2rem', height: '1.2rem', margin: '0.5rem' }} src="googlescholar.svg"/></a>
+              </div>
             </Col>
             <Col style={{ flex: 1.65, fontFamily: "'Cardo'" }}>
               <div style={{ fontSize: "30px", textAlign: "left",  lineHeight: "1.5" }}>
