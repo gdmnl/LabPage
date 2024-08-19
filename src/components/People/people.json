@@ -4,18 +4,21 @@
       "name": "Kai WANG",
       "date": "Sep 2022 - Present",
       "img": "WangKai.png",
-      "bg": "PhD from Dalian University of Technology & Macquarie University"
+      "bg": "PhD from Dalian University of Technology & Macquarie University",
+      "web": "https://scholar.google.com/citations?user=QHBzdg8AAAAJ"
     },
     {
       "name": "Yow Kai Song",
       "date": "Joined in Feb 2022",
       "img": "YowKaiSiong.PNG",
-      "bg": "PhD from Monash University & Awarded Southeast Asia Postdoctoral Fellowship"
+      "bg": "PhD from Monash University & Awarded Southeast Asia Postdoctoral Fellowship",
+      "web": ""
     },
     {
       "name": "Tiancheng HUANG",
       "date": "Joined in Aug 2023",
-      "bg": "PhD from WestLake&Zhejiang University"
+      "bg": "PhD from WestLake&Zhejiang University",
+      "web": ""
     }
   ],
   "phds": [
@@ -23,57 +26,67 @@
       "name": "Dingheng MO",
       "date": "Aug 2021 - Present",
       "img": "MoDingheng.png",
-      "bg": "BS from University of Science and Technology of China"
+      "bg": "BS from University of Science and Technology of China",
+      "web": "https://volatill.github.io/"
     },
     {
       "name": "Ningyi LIAO",
       "date": "Aug 2021 - Present",
       "img": "LiaoNingyi.jpeg",
-      "bg": "BS from Shanghai Jiao Tong University"
+      "bg": "BS from Shanghai Jiao Tong University",
+      "web": "https://nyliao.github.io/"
     },
     {
       "name": "Zulun ZHU",
       "img": "ZhuZulun.jpg",
       "date": "Feb 2022 - Present",
-      "bg": "BS from Zhejiang University"
+      "bg": "BS from Zhejiang University",
+      "web": "https://dblp.org/pid/219/4427.html"
     },
     {
       "name": "Weiping YU",
       "img": "YuWeiping.JPG",
       "date": "Feb 2022 - Present",
-      "bg": "MS from Beijing Institute of Technology"
+      "bg": "MS from Beijing Institute of Technology",
+      "web": "https://scholar.google.fi/citations?hl=en&user=5SU2rSgAAAAJ"
     },
     {
       "name": "Fan WANG",
       "img": "WangFan.jpg",
       "date": "Feb 2023 - Present",
-      "bg": "MS from Zhejiang University"
+      "bg": "MS from Zhejiang University",
+      "web": ""
     },
     {
       "name": "Haoyu LIU",
       "img": "LiuHaoyu.jpg",
       "date": "Feb 2023 - Present",
-      "bg": "BS from Renmin University of China"
+      "bg": "BS from Renmin University of China",
+      "web": ""
     },
     {
       "name": "Junfeng LIU",
       "date": "Aug 2023 - Present",
-      "bg": "MS from University of Manchester"
+      "bg": "MS from University of Manchester",
+      "web": "https://buchuitoudegou.github.io/"
     },
     {
       "name": "Shurui ZHONG",
       "date": "Aug 2023 - Present",
-      "bg": "BS from University of Science and Technology of China"
+      "bg": "BS from University of Science and Technology of China",
+      "web": "https://zongziren.github.io/"
     },
     {
       "name": "Haoxuan XIE",
       "date": "Aug 2023 - Present",
-      "bg": "BS from Chinese University of Hong Kong, Shenzhen"
+      "bg": "BS from Chinese University of Hong Kong, Shenzhen",
+      "web": ""
     },
     {
       "name": "Zhaoqi ZHANG",
       "date": "Feb 2022 - Present",
-      "bg": "co-supervised with Prof. Cong GAO"
+      "bg": "co-supervised with Prof. Cong GAO",
+      "web": ""
     }
   ]  
 }

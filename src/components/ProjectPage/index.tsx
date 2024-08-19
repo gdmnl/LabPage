@@ -14,14 +14,9 @@ const items: TabsProps['items'] = [
   },
   {
     key: '2',
-    label: 'Graph Algorithm',
+    label: 'Scalable Graph Computation',
     children: <Project {...projectData.graphProject} />,
-  },
-  {
-    key: '3',
-    label: 'Large Language Model',
-    children: <Project {...projectData.llmProject} />,
-  },
+  }
 ];
 
 class ProjectPage extends React.Component {

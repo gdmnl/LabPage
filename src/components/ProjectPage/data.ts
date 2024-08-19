@@ -7,6 +7,7 @@ export interface ProjectProps {
   description: string;
   publications: PubType[];
   imgSrc: string;
+  imgs: string[];
 };
 
 const keyValuePublications = pubData.filter(
@@ -26,6 +27,10 @@ export const keyValueProject: ProjectProps = {
   description: rawData[0]["description"],
   imgSrc: rawData[0]["img"],
   publications: keyValuePublications,
+  imgs: [
+    "key-value.png",
+    "oasis.png"
+  ]
 };
 
 export const graphProject: ProjectProps = {
@@ -33,6 +38,10 @@ export const graphProject: ProjectProps = {
   description: rawData[1]["description"],
   imgSrc: rawData[1]["img"],
   publications: graphPublications,
+  imgs: [
+    "graph.png",
+    "bird.png",
+  ]
 };
 
 export const llmProject: ProjectProps = {
@@ -40,6 +49,7 @@ export const llmProject: ProjectProps = {
   description: rawData[2]["description"],
   imgSrc: rawData[2]["img"],
   publications: llmPublications,
+  imgs: []
 };
 
 const allPeople = peopleData.phds.map(person => {
@@ -47,19 +57,22 @@ const allPeople = peopleData.phds.map(person => {
     key: person.name.toLowerCase().split(" ").join(""),
     name: person.name,
     imgSrc: person.img,
+    web: person.web,
   };
 }).concat(peopleData.postdocs.map(person => {
   return {
     key: person.name.toLowerCase().split(" ").join(""),
     name: person.name,
     imgSrc: person.img,
+    web: person.web,
   };
 }));
 
-export const peopleInfoMap: Record<string, { name: string; imgSrc: string | undefined }> = {};
+export const peopleInfoMap: Record<string, { name: string; imgSrc: string | undefined, web: string }> = {};
 allPeople.forEach(person => {
   peopleInfoMap[person.key] = {
     name: person.name,
     imgSrc: person.imgSrc,
+    web: person.web,
   };
 });
