@@ -6,7 +6,7 @@ export interface ProjectProps {
   title: string;
   description: string;
   publications: PubType[];
-  imgSrc?: string;
+  imgSrc: string;
 };
 
 const keyValuePublications = pubData.filter(
@@ -24,18 +24,21 @@ const llmPublications = pubData.filter(pub =>
 export const keyValueProject: ProjectProps = {
   title: "Autonomous Key-Value Storage System",
   description: rawData[0]["description"],
+  imgSrc: rawData[0]["img"],
   publications: keyValuePublications,
 };
 
 export const graphProject: ProjectProps = {
-  title: "Graph Algorithm",
+  title: "Scalable Graph Computation",
   description: rawData[1]["description"],
+  imgSrc: rawData[1]["img"],
   publications: graphPublications,
 };
 
 export const llmProject: ProjectProps = {
   title: "Large Language Model",
   description: rawData[2]["description"],
+  imgSrc: rawData[2]["img"],
   publications: llmPublications,
 };
 
