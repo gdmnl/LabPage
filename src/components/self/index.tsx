@@ -10,9 +10,9 @@ export class SelfIntro extends React.Component {
         <div style={{ height: '64px' }}></div>
         <div style={{ backgroundColor: "#EBF4F6", paddingTop: "20px", paddingBottom: "0.5rem", display: "flex", justifyContent: "center" }}>
           <Row justify='center' style={{ width: '70%'}}>
-            <Col style={{ flex: 0.5, textAlign: "left" }}>
+            <Col style={{ flex: 0.5, textAlign: "center" }}>
               <img src="avatar/SiqiangLuo.jpg" style={{ width: '8rem', height: '8rem', borderRadius: '50%' }}/>
-              <div style={{ width: '8rem', display: 'flex', justifyContent: 'center'}}>
+              <div style={{ display: 'flex', justifyContent: 'center'}}>
                 <a href="mailto:siqiang.luo@ntu.edu.sg"><img style={{ width: '1.2rem', height: '1.2rem', margin: '0.5rem' }} src="email.svg"/></a>
                 <a href="https://dblp.org/pid/117/5965.html"><img style={{ width: '1.2rem', height: '1.2rem', margin: '0.5rem' }} src="dblp.svg"/></a>
                 <a href="https://scholar.google.com/citations?user=ZDwbMg4AAAAJ"><img style={{ width: '1.2rem', height: '1.2rem', margin: '0.5rem' }} src="googlescholar.svg"/></a>
@@ -42,11 +42,11 @@ export class SelfIntro extends React.Component {
               He is also affiliated with <a href="https://www3.ntu.edu.sg/scse/dmal/dante/">DANTE</a>. He received his B.S. and M.S. degrees in computer science from Fudan University, 
               and a Ph.D. degree in computer science from the University of Hong Kong (co-supervised by <a href="https://www.cs.hku.hk/index.php/people/academic-staff/kao">Prof. Ben Kao</a> and <a href="https://www.cs.hku.hk/people/academic-staff/ckcheng">Prof. Reynold Cheng</a>). 
               He was a postdoc researcher at Harvard University working with <a href="https://stratos.seas.harvard.edu/biocv">Prof. Stratos Idreos</a>. 
-              His research interest lies in efficient and effective designs for big data.
-              His recent research topics are:
+              He has broad interest in efficient and effective big data analytics, queries and learning, particularly about:
               <p>
-                1. Graph Data Management <br/>
-                2. Key-value Data Management
+                1. graph analytics and learning <br/>
+                2. scalable data structures and systems <br/>
+                3. machine-learning enhanced data management
               </p>
               <p>
                 Please refer to his <a href="/">lab website</a> for more details.

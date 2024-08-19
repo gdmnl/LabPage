@@ -5,37 +5,37 @@ import { Content } from 'antd/es/layout/layout';
 const topcis = [
   {
     logo: 'graph.svg',
-    title: 'Graph Algorithms',
+    title: 'Advanced Data Structures',
   },
   {
     logo: 'database.svg',
-    title: 'Database Technologies',
+    title: 'Big Data Systems',
   },
-  {
-    logo: 'datascience.svg',
-    title: 'Machine Learning',
-  },
-  {
-    logo: 'AI.svg',
-    title: 'Autonomous Systems',
-  },
+  // {
+  //   logo: 'datascience.svg',
+  //   title: 'Machine Learning',
+  // },
+  // {
+  //   logo: 'AI.svg',
+  //   title: 'Autonomous Systems',
+  // },
   {
     logo: 'infra.svg',
-    title: 'Hardware Specific Optimization',
+    title: 'Scalable Algorithms and Models',
   },
 ]
 
 export class ResearchInterest extends React.Component {
   render() {
     return (
-      <Content className="research-interest" style={{ backgroundColor: '#E0E0E0', marginTop: '1rem', padding: '1rem', fontFamily: 'Droid Serif'}}>
+      <Content className="research-interest" style={{ backgroundColor: '#E0E0E0', padding: '1rem', fontFamily: 'Droid Serif'}}>
         <div style={{ fontSize: '30px', fontFamily: 'Montserrat', fontWeight: 500 }}>Research Areas</div>
         <div style={{ fontSize: '20px', color: '#777'}}>graph algorithms, graph learning, database systems</div>
         <div style={{ display: 'flex', justifyContent: 'center', padding: '1rem' }}>
           <div style={{ width: '60%', fontSize: '18px', textAlign: 'left', fontFamily: 'Times', lineHeight: "1.7" }}>
-          The data scale and complexity have been growing rapidly in the past decade, and the need for efficient data management and analysis has never been more critical.
-          Our research focuses on developing efficient graph algorithms to analyze complex graph structures, leveraging machine learning for tasks like node classification and link prediction, 
-          and designing scalable database architectures and components for managing large-scale data. Our goal is to bridge theoretical advancements with practical, real-world solutions.
+          Today, more than 300 million terabytes of data are created each day. In such a big data era, the solution to managing data efficiently is of utter importance. 
+          Our vision is to scale-up “data”-based computation to at least billion-scale level. We design various scalable big data systems, advanced data structures and efficient algorithms, ranging from theory-informed studies to system-oriented research.
+          We are particularly interested in foundational or complex data types, such as key-value and graph-structured data, which are central to most data-related research and applications. 
           </div>
         </div>
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>

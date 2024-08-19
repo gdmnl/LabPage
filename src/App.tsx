@@ -50,7 +50,6 @@ class LabHome extends React.Component {
     return (
       <div>
         <Banner />
-        <Project />
         <ResearchInterest />
         <PeopleList />
       </div>
