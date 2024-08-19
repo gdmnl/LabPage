@@ -3,7 +3,15 @@ import * as React from 'react';
 import { ProjectProps, peopleInfoMap } from './data';
 import { PubType } from '../Publication/pub';
 
-import { Card } from 'antd';
+import { Card, Carousel } from 'antd';
+
+const contentStyle: React.CSSProperties = {
+  height: '160px',
+  color: '#fff',
+  lineHeight: '160px',
+  textAlign: 'center',
+  background: '#364d79',
+};
 
 class Project extends React.Component<ProjectProps> {
   constructor(props: ProjectProps) {
@@ -31,15 +39,23 @@ class Project extends React.Component<ProjectProps> {
       return {
         name: mauthor,
         imgSrc: peopleInfoMap[key].imgSrc ? peopleInfoMap[key].imgSrc : "",
+        web: peopleInfoMap[key].web ? peopleInfoMap[key].web : "",
       };
     });
-    // const distinctMembers = Array.from(new Set(projectMembers));
     const distinctMembers = Array.from(new Set(projectMembers.map(obj => JSON.stringify(obj)))).map(str => JSON.parse(str));
     return (
       <div style={{ fontFamily: "'Cardo'" }}>
         <h1>{title}</h1>
         <div style={{ marginBottom: '1rem', marginTop: '1rem' }}>
-          <img style={{ width: '100%' }} src={`project_img/${this.props.imgSrc}`} />
+          <Carousel autoplay arrows>
+            {
+              this.props.imgs.map((img) => (
+                <div>
+                  <img style={{ width: '100%', height: '30rem' }} src={`project_img/${img}`} />
+                </div>
+              ))
+            }
+          </Carousel>
         </div>
         <div style={{ textAlign: "left", fontSize: '1.1rem' }}>{description}</div>
         <div style={{ textAlign: "left", fontSize: '1.5rem', fontWeight: 'bold', marginTop: '1rem', marginBottom: "1rem" }}>
@@ -50,7 +66,9 @@ class Project extends React.Component<ProjectProps> {
             distinctMembers.map((member) => (
               <div style={{ marginLeft: '1rem', marginRight: '1rem'}}>
                 <div>
-                  <img src={member.imgSrc.length > 0 ? "avatar/" + member.imgSrc: "anonymous.png" } style={{ width: '5rem', height: '5rem', borderRadius: '50%' }} />
+                  <a href={member.web}>
+                    <img src={member.imgSrc.length > 0 ? "avatar/" + member.imgSrc: "anonymous.png" } style={{ width: '5rem', height: '5rem', borderRadius: '50%' }} />
+                  </a>
                 </div>
                 <div>{member.name}</div>
               </div>
