@@ -14,6 +14,7 @@ import SelfIntro from './components/self';
 import PublicationList from './components/Publication';
 import Services from './components/Services';
 import ProjectPage from './components/ProjectPage';
+import NewsPage from './components/News';
 
 type MenuItem = Required<MenuProps>['items'][number];
 
@@ -75,6 +76,7 @@ function App() {
             <Route path="/publication" element={<PublicationList />} />
             <Route path="/services" element={<Services />} />
             <Route path="/project" element={<ProjectPage />} />
+            <Route path='/news' element={<NewsPage />} />
           </Routes>
         </BrowserRouter>
         </Content>
