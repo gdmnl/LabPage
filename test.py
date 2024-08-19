@@ -1,17 +1,25 @@
-from PIL import Image
+import json
 
-# Load the image
-input_image_path = 'public/ruskeyavatar.png'
-image = Image.open(input_image_path)
+# with open('src/components/Publication/pub_data.json', 'r') as f:
+#   data = json.load(f)
+#   titles = [d['title'] for d in data if d['description'] == ""]
+#   for t in titles:
+#     print(t)
 
-# Define the new size
-new_size = (image.width // 2, image.height // 2)  # Replace width and height with the desired dimensions
+with open('src/components/Publication/pub_data.json', 'r') as f:
+  cur_data = json.load(f)
+  with open('raw.json', 'r') as f1:
+    add_data = json.load(f1)
 
-# Scale down the image
-scaled_image = image.resize(new_size, Image.ANTIALIAS)
+    add_data = add_data["papers"]
+    add_data_dict = {
+      d['title']: d for d in add_data
+    }
 
-# Save the scaled image
-output_image_path = 'public/ruskeyavatar_scaled.png'
-scaled_image.save(output_image_path)
-
-print(f"Image scaled down and saved to {output_image_path}")
+    for d in cur_data:
+      title = d['title'] if d['title'][-1] != '.' else d['title'][:-1]
+      if title in add_data_dict and len(d['description']) < len(add_data_dict[title]['introduction']):
+        d['description'] = add_data_dict[title]['introduction']
+  
+  with open('new_raw.json', 'w') as f1:
+    json.dump(cur_data, f1, indent=2)
