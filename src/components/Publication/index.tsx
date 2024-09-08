@@ -1,7 +1,7 @@
-import * as React from 'react';
-import { Select, List, Input } from 'antd';
+import { Input, List, Select } from "antd";
+import * as React from "react";
 
-import { pubData, PubType, searchKeywords, searchConferences, searchYears, pubIndex } from './pub';
+import { pubData, pubIndex, PubType, searchConferences, searchKeywords, searchYears } from "./pub";
 
 function genConferenceInfo(conferenceName: string, year: number) {
   if (conferenceName.length === 0) {
@@ -20,7 +20,7 @@ interface PublicationListState {
   year: string;
   conference: string;
   searchText: string;
-};
+}
 
 function filterPubByCondition(pubs: PubType[], keyword: string, year: string, conference: string, searchText: string): PubType[] {
   let indexedPubs: PubType[] = pubs;
@@ -58,68 +58,68 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
     };
   }
 
-  onKeywordChange = (value: string) => {
+  public onKeywordChange = (value: string) => {
     const newFilteredPubs = filterPubByCondition(this.state.allPubs, value, this.state.year, this.state.conference, this.state.searchText);
     this.setState({ ...this.state, keyword: value, filteredPubs: newFilteredPubs });
   }
 
-  onYearChange = (value: string) => {
+  public onYearChange = (value: string) => {
     const newFilteredPubs = filterPubByCondition(this.state.allPubs, this.state.keyword, value, this.state.conference, this.state.searchText);
     this.setState({ ...this.state, year: value, filteredPubs: newFilteredPubs });
   }
 
-  onConferenceChange = (value: string) => {
+  public onConferenceChange = (value: string) => {
     const newFilteredPubs = filterPubByCondition(this.state.allPubs, this.state.keyword, this.state.year, value, this.state.searchText);
     this.setState({ ...this.state, conference: value, filteredPubs: newFilteredPubs });
   }
 
-  onSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  public onSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newFilteredPubs = filterPubByCondition(this.state.allPubs, this.state.keyword, this.state.year, this.state.conference, e.target.value);
     this.setState({ ...this.state, searchText: e.target.value, filteredPubs: newFilteredPubs });
   }
 
-  render(){
+  public render() {
     return (
-      <div style={{ marginTop: "64px", textAlign: "left", marginBottom: '64px' }}>
-        <div style={{ fontSize: '2rem', padding: '1.5rem', fontFamily: "'Cardo'", fontWeight: 'bold' }}>
+      <div style={{ marginTop: "64px", textAlign: "left", marginBottom: "64px" }}>
+        <div style={{ fontSize: "2rem", padding: "1.5rem", fontFamily: "'Cardo'", fontWeight: "bold" }}>
           Selected Publication
         </div>
-        <div style={{ padding: '1rem' }}>
-          <span style={{ marginRight: '1rem', marginLeft: '1rem' }}>
-            Keyword: 
-            <Select onChange={this.onKeywordChange} defaultValue="all" style={{ marginLeft: '0.5rem', width: '10rem', textAlign: 'center' }}>
-              <Select.Option value="all" style={{textAlign: 'center'}}>all</Select.Option>
+        <div style={{ padding: "1rem" }}>
+          <span style={{ marginRight: "1rem", marginLeft: "1rem" }}>
+            Keyword:
+            <Select onChange={this.onKeywordChange} defaultValue="all" style={{ marginLeft: "0.5rem", width: "10rem", textAlign: "center" }}>
+              <Select.Option value="all" style={{textAlign: "center"}}>all</Select.Option>
               {
                 searchKeywords.map((keyword) => (
-                  <Select.Option value={keyword} style={{textAlign: 'center'}}>{keyword}</Select.Option>
+                  <Select.Option value={keyword} style={{textAlign: "center"}}>{keyword}</Select.Option>
                 ))
               }
             </Select>
           </span>
-          <span style={{ marginRight: '1rem' }}>
-            Conference: 
-            <Select onChange={this.onConferenceChange} defaultValue="all" style={{ marginLeft: '0.5rem', width: '10rem', textAlign: 'center' }}>
-              <Select.Option value="all" style={{textAlign: 'center'}}>all</Select.Option>
+          <span style={{ marginRight: "1rem" }}>
+            Conference:
+            <Select onChange={this.onConferenceChange} defaultValue="all" style={{ marginLeft: "0.5rem", width: "10rem", textAlign: "center" }}>
+              <Select.Option value="all" style={{textAlign: "center"}}>all</Select.Option>
               {
                 searchConferences.map((keyword) => (
-                  <Select.Option value={keyword} style={{textAlign: 'center'}}>{keyword}</Select.Option>
+                  <Select.Option value={keyword} style={{textAlign: "center"}}>{keyword}</Select.Option>
                 ))
               }
             </Select>
           </span>
-          <span style={{ marginRight: '1rem' }}>
-            Time: 
-            <Select onChange={this.onYearChange}  defaultValue="all" style={{ marginLeft: '0.5rem', width: '5rem', textAlign: 'center' }}>
-              <Select.Option value="all" style={{textAlign: 'center'}}>all</Select.Option>
+          <span style={{ marginRight: "1rem" }}>
+            Time:
+            <Select onChange={this.onYearChange}  defaultValue="all" style={{ marginLeft: "0.5rem", width: "5rem", textAlign: "center" }}>
+              <Select.Option value="all" style={{textAlign: "center"}}>all</Select.Option>
               {
                 searchYears.map((keyword) => (
-                  <Select.Option value={keyword} style={{textAlign: 'center'}}>{keyword}</Select.Option>
+                  <Select.Option value={keyword} style={{textAlign: "center"}}>{keyword}</Select.Option>
                 ))
               }
             </Select>
           </span>
           <span>
-            Search: <Input placeholder="input search text" onChange={this.onSearchChange} style={{ width: '20rem' }} />
+            Search: <Input placeholder="input search text" onChange={this.onSearchChange} style={{ width: "20rem" }} />
           </span>
         </div>
         <List
@@ -146,7 +146,7 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
               <List.Item.Meta
                 title={<a href={item.href}>{item.title}</a>}
                 description={
-                <span> 
+                <span>
                   <span style={{ fontStyle: "italic" }}>
                     {item.authors.join(", ")}
                   </span>
@@ -158,8 +158,8 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
               />
               {item.description}
               <p>
-                {item.video.length > 0 ? <a href={item.video}>[video]</a>: "" }
-                {item.href.length > 0 ? <a href={item.href}>[paper]</a>: "" }
+                {item.video.length > 0 ? <a href={item.video}>[video]</a> : "" }
+                {item.href.length > 0 ? <a href={item.href}>[paper]</a> : "" }
               </p>
             </List.Item>
           )}
@@ -167,6 +167,6 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
       </div>
     );
   }
-};
+}
 
 export default PublicationList;

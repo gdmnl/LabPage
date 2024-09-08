@@ -1,14 +1,14 @@
-import * as React from 'react';
+import * as React from "react";
 
-import './banner.css';
-import { Content } from 'antd/es/layout/layout';
+import { Content } from "antd/es/layout/layout";
+import "./banner.css";
 
 class Banner extends React.Component {
-  render() {
+  public render() {
     return (
     <div className="banner">
       <Content>
-        <img src='banner_title.png' />
+        <img src="banner_title.png" />
       </Content>
     </div>
     );
