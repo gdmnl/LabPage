@@ -12,7 +12,7 @@
     "year": 2025,
     "video": "",
     "href": "https://arxiv.org/abs/2406.09675",
-    "description": "The paper benchmarks spectral graph neural networks (GNNs), focusing on their ability to capture graph signals in the frequency domain. Despite their growing popularity, few studies systematically assess their spectral characteristics. This work categorizes over 30 GNNs with 27 filters, implementing them within a unified framework with optimized computations and training schemes. Through extensive experiments, the paper evaluates these models on effectiveness and efficiency, providing practical guidelines for selecting suitable spectral GNNs for large-scale tasks. The findings aim to aid in comparing performances and making informed decisions on model selection for specific scenarios.",
+    "description": "A Comprehensive benchmarks for evaluating spectral graph neural networks (GNNs).",
     "imgSrc": "",
     "keywords": [
       "Graph System"
@@ -36,7 +36,7 @@
     "year": 2025,
     "video": "",
     "href": "https://arxiv.org/pdf/2305.09958",
-    "description": "This paper is the first one to use SimRank to tackle Graph neural networks (GNNs) with heterophily, and propose SIMGA, a simple yet effective GNN model achieving near-linear propagation efficiency to n. The paper theoretically demonstrates SIMGA's effectiveness and evaluates its performance on 12 benchmark datasets, often outperforming state-of-the-art models.",
+    "description": "The first one to use SimRank to tackle Graph neural networks (GNNs) with heterophily.",
     "imgSrc": "",
     "keywords": [
       "Graph System"
@@ -61,7 +61,7 @@
     "year": 2025,
     "video": "",
     "href": "",
-    "description": "",
+    "description": "The first research that uses active learning to optimize LSM-trees.",
     "imgSrc": "",
     "keywords": [
       "Data System"
@@ -86,7 +86,7 @@
     "year": 2024,
     "video": "https://www.youtube.com/watch?v=ZgNyIsNxlGk",
     "href": "/docs/SIGMOD24_MOOSE_Camera___Junfeng___Fan.pdf",
-    "description": "This paper delves into optimizing Log-Structured Merge (LSM) tree structures, widely used in modern databases. It examines the vast configuration space of LSM-trees, which balances write and read performance via multiple tunable parameters. We propose an automated framework to explore and identify optimal configurations, leveraging advanced search techniques and cost models. The techniques offer a robust solution for efficiently managing LSM-trees in diverse database environments.",
+    "description": "A research that analysis the optimality of LSM operators and build a KV system Moose.",
     "imgSrc": "",
     "keywords": [
       "Data System"
@@ -111,7 +111,7 @@
     "year": 2024,
     "video": "https://drive.google.com/file/d/13wJmJ9tQEyB9M_Gt9dvius0LvkKgAfXd/view?pli=1",
     "href": "https://arxiv.org/pdf/2308.07013.pdf",
-    "description": "This paper is the first work focus on online optimization of Key-Value Stores under dynamic workload, and is the pioneering effort using Reinforcement Learning to optimize LSM-trees.",
+    "description": "The first work tackling online optimization of Key-Value Stores under dynamic workload, and is the first to use Reinforcement Learning to optimize LSM-trees.",
     "imgSrc": "",
     "keywords": [
       "Data System"
@@ -136,7 +136,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/Oasis_Camera_ready.pdf",
-    "description": "This paper introduces a novel range filter data structure called Oasis, designed to efficiently handle range queries in databases. Oasis leverages machine learning to create segmented filters that optimize the trade-off between false positives and memory usage. By partitioning data into disjoint segments and applying learned models to each segment, Oasis significantly improves query performance. ",
+    "description": "The second learned range filter that optimizes the first one (By MIT). ",
     "imgSrc": "",
     "keywords": [
       "Data System"
@@ -159,7 +159,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/VLDB24_BIRD.pdf",
-    "description": "This paper presents presents BIRD, an algorithm designed to approximate bidirectional hidden Personalized PageRank (PPR) efficiently. It improves the previously best-known time complexity (pseudo-linear in m) to pseudo-linear in n.",
+    "description": "Improves the previously best-known time complexity (pseudo-linear in m) to pseudo-linear in n, for BHPPR problem.",
     "imgSrc": "",
     "keywords": [
       "Graph System"
@@ -183,7 +183,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/VLDB24_Genti.pdf",
-    "description": "The paper introduces GENTI, a framework leveraging GPU capabilities to efficiently perform walk-based subgraph extraction for dynamic graphs, which benefits sub-graph representation learning.",
+    "description": "A GPU-oriented subgraph representation learning algorithm on dynamic data.",
     "imgSrc": "",
     "keywords": [
       "Graph System"
@@ -207,7 +207,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/PVLDB24_Kai_TIGER_Final",
-    "description": "The paper presents TIGER, an efficient approach for sub-graph extraction for reasoning over large-scale knowledge graphs using inductive graph neural networks (GNNs).",
+    "description": "An efficient sub-graph extraction approach for reasoning over large-scale knowledge graphs.",
     "imgSrc": "",
     "keywords": [
       "Graph System"
@@ -234,7 +234,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/Zulun_ICDE.pdf",
-    "description": "This paper explores methods for maintaining high-quality service when computing Personalized PageRanks (PPR) in dynamic graph environments. It addresses the challenge of rapidly changing graphs, which can degrade the accuracy and efficiency of PPR calculations. ",
+    "description": "The marriage of queuing theory and PPR computation. ",
     "imgSrc": "",
     "keywords": [
       "Graph System"
@@ -261,7 +261,7 @@
     "year": 2024,
     "video": "",
     "href": "https://arxiv.org/pdf/2310.16560v2",
-    "description": "This paper revisits the label propagation algorithm (LPA) to enhance its effectiveness on graphs exhibiting heterophily and label noise. Traditional LPA performs poorly in such conditions where connected nodes often have different labels and labels are noisy. We propose modifications to the standard LPA to address these challenges, improving its robustness and accuracy. ",
+    "description": "Revisits the label propagation algorithm (LPA) to enhance its effectiveness on graphs exhibiting heterophily and label noise. ",
     "imgSrc": "",
     "keywords": [
       "Graph System"
@@ -287,7 +287,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/KDD24_Zulun.pdf",
-    "description": "This paper introduces a novel approach for contrastive learning on dynamic graphs that monitors and adapts to changes in graph topology. The proposed method leverages the evolving structure of the graph to enhance the learning process, ensuring that the learned representations remain relevant and accurate over time. ",
+    "description": "Pioneering studies dynamic graph contrastive learning. ",
     "imgSrc": "",
     "keywords": [
       "Graph System"
