@@ -74,7 +74,7 @@
     "year": 2024,
     "video": "https://www.youtube.com/watch?v=ZgNyIsNxlGk",
     "href": "/docs/SIGMOD24_MOOSE_Camera___Junfeng___Fan.pdf",
-    "description": "This paper delves into optimizing Log-Structured Merge (LSM) tree structures, widely used in modern databases. It examines the vast configuration space of LSM-trees, which balances write and read performance via multiple tunable parameters. The authors propose an automated framework to explore and identify optimal configurations, leveraging advanced search techniques and cost models. Their approach significantly improves performance compared to traditional methods, offering a robust solution for efficiently managing LSM-trees in diverse database environments.",
+    "description": "This paper delves into optimizing Log-Structured Merge (LSM) tree structures, widely used in modern databases. It examines the vast configuration space of LSM-trees, which balances write and read performance via multiple tunable parameters. We propose an automated framework to explore and identify optimal configurations, leveraging advanced search techniques and cost models. The techniques offer a robust solution for efficiently managing LSM-trees in diverse database environments.",
     "imgSrc": "",
     "keywords": [
       "key-value"
@@ -95,7 +95,7 @@
     "year": 2024,
     "video": "https://drive.google.com/file/d/13wJmJ9tQEyB9M_Gt9dvius0LvkKgAfXd/view?pli=1",
     "href": "https://arxiv.org/pdf/2308.07013.pdf",
-    "description": "This paper investigates the use of reinforcement learning to optimize Log-Structured Merge (LSM) tree configurations for key-value stores. It addresses the challenge of dynamic workloads, where traditional static tuning methods fall short. By employing a reinforcement learning framework, the authors develop an adaptive system that continuously learns and adjusts LSM-tree parameters to improve performance. This approach demonstrates significant gains in efficiency and adaptability, making it a promising solution for managing dynamic database workloads effectively.",
+    "description": "This paper is the first work focus on online optimization of Key-Value Stores under dynamic workload, and is the pioneering effort using Reinforcement Learning to optimize LSM-trees.",
     "imgSrc": "",
     "keywords": [
       "key-value"
@@ -116,7 +116,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/Oasis_Camera_ready.pdf",
-    "description": "This paper introduces a novel data structure called Oasis, designed to efficiently handle range queries in databases. Oasis leverages machine learning to create segmented filters that optimize the trade-off between false positives and memory usage. By partitioning data into disjoint segments and applying learned models to each segment, Oasis significantly improves query performance. The approach achieves optimal filtering by adapting to data distribution and query patterns, resulting in faster and more accurate range queries compared to traditional methods.",
+    "description": "This paper introduces a novel range filter data structure called Oasis, designed to efficiently handle range queries in databases. Oasis leverages machine learning to create segmented filters that optimize the trade-off between false positives and memory usage. By partitioning data into disjoint segments and applying learned models to each segment, Oasis significantly improves query performance. ",
     "imgSrc": "",
     "keywords": [
       "key-value"
@@ -135,7 +135,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/VLDB24_BIRD.pdf",
-    "description": "This paper presents presents BIRD, an algorithm designed to approximate bidirectional hidden Personalized PageRank (PPR) efficiently. Personalized PageRank is a measure of node importance tailored to individual users or contexts in a graph. BIRD achieves this by introducing a bidirectional search strategy and leveraging graph sparsity, which reduces computational overhead. The approach provides accurate approximations of PPR scores quickly, making it suitable for large-scale graphs. This advancement enhances applications such as recommendation systems, web search, and social network analysis by providing fast and personalized relevance scores.",
+    "description": "This paper presents presents BIRD, an algorithm designed to approximate bidirectional hidden Personalized PageRank (PPR) efficiently. It improves the previously best-known time complexity (pseudo-linear in m) to pseudo-linear in n.",
     "imgSrc": "",
     "keywords": [
       "graph"
@@ -155,7 +155,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/VLDB24_Genti.pdf",
-    "description": "The paper introduces GENTI, a framework leveraging GPU capabilities to efficiently perform walk-based subgraph extraction for dynamic graphs. GENTI focuses on improving the scalability and speed of representation learning tasks by utilizing parallel processing power of GPUs. The method involves extracting relevant subgraphs through random walks, which are then used for learning robust graph representations. This approach enables handling large, evolving graphs in real-time, offering significant performance improvements over traditional CPU-based methods. GENTI is particularly beneficial for applications like social network analysis, real-time recommendation systems, and anomaly detection.",
+    "description": "The paper introduces GENTI, a framework leveraging GPU capabilities to efficiently perform walk-based subgraph extraction for dynamic graphs, which benefits sub-graph representation learning.",
     "imgSrc": "",
     "keywords": [
       "graph"
