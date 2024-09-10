@@ -401,7 +401,7 @@
     "id": 15,
     "isExtension": false,
     "hasExtension": -1,
-    "isVisible": true
+    "isVisible": false
   },
   {
     "title": "LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs.",
@@ -1117,7 +1117,7 @@
     "year": 2019,
     "video": "",
     "href": "",
-    "description": "This study offers an improved theoretical analysis of distributed PageRank computation, focusing on optimizing communication and computational efficiency in large-scale distributed systems. PageRank, originally developed by Google, is a widely used algorithm for ranking web pages and other graph-based entities. In a distributed environment, where the graph is partitioned across multiple servers, the computation of PageRank can be challenging due to the need for frequent communication between servers, which can lead to high communication costs and increased processing time. The study introduces several novel techniques for reducing these costs, including more efficient data partitioning strategies, improved message compression methods, and the use of local aggregation to reduce the frequency of inter-server communication. The theoretical analysis demonstrates that these techniques can lead to substantial improvements in both the speed and scalability of distributed PageRank computations. The paper also provides detailed comparisons with existing methods, showing that the proposed approach can achieve significant performance gains, particularly in environments where communication costs are a major bottleneck. This research offers valuable insights into the design of more efficient distributed algorithms, with broad applications in large-scale data processing and distributed computing.",
+    "description": "We present an improved round-complexity upper-bound of the distributed PageRank problem, showing that the round complexity can be reduced to O(log log n), better than the previously best-known result of O(sqrt(log n)). ",
     "imgSrc": "",
     "keywords": [
       "Graph System"
