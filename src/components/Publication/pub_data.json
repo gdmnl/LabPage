@@ -351,7 +351,7 @@
     "year": 2024,
     "video": "",
     "href": "https://arxiv.org/pdf/2402.11804",
-    "description": "This paper explores the use of large language models (LLMs) as prompters for performing inductive reasoning on arbitrary knowledge graphs, particularly in low-resource settings. Inductive reasoning involves drawing general conclusions from specific instances, a task that is fundamental in many AI applications, including knowledge graph completion, question answering, and recommendation systems. The key challenge addressed in this work is how to perform such reasoning effectively when the available data is sparse or when the knowledge graph lacks sufficient labeled examples. The proposed approach leverages the powerful language understanding capabilities of LLMs to generate prompts that guide the reasoning process. By using LLMs in this manner, the system can infer missing links and relationships within the knowledge graph even when direct data is limited. The paper provides a thorough evaluation of the method across several benchmarks, demonstrating that it can achieve competitive results with significantly fewer resources compared to traditional methods. This research opens up new possibilities for applying inductive reasoning in domains where data scarcity has traditionally been a major obstacle.",
+    "description": "This paper demonstrates the effectiveness of using large language models (LLMs) as prompters for performing inductive reasoning on arbitrary knowledge graphs, particularly in low-resource settings.",
     "imgSrc": "",
     "keywords": [
       "llm"
@@ -623,7 +623,7 @@
     "year": 2022,
     "video": "",
     "href": "https://arxiv.org/pdf/2207.01503.pdf",
-    "description": "Proteus is a self-designing range filter that dynamically adapts to varying workloads, optimizing its structure and performance based on observed query patterns. Range filters are crucial in many applications, including databases, key-value stores, and network security, where they are used to efficiently determine whether a query falls within a specific range of values. Traditional range filters often require manual tuning or preconfiguration to perform well under specific conditions, which can be time-consuming and prone to errors. Proteus addresses this challenge by incorporating machine learning techniques that allow the filter to learn and adjust its parameters automatically based on the workload. The system continuously monitors query patterns and dynamically reconfigures itself to maintain optimal performance, even as workloads change over time. The paper details the architecture of Proteus, including its learning algorithms, adaptation mechanisms, and performance evaluation. Experiments conducted on various benchmark datasets demonstrate that Proteus significantly outperforms traditional range filters in terms of both efficiency and accuracy, particularly in environments with highly variable workloads. This research represents a significant advancement in the field of adaptive data structures, offering a more flexible and robust solution for range filtering.",
+    "description": "Proteus is a self-designing range filter that dynamically adapts to varying workloads, and the main idea is to hybrid Deterministic Trie-structure and Probabilistic Bloom Filters.",
     "imgSrc": "",
     "keywords": [
       "key-value"
