@@ -443,7 +443,7 @@
     "year": 2023,
     "video": "",
     "href": "/docs/COCLEP__Contrastive_Learning_based_Semi_Supervised_Community_Search__camera_ready_.pdf",
-    "description": "COCLEP introduces a novel approach to community search in graphs by leveraging contrastive learning in a semi-supervised framework. Community search involves identifying groups of nodes in a graph that are more densely connected to each other than to the rest of the graph, which is a fundamental task in network analysis. Traditional community detection methods typically rely on fully supervised learning, which requires large amounts of labeled data, or unsupervised learning, which may struggle with accuracy in complex graphs. COCLEP bridges the gap by using a semi-supervised approach, where a small amount of labeled data is combined with contrastive learning to enhance the model's ability to distinguish between different communities. The contrastive learning component works by maximizing the agreement between different views of the same community while minimizing the agreement between views of different communities. This technique improves the robustness and accuracy of community detection, even in scenarios with limited labeled data. The paper presents extensive experiments on various real-world graphs, showing that COCLEP outperforms state-of-the-art methods in both effectiveness and computational efficiency.",
+    "description": "COCLEP is the first algorithm that uses Graph Contrastive Learning for Community Search.",
     "imgSrc": "",
     "keywords": [
       "graph"
