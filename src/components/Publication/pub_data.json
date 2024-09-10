@@ -175,7 +175,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/PVLDB24_Kai_TIGER_Final",
-    "description": "The paper presents TIGER, an innovative framework for reasoning over large-scale knowledge graphs using inductive graph neural networks (GNNs). TIGER addresses the challenges of scalability and efficiency by employing an inductive approach, enabling the model to generalize to unseen nodes and subgraphs during training. The framework leverages advanced GNN architectures to capture complex relationships and patterns within the knowledge graph, enhancing the reasoning capabilities. TIGER demonstrates significant improvements in performance and scalability, making it suitable for applications such as knowledge inference, entity linking, and relation prediction in large-scale knowledge bases.",
+    "description": "The paper presents TIGER, an efficient approach for sub-graph extraction for reasoning over large-scale knowledge graphs using inductive graph neural networks (GNNs).",
     "imgSrc": "",
     "keywords": [
       "graph"
@@ -198,7 +198,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/Zulun_ICDE.pdf",
-    "description": "This paper explores methods for maintaining high-quality service when computing Personalized PageRanks (PPR) in dynamic graph environments. It addresses the challenge of rapidly changing graphs, which can degrade the accuracy and efficiency of PPR calculations. The authors propose optimization techniques that adapt to graph updates, ensuring timely and accurate PPR results. These methods focus on balancing computational overhead with service quality, leading to improved performance in applications such as recommendation systems, search engines, and social networks where graph structures frequently change.",
+    "description": "This paper explores methods for maintaining high-quality service when computing Personalized PageRanks (PPR) in dynamic graph environments. It addresses the challenge of rapidly changing graphs, which can degrade the accuracy and efficiency of PPR calculations. ",
     "imgSrc": "",
     "keywords": [
       "graph"
@@ -221,7 +221,7 @@
     "year": 2024,
     "video": "",
     "href": "https://arxiv.org/pdf/2310.16560v2",
-    "description": "This paper revisits the label propagation algorithm (LPA) to enhance its effectiveness on graphs exhibiting heterophily and label noise. Traditional LPA performs poorly in such conditions where connected nodes often have different labels and labels are noisy. The authors propose modifications to the standard LPA to address these challenges, improving its robustness and accuracy. Their approach involves adjusting the propagation mechanism to better handle diverse and noisy label distributions, resulting in significant performance gains. This work demonstrates the potential of LPA in applications like social network analysis and semi-supervised learning on noisy datasets.",
+    "description": "This paper revisits the label propagation algorithm (LPA) to enhance its effectiveness on graphs exhibiting heterophily and label noise. Traditional LPA performs poorly in such conditions where connected nodes often have different labels and labels are noisy. We propose modifications to the standard LPA to address these challenges, improving its robustness and accuracy. ",
     "imgSrc": "",
     "keywords": [
       "graph"
@@ -243,7 +243,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/KDD24_Zulun.pdf",
-    "description": "This paper introduces a novel approach for contrastive learning on dynamic graphs that monitors and adapts to changes in graph topology. The proposed method leverages the evolving structure of the graph to enhance the learning process, ensuring that the learned representations remain relevant and accurate over time. By incorporating topology-aware mechanisms, the approach effectively captures temporal dynamics and structural variations, leading to improved performance in tasks such as node classification, link prediction, and anomaly detection. This advancement in contrastive learning is particularly beneficial for applications involving continuously changing graph data, like social networks and communication networks.",
+    "description": "This paper introduces a novel approach for contrastive learning on dynamic graphs that monitors and adapts to changes in graph topology. The proposed method leverages the evolving structure of the graph to enhance the learning process, ensuring that the learned representations remain relevant and accurate over time. ",
     "imgSrc": "",
     "keywords": [
       "graph"
@@ -308,7 +308,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/IJCAI2024_tech.pdf",
-    "description": "This paper introduces an innovative method for computing SimRank, a well-known measure of similarity between nodes in a graph. The focus of the research is on achieving this computation in a massively parallel manner, significantly enhancing the scalability and efficiency of SimRank calculations for large-scale graphs. By leveraging a logarithmic number of rounds, the proposed approach ensures that the computation can be done in o(log n) rounds, where n is the number of nodes in the graph. This improvement is particularly important for big data applications where the graph size can be enormous. The method is designed to be highly parallelizable, making it suitable for modern distributed computing environments. The paper presents both theoretical analysis and experimental validation, demonstrating that the proposed method outperforms existing approaches in terms of both speed and accuracy. The practical implications of this research are broad, impacting various applications such as web search, social network analysis, and recommendation systems, where efficient computation of node similarity is crucial.",
+    "description": "This paper shows that Single-Source SimRank in Massively Parallel Computing Model can be done in o(log n) rounds, improving over the best known results previously.",
     "imgSrc": "",
     "keywords": [
       "graph"
