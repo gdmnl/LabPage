@@ -4,7 +4,7 @@
     "keyword": "",
     "years": [
       {
-        "year": "0",
+        "year": 0,
         "role": ""
       }
     ],
@@ -15,7 +15,7 @@
     "keyword": "Graduate Courses",
     "years": [
       {
-        "year": "0",
+        "year": 0,
         "role": ""
       }
     ],
@@ -26,7 +26,7 @@
     "keyword": "Tutorials",
     "years": [
       {
-        "year": "0",
+        "year": 0,
         "role": ""
       }
     ],
@@ -37,7 +37,7 @@
     "keyword": "Tutorials",
     "years": [
       {
-        "year": "0",
+        "year": 0,
         "role": ""
       }
     ],
@@ -49,7 +49,11 @@
     "years": [
       {
         "role": "PC Member",
-        "year": "2023,2025"
+        "year": "2023"
+      },
+      {
+        "role": "PC Member",
+        "year": "2025"
       }
     ],
     "category": "Conference Services"
@@ -60,7 +64,19 @@
     "years": [
       {
         "role": "PC Member",
-        "year": "2022-2025"
+        "year": "2022"
+      },
+      {
+        "role": "PC Member",
+        "year": "2023"
+      },
+      {
+        "role": "PC Member",
+        "year": "2024"
+      },
+      {
+        "role": "PC Member",
+        "year": "2025"
       }
     ],
     "category": "Conference Services"
@@ -71,7 +87,15 @@
     "years": [
       {
         "role": "PC Member",
-        "year": "2022-2024"
+        "year": "2022"
+      },
+      {
+        "role": "PC Member",
+        "year": "2023"
+      },
+      {
+        "role": "PC Member",
+        "year": "2024"
       }
     ],
     "category": "Conference Services"
@@ -81,12 +105,16 @@
     "keyword": "NeurIPS",
     "years": [
       {
-        "role": "Reviewer",
-        "year": "2022-2024"
+        "role": "PC Member",
+        "year": "2022"
       },
       {
-        "role": "Area Chair",
-        "year": "2025"
+        "role": "PC Member",
+        "year": "2023"
+      },
+      {
+        "role": "PC Member",
+        "year": "2024"
       }
     ],
     "category": "Conference Services"
@@ -100,15 +128,15 @@
         "year": "2022"
       },
       {
-        "role": "TKDE poster",
+        "role": "PC Member",
         "year": "2023"
       },
       {
-        "role": "industrial PC Member",
+        "role": "PC Member",
         "year": "2024"
       },
       {
-        "role": "PC Member & Sponsorship Co-Chair",
+        "role": "PC Member",
         "year": "2025"
       }
     ],
@@ -119,8 +147,12 @@
     "keyword": "ICML",
     "years": [
       {
-        "role": "Reviewer",
-        "year": "2022,2023"
+        "role": "PC Member",
+        "year": "2022"
+      },
+      {
+        "role": "PC Member",
+        "year": "2023"
       }
     ],
     "category": "Conference Services"
@@ -131,7 +163,15 @@
     "years": [
       {
         "role": "PC Member",
-        "year": "2021,2022,2024"
+        "year": "2021"
+      },
+      {
+        "role": "PC Member",
+        "year": "2022"
+      },
+      {
+        "role": "PC Member",
+        "year": "2024"
       }
     ],
     "category": "Conference Services"
@@ -152,8 +192,16 @@
     "keyword": "AAAI",
     "years": [
       {
-        "role": "Reviewer",
-        "year": "2021,2024-2025"
+        "role": "PC Member",
+        "year": "2021"
+      },
+      {
+        "role": "PC Member",
+        "year": "2024"
+      },
+      {
+        "role": "PC Member",
+        "year": "2025"
       }
     ],
     "category": "Conference Services"
@@ -163,8 +211,12 @@
     "keyword": "IJCAI",
     "years": [
       {
-        "role": "Reviewer",
-        "year": "2023,2024"
+        "role": "PC Member",
+        "year": "2023"
+      },
+      {
+        "role": "PC Member",
+        "year": "2024"
       }
     ],
     "category": "Conference Services"
@@ -175,7 +227,15 @@
     "years": [
       {
         "role": "PC Member",
-        "year": "2019-2021"
+        "year": "2019"
+      },
+      {
+        "role": "PC Member",
+        "year": "2020"
+      },
+      {
+        "role": "PC Member",
+        "year": "2021"
       }
     ],
     "category": "Conference Services"
@@ -184,6 +244,10 @@
     "name": "ACM Turing Celebration Conference 2020",
     "keyword": "SIGMOD China",
     "years": [
+      {
+        "role": "PC Member",
+        "year": "2020"
+      },
       {
         "role": "PC Member",
         "year": "2020"
@@ -197,7 +261,11 @@
     "years": [
       {
         "role": "PC Member",
-        "year": "2019,2023"
+        "year": "2019"
+      },
+      {
+        "role": "PC Member",
+        "year": "2023"
       }
     ],
     "category": "Conference Services"
@@ -214,22 +282,11 @@
     "category": "Conference Services"
   },
   {
-    "name": "Associate Editor for Data and Knowledge Engineering",
-    "keyword": "DKE",
-    "years": [
-      {
-        "year": "0",
-        "role": "Reviewer"
-      }
-    ],
-    "category": "Journal Services"
-  },
-  {
     "name": "ACM Transactions on Data Systems",
     "keyword": "TODS",
     "years": [
       {
-        "year": "0",
+        "year": 0,
         "role": "Reviewer"
       }
     ],
@@ -240,7 +297,7 @@
     "keyword": "VLDBJ",
     "years": [
       {
-        "year": "0",
+        "year": 0,
         "role": "Reviewer"
       }
     ],
@@ -257,7 +314,7 @@
     "keyword": "WWWJ",
     "years": [
       {
-        "year": "0",
+        "year": 0,
         "role": "Reviewer"
       }
     ],
@@ -268,7 +325,7 @@
     "keyword": "",
     "years": [
       {
-        "year": "0",
+        "year": 0,
         "role": "Reviewer"
       }
     ],
@@ -279,7 +336,7 @@
     "keyword": "",
     "years": [
       {
-        "year": "0",
+        "year": 0,
         "role": "Reviewer"
       }
     ],

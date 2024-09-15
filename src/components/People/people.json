@@ -5,20 +5,23 @@
       "date": "Sep 2022 - Present",
       "img": "WangKai.png",
       "bg": "PhD from Dalian University of Technology & Macquarie University",
-      "web": "https://scholar.google.com/citations?user=QHBzdg8AAAAJ"
+      "web": "https://scholar.google.com/citations?user=QHBzdg8AAAAJ",
+      "area": "Graph Algorithm & Learning"
     },
     {
       "name": "Yow Kai Song",
       "date": "Joined in Feb 2022",
       "img": "YowKaiSiong.PNG",
       "bg": "PhD from Monash University & Awarded Southeast Asia Postdoctoral Fellowship",
-      "web": ""
+      "web": "",
+      "area": ""
     },
     {
       "name": "Tiancheng HUANG",
       "date": "Joined in Aug 2023",
       "bg": "PhD from WestLake&Zhejiang University",
-      "web": ""
+      "web": "",
+      "area": ""
     }
   ],
   "phds": [
@@ -27,66 +30,76 @@
       "date": "Aug 2021 - Present",
       "img": "MoDingheng.png",
       "bg": "BS from University of Science and Technology of China",
-      "web": "https://volatill.github.io/"
+      "web": "https://volatill.github.io/",
+      "area": "Data Systems"
     },
     {
       "name": "Ningyi LIAO",
       "date": "Aug 2021 - Present",
       "img": "LiaoNingyi.jpeg",
       "bg": "BS from Shanghai Jiao Tong University",
-      "web": "https://nyliao.github.io/"
+      "web": "https://nyliao.github.io/",
+      "area": "Graph Algorithm"
     },
     {
       "name": "Zulun ZHU",
       "img": "ZhuZulun.jpg",
       "date": "Feb 2022 - Present",
       "bg": "BS from Zhejiang University",
-      "web": "https://dblp.org/pid/219/4427.html"
+      "web": "https://dblp.org/pid/219/4427.html",
+      "area": "Graph Algorithm"
     },
     {
       "name": "Weiping YU",
       "img": "YuWeiping.JPG",
       "date": "Feb 2022 - Present",
       "bg": "MS from Beijing Institute of Technology",
-      "web": "https://scholar.google.fi/citations?hl=en&user=5SU2rSgAAAAJ"
+      "web": "https://scholar.google.fi/citations?hl=en&user=5SU2rSgAAAAJ",
+      "area": "Data Systems"
     },
     {
       "name": "Fan WANG",
       "img": "WangFan.jpg",
       "date": "Feb 2023 - Present",
       "bg": "MS from Zhejiang University",
-      "web": ""
+      "web": "",
+      "area": "Data Systems"
     },
     {
       "name": "Haoyu LIU",
       "img": "LiuHaoyu.jpg",
       "date": "Feb 2023 - Present",
       "bg": "BS from Renmin University of China",
-      "web": ""
+      "web": "",
+      "area": "Graph Algorithm"
     },
     {
       "name": "Junfeng LIU",
       "date": "Aug 2023 - Present",
       "bg": "MS from University of Manchester",
-      "web": "https://buchuitoudegou.github.io/"
+      "web": "https://buchuitoudegou.github.io/",
+      "area": "Data Systems"
     },
     {
       "name": "Shurui ZHONG",
       "date": "Aug 2023 - Present",
       "bg": "BS from University of Science and Technology of China",
-      "web": "https://zongziren.github.io/"
+      "web": "https://zongziren.github.io/",
+      "area": "Graph Algorithm"
     },
     {
       "name": "Haoxuan XIE",
       "date": "Aug 2023 - Present",
       "bg": "BS from Chinese University of Hong Kong, Shenzhen",
-      "web": ""
+      "web": "",
+      "area": "Graph Algorithm"
     },
     {
       "name": "Zhaoqi ZHANG",
       "date": "Feb 2022 - Present",
       "bg": "co-supervised with Prof. Cong GAO",
-      "web": ""
+      "web": "",
+      "area": "Spatial Data Mining"
     }
   ]  
 }
