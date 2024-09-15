@@ -4,25 +4,15 @@ import serviceDatabase from "./services.json";
 interface ServiceType {
   name: string;
   keyword: string;
-  years: string[];
+  years: {
+    role: string;
+    year: string;
+  }[];
   category: string;
 }
 
-function ComputeYearString(years: string[]): string {
-  const yearNums = years.map((year) => parseInt(year));
-  // if the year is continuous
-  let isContinuous = true;
-  for (let i = 0; i < yearNums.length - 1; i++) {
-    if (yearNums[i] + 1 !== yearNums[i + 1]) {
-      isContinuous = false;
-      break;
-    }
-  }
-  if (isContinuous) {
-    return `${yearNums[0]}-${yearNums[yearNums.length - 1]}`;
-  } else {
-    return years.join(", ");
-  }
+function formatRoleAndYears(service: ServiceType): string {
+  return service.years.map((val) => `${val.role}${val.year !== "0" ? ' for ' + val.year: ""}`).join(', ');
 }
 
 const serviceData: ServiceType[] = serviceDatabase;
@@ -42,20 +32,20 @@ export class Services extends React.Component {
         <div style={{ display: "flex", justifyContent: "center" }}>
           <div className="content-align-center" style={{ width: "80%" }}>
             <div style={{textAlign: "left", marginBottom: "20px" }}>
-              <div style={{ fontSize: "20px", fontWeight: "bold" }}>Conference Program Committee</div>
+              <div style={{ fontSize: "20px", fontWeight: "bold" }}>Conference Services</div>
               <ul>
-                {serviceData.filter((item) => item.category === "Program Committee & Reviewer").map((item) => (
+                {serviceData.filter((item) => item.category === "Conference Services").map((item) => (
                   <li style={{ fontSize: "18px", lineHeight: "1.6" }}>
                     <span>{item.name}</span>
-                    {item.keyword.length > 0 && <span style={{ fontWeight: "bold" }}>{` (${item.keyword} ${ComputeYearString(item.years)})`}</span>}
+                    {item.keyword.length > 0 && <span style={{ fontWeight: "bold" }}>{` (${item.keyword} ${formatRoleAndYears(item)})`}</span>}
                   </li>
                 ))}
               </ul>
             </div>
             <div style={{textAlign: "left", marginBottom: "20px" }}>
-              <div style={{ fontSize: "20px", fontWeight: "bold" }}>Journal Reviewer (selected)</div>
+              <div style={{ fontSize: "20px", fontWeight: "bold" }}>Journal Services (selected)</div>
               <ul>
-                {serviceData.filter((item) => item.category === "Journal Reviewer").map((item) => (
+                {serviceData.filter((item) => item.category === "Journal Services").map((item) => (
                   <li style={{ fontSize: "18px", lineHeight: "1.6" }}>
                     <span>{item.name}</span>
                     {item.keyword.length > 0 && <span style={{ fontWeight: "bold" }}>{` (${item.keyword})`}</span>}

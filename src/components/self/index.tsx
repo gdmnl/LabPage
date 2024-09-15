@@ -26,8 +26,7 @@ export class SelfIntro extends React.Component {
                 Nanyang Assistant Professor
               </div>
               <div style={{ fontSize: "15px", textAlign: "left", lineHeight: "1.7" }}>
-                College of Computing and Data Science,
-                in Nanyang Technological University
+                College of Computing and Data Science, Nanyang Technological University
               </div>
             </Col>
             <Col style={{ display: "flex", alignItems: "center", flex: "1", justifyContent: "right" }}>
@@ -44,16 +43,16 @@ export class SelfIntro extends React.Component {
               He was a postdoc researcher at Harvard University working with <a href="https://stratos.seas.harvard.edu/biocv">Prof. Stratos Idreos</a>.
               He has broad interest in efficient and effective big data analytics, queries and learning, particularly about:
               <p>
-                1. graph analytics and learning <br/>
-                2. scalable data structures and systems <br/>
-                3. machine-learning enhanced data management
+                1. Graph analytics and learning <br/>
+                2. Scalable data structures and systems <br/>
+                3. Machine-learning enhanced data management
               </p>
               <p>
-                Please refer to his <a href="/">lab website</a> for more details.
+                Please refer to his <a href="/lab">lab website</a> for more details.
               </p>
             </p>
             <p>
-              <p style={{ fontSize: "20px", fontWeight: "bold", fontFamily: "Droid Serif" }}>Recruitment (updated July 2024):</p>
+              <p style={{ fontSize: "20px", fontWeight: "bold", fontFamily: "Droid Serif" }}>Recruitment (Updated in July 2024):</p>
               1. A few opennings for Research Assistant (remote or physical) <br/>
               2. One Ph.D. openning for January 2025 batch <br/>
 

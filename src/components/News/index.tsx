@@ -19,8 +19,7 @@ class NewsPage extends React.Component {
     return (
       <div>
         <div style={{ height: "64px" }}></div>
-        <h1 style={{ fontSize: "40px", fontFamily: "'Cardo'"  }}>News</h1>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        {/* <div style={{ display: "flex", justifyContent: "center", marginTop: '2rem' }}>
           <div style={{ width: "80%" }}>
             <div id="list-wrapper" style={{ display: "flex", justifyContent: "center" }}>
               {
@@ -45,7 +44,7 @@ class NewsPage extends React.Component {
               }
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

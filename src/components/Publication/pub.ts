@@ -3,6 +3,7 @@ import pubDatabase from "./pub_data.json";
 const elasticlunr = require("elasticlunr");
 
 export interface PubType {
+  id: number;
   title: string;
   keywords: string[];
   year: number;
@@ -13,16 +14,19 @@ export interface PubType {
   video: string;
   conference: string;
   subKeywords: string[];
+  isExtension: boolean;
+  hasExtension: number;
+  isVisible: boolean;
 }
 
-export const searchKeywords: string[] = [... new Set(pubDatabase.map((pub) => pub.keywords).flatMap((x) => x))];
+export const searchKeywords: string[] = ["Graph Systems", "Data Systems"];
+
 
 export const searchYears: string[] = [... new Set(pubDatabase.map((pub) => pub.year))].sort((a, b) => b - a).map(
   (year) => year.toString(),
 ).filter((year) => year !== "0");
 
-export const searchConferences: string[] =
-  [... new Set(pubDatabase.map((pub) => pub.conference))].filter((conference) => conference !== "");
+export const searchConferences: string[] =["SIGMOD", "PVLDB", "ICDE", "SIGKDD"];
 
 export const pubData: PubType[] = pubDatabase;
 

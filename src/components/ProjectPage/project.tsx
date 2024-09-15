@@ -1,17 +1,10 @@
 import * as React from "react";
 
 import { PubType } from "../Publication/pub";
-import { peopleInfoMap, ProjectProps } from "./data";
+import { ProjectProps } from "./data";
 
 import { Card, Carousel } from "antd";
 
-const contentStyle: React.CSSProperties = {
-  height: "160px",
-  color: "#fff",
-  lineHeight: "160px",
-  textAlign: "center",
-  background: "#364d79",
-};
 
 class Project extends React.Component<ProjectProps> {
   constructor(props: ProjectProps) {
@@ -22,32 +15,13 @@ class Project extends React.Component<ProjectProps> {
     const subKeywords = [...new Set(publications.flatMap((pub) => pub.subKeywords))];
     const pubInMap = new Map<string, PubType[]>();
     for (const key of subKeywords) {
-      pubInMap.set(key, publications.filter((pub) => pub.subKeywords.includes(key)));
+      pubInMap.set(key, publications.filter((pub) => pub.isVisible && pub.subKeywords.includes(key)));
     }
-    const projectMembers = publications.flatMap((pub) => pub.authors).filter((author) => {
-      let mauthor = author;
-      if (author[author.length - 1] === "*") {
-        mauthor = author.slice(0, author.length - 1);
-      }
-      return mauthor.toLocaleLowerCase().split(" ").join("") in peopleInfoMap;
-    }).map((author) => {
-      let mauthor = author;
-      if (author[author.length - 1] === "*") {
-        mauthor = author.slice(0, author.length - 1);
-      }
-      const key: string = mauthor.toLocaleLowerCase().split(" ").join("");
-      return {
-        name: mauthor,
-        imgSrc: peopleInfoMap[key].imgSrc ? peopleInfoMap[key].imgSrc : "",
-        web: peopleInfoMap[key].web ? peopleInfoMap[key].web : "",
-      };
-    });
-    const distinctMembers = Array.from(new Set(projectMembers.map((obj) => JSON.stringify(obj)))).map((str) => JSON.parse(str));
     return (
       <div style={{ fontFamily: "'Cardo'" }}>
         <h1>{title}</h1>
         <div style={{ marginBottom: "1rem", marginTop: "1rem" }}>
-          <Carousel autoplay arrows>
+          {/* <Carousel autoplay arrows>
             {
               this.props.imgs.map((img) => (
                 <div>
@@ -55,7 +29,7 @@ class Project extends React.Component<ProjectProps> {
                 </div>
               ))
             }
-          </Carousel>
+          </Carousel> */}
         </div>
         <div style={{ textAlign: "left", fontSize: "1.1rem" }}>{description}</div>
         <div style={{ textAlign: "left", fontSize: "1.5rem", fontWeight: "bold", marginTop: "1rem", marginBottom: "1rem" }}>
@@ -63,7 +37,7 @@ class Project extends React.Component<ProjectProps> {
         </div>
         <div style={{ display: "flex", justifyContent: "flex-start" }}>
           {
-            distinctMembers.map((member) => (
+            this.props.members.map((member) => (
               <div style={{ marginLeft: "1rem", marginRight: "1rem"}}>
                 <div>
                   <a href={member.web}>
@@ -84,7 +58,7 @@ class Project extends React.Component<ProjectProps> {
               <div style={{ textAlign: "left", paddingLeft: "0.2rem", fontSize: "1.3rem" }}>{key}</div>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 {[0, 1, 2].map((i) => {
-                  const colPubs = pubs.filter((_, j) => j % 3 === i);
+                  const colPubs = pubs.filter((pub, j) => pub.isVisible && j % 3 === i);
                   return (
                     <div key={i} style={{ flex: 1, padding: "0.5rem" }}>
                       {

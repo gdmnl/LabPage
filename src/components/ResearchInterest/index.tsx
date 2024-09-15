@@ -11,14 +11,6 @@ const topcis = [
     logo: "database.svg",
     title: "Big Data Systems",
   },
-  // {
-  //   logo: 'datascience.svg',
-  //   title: 'Machine Learning',
-  // },
-  // {
-  //   logo: 'AI.svg',
-  //   title: 'Autonomous Systems',
-  // },
   {
     logo: "infra.svg",
     title: "Scalable Algorithms and Models",
