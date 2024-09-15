@@ -12,7 +12,7 @@
     "year": 2025,
     "video": "",
     "href": "https://arxiv.org/abs/2406.09675",
-    "description": "The paper benchmarks spectral graph neural networks (GNNs), focusing on their ability to capture graph signals in the frequency domain. Despite their growing popularity, few studies systematically assess their spectral characteristics. This work categorizes over 30 GNNs with 27 filters, implementing them within a unified framework with optimized computations and training schemes. Through extensive experiments, the paper evaluates these models on effectiveness and efficiency, providing practical guidelines for selecting suitable spectral GNNs for large-scale tasks. The findings aim to aid in comparing performances and making informed decisions on model selection for specific scenarios.",
+    "description": "A Comprehensive benchmarks for evaluating spectral graph neural networks (GNNs).",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -36,7 +36,7 @@
     "year": 2025,
     "video": "",
     "href": "https://arxiv.org/pdf/2305.09958",
-    "description": "This paper is the first one to use SimRank to tackle Graph neural networks (GNNs) with heterophily, and propose SIMGA, a simple yet effective GNN model achieving near-linear propagation efficiency to n. The paper theoretically demonstrates SIMGA's effectiveness and evaluates its performance on 12 benchmark datasets, often outperforming state-of-the-art models.",
+    "description": "The first one to use SimRank to tackle Graph neural networks (GNNs) with heterophily.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -61,7 +61,7 @@
     "year": 2025,
     "video": "",
     "href": "",
-    "description": "",
+    "description": "The first research that uses active learning to optimize LSM-trees.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -86,7 +86,7 @@
     "year": 2024,
     "video": "https://www.youtube.com/watch?v=ZgNyIsNxlGk",
     "href": "/docs/SIGMOD24_MOOSE_Camera___Junfeng___Fan.pdf",
-    "description": "This paper delves into optimizing Log-Structured Merge (LSM) tree structures, widely used in modern databases. It examines the vast configuration space of LSM-trees, which balances write and read performance via multiple tunable parameters. We propose an automated framework to explore and identify optimal configurations, leveraging advanced search techniques and cost models. The techniques offer a robust solution for efficiently managing LSM-trees in diverse database environments.",
+    "description": "A research that analyzes the optimality of LSM operators and build a KV system Moose.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -111,7 +111,7 @@
     "year": 2024,
     "video": "https://drive.google.com/file/d/13wJmJ9tQEyB9M_Gt9dvius0LvkKgAfXd/view?pli=1",
     "href": "https://arxiv.org/pdf/2308.07013.pdf",
-    "description": "This paper is the first work focus on online optimization of Key-Value Stores under dynamic workload, and is the pioneering effort using Reinforcement Learning to optimize LSM-trees.",
+    "description": "The first work focusing on continous optimization of Key-Value Stores under dynamic workload.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -136,7 +136,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/Oasis_Camera_ready.pdf",
-    "description": "This paper introduces a novel range filter data structure called Oasis, designed to efficiently handle range queries in databases. Oasis leverages machine learning to create segmented filters that optimize the trade-off between false positives and memory usage. By partitioning data into disjoint segments and applying learned models to each segment, Oasis significantly improves query performance. ",
+    "description": "The second learned range filter that optimizes the first one (By MIT). ",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -159,7 +159,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/VLDB24_BIRD.pdf",
-    "description": "This paper presents presents BIRD, an algorithm designed to approximate bidirectional hidden Personalized PageRank (PPR) efficiently. It improves the previously best-known time complexity (pseudo-linear in m) to pseudo-linear in n.",
+    "description": "Improves the previously best-known time complexity (pseudo-linear in m) to pseudo-linear in n, for BHPPR problem.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -183,7 +183,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/VLDB24_Genti.pdf",
-    "description": "The paper introduces GENTI, a framework leveraging GPU capabilities to efficiently perform walk-based subgraph extraction for dynamic graphs, which benefits sub-graph representation learning.",
+    "description": "A GPU-oriented subgraph representation learning algorithm on dynamic data.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -207,7 +207,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/PVLDB24_Kai_TIGER_Final",
-    "description": "The paper presents TIGER, an efficient approach for sub-graph extraction for reasoning over large-scale knowledge graphs using inductive graph neural networks (GNNs).",
+    "description": "An efficient sub-graph extraction approach for reasoning over large-scale knowledge graphs.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -234,7 +234,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/Zulun_ICDE.pdf",
-    "description": "This paper explores methods for maintaining high-quality service when computing Personalized PageRanks (PPR) in dynamic graph environments. It addresses the challenge of rapidly changing graphs, which can degrade the accuracy and efficiency of PPR calculations. ",
+    "description": "The marriage of queuing theory and PPR computation. ",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -261,7 +261,7 @@
     "year": 2024,
     "video": "",
     "href": "https://arxiv.org/pdf/2310.16560v2",
-    "description": "This paper revisits the label propagation algorithm (LPA) to enhance its effectiveness on graphs exhibiting heterophily and label noise. Traditional LPA performs poorly in such conditions where connected nodes often have different labels and labels are noisy. We propose modifications to the standard LPA to address these challenges, improving its robustness and accuracy. ",
+    "description": "Revisits the label propagation algorithm (LPA) to enhance its effectiveness on graphs exhibiting heterophily and label noise. ",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -287,7 +287,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/KDD24_Zulun.pdf",
-    "description": "This paper introduces a novel approach for contrastive learning on dynamic graphs that monitors and adapts to changes in graph topology. The proposed method leverages the evolving structure of the graph to enhance the learning process, ensuring that the learned representations remain relevant and accurate over time. ",
+    "description": "Pioneering efforts on studying dynamic graph contrastive learning. ",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -364,7 +364,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/IJCAI2024_tech.pdf",
-    "description": "This paper shows that Single-Source SimRank in Massively Parallel Computing Model can be done in o(log n) rounds, improving over the best known results previously.",
+    "description": "Single-Source SimRank in Massively Parallel Computing Model can be done in o(log n) rounds, improving over the best known results previously.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -401,7 +401,7 @@
     "id": 15,
     "isExtension": false,
     "hasExtension": -1,
-    "isVisible": true
+    "isVisible": false
   },
   {
     "title": "LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs.",
@@ -415,7 +415,7 @@
     "year": 2024,
     "video": "",
     "href": "https://arxiv.org/pdf/2402.11804",
-    "description": "This paper explores the use of large language models (LLMs) as prompters for performing inductive reasoning on arbitrary knowledge graphs, particularly in low-resource settings. Inductive reasoning involves drawing general conclusions from specific instances, a task that is fundamental in many AI applications, including knowledge graph completion, question answering, and recommendation systems. The key challenge addressed in this work is how to perform such reasoning effectively when the available data is sparse or when the knowledge graph lacks sufficient labeled examples. The proposed approach leverages the powerful language understanding capabilities of LLMs to generate prompts that guide the reasoning process. By using LLMs in this manner, the system can infer missing links and relationships within the knowledge graph even when direct data is limited. The paper provides a thorough evaluation of the method across several benchmarks, demonstrating that it can achieve competitive results with significantly fewer resources compared to traditional methods. This research opens up new possibilities for applying inductive reasoning in domains where data scarcity has traditionally been a major obstacle.",
+    "description": "It is effective to use large language models (LLMs) as prompters for inductive reasoning on arbitrary knowledge graphs, even under low-resource settings.",
     "imgSrc": "",
     "keywords": [
       "llm"
@@ -440,7 +440,7 @@
     "year": 2023,
     "video": "",
     "href": "https://siqiangluo.com/docs/Machine_Learning_for_Subgraph_Extraction-PVLDB-Tutorial.pdf",
-    "description": "This tutorial offers a comprehensive survey of machine learning techniques for subgraph extraction, a critical task in graph-based data analysis. Subgraph extraction involves identifying subgraphs within a larger graph that meet specific criteria, such as connectivity, density, or attribute similarity. This task is fundamental to numerous applications, including social network analysis, biological network analysis, and fraud detection. This survey serves as a valuable resource for researchers and practitioners looking to apply machine learning techniques to subgraph extraction.",
+    "description": "This tutorial offers a comprehensive survey of machine learning techniques for subgraph extraction, a critical task in graph-based data analysis. ",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -467,7 +467,7 @@
     "year": 2023,
     "video": "",
     "href": "",
-    "description": "This paper presents a novel approach to route planning that utilizes historical trajectory data to enhance both the effectiveness and efficiency of route computations on road networks. Traditional route planning methods often rely on static data, such as fixed road maps or predefined traffic conditions, which can lead to suboptimal routes, especially in dynamic environments where traffic patterns frequently change. The proposed method leverages large datasets of historical trajectories\u2014data collected from previous trips across the road network\u2014to predict current and future traffic conditions more accurately. By incorporating this historical data, the route planning algorithm can better estimate travel times, avoid congested areas, and select routes that are not only shorter but also more reliable under varying conditions.",
+    "description": "A novel approach to route planning that utilizes historical trajectory data to enhance both the effectiveness and efficiency of route computations on road networks. ",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -496,7 +496,7 @@
     "year": 2023,
     "video": "",
     "href": "https://arxiv.org/pdf/2303.15702.pdf",
-    "description": "This research introduces a new method for distributed graph embedding that utilizes information-oriented random walks to improve the quality of the embeddings. Graph embedding is the process of representing the nodes or edges of a graph in a low-dimensional space while preserving the graph's structural properties. The key innovation is the use of information-oriented random walks, which prioritize traversing parts of the graph that are rich in structural information, leading to more informative embeddings.",
+    "description": "A new method for distributed graph embedding that utilizes information-oriented random walks to improve the quality of the embeddings. ",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -523,7 +523,7 @@
     "year": 2023,
     "video": "",
     "href": "/docs/COCLEP__Contrastive_Learning_based_Semi_Supervised_Community_Search__camera_ready_.pdf",
-    "description": "COCLEP is the pioneer effort to demonstrate that Graph Contrastive Learning is promising for Community Search.",
+    "description": "A pioneer effort showing that Graph Contrastive Learning is promising for Community Search.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -548,7 +548,7 @@
     "year": 2023,
     "video": "https://drive.google.com/drive/folders/1IpTMZLlT2978GYs911JUoCcb2tGZvaRi",
     "href": "https://siqiangluo.com/publication/",
-    "description": "Example Searcher is a spatial query system that offers a novel way for users to search for spatial objects by providing examples. Traditional spatial query systems typically require users to specify their queries using precise parameters, such as coordinates or attribute values, which can be cumbersome and unintuitive, especially for non-expert users. Example Searcher simplifies this process by allowing users to provide one or more examples of the spatial objects they are interested in, and the system then identifies similar objects within the database. This approach leverages advanced machine learning techniques to understand the underlying features that make the examples similar, such as shape, size, location, or other spatial attributes. The system is designed to handle large-scale spatial datasets efficiently, making it suitable for applications in geographic information systems (GIS), urban planning, and real estate. The paper includes a detailed description of the system architecture, the algorithms used for feature extraction and similarity computation, and the results of experiments demonstrating the system's effectiveness and efficiency. By offering a more user-friendly and intuitive query method, Example Searcher has the potential to make spatial search more accessible and useful in a wide range of applications.",
+    "description": "Example Searcher is demonstration system for spatial query via examples. ",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -575,7 +575,7 @@
     "year": 2023,
     "video": "",
     "href": "https://openproceedings.org/2023/conf/edbt/paper-176.pdf",
-    "description": "This paper presents an in-depth evaluation of multi-task processing in vertex-centric Graph Systemss, providing valuable insights into the performance and scalability of these systems in handling multiple graph-related tasks concurrently. Vertex-centric graph processing is a popular paradigm in distributed graph computing, where computations are performed at the level of individual vertices, making it well-suited for large-scale graph analytics. However, most existing systems are optimized for single tasks, and their performance may degrade when tasked with handling multiple operations simultaneously, such as computing PageRank while also performing community detection. We conduct a series of experiments on various vertex-centric Graph Systemss, analyzing how different configurations and optimizations impact performance across a range of tasks. The findings provide practical guidelines for improving the efficiency and scalability of vertex-centric systems in multi-task scenarios, making the research highly relevant for developers and researchers working on distributed graph processing.",
+    "description": "An in-depth evaluation of multi-task processing in vertex-centric graph systems.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -604,7 +604,7 @@
     "year": 2023,
     "video": "",
     "href": "",
-    "description": "The Seesaw Counting Filter is a dynamic filtering framework designed to protect against the vulnerabilities associated with negative keys in dynamic data filtering systems. Negative keys, which represent items not present in a dataset, pose a significant challenge in many filtering applications, such as network security, database management, and data streaming, where incorrect filtering can lead to false positives or negatives, compromising the system's reliability. The Seesaw Counting Filter introduces a novel approach to dynamically adjust the filter's sensitivity based on the observed distribution of positive and negative keys, thus maintaining high accuracy while minimizing the risk of errors. The framework is particularly well-suited for environments where the data distribution is non-static and can change over time, requiring the filter to adapt accordingly.",
+    "description": "A dynamic filtering framework designed to protect against the vulnerabilities associated with negative keys in dynamic data filtering systems. ",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -630,7 +630,7 @@
     "year": 2023,
     "video": "",
     "href": "/docs/Efficient_Community_Search_in_Edge-Attributed_Graphs.pdf",
-    "description": "This paper introduces a novel approach to community search in edge-attributed graphs, where the edges between nodes carry additional attributes, such as weights, labels, or temporal information. Traditional community search methods typically focus on node attributes or structural properties of the graph, often overlooking the rich information that edge attributes can provide. The proposed method addresses this gap by incorporating edge attributes into the community search process, allowing for more accurate and meaningful identification of communities. The approach leverages a combination of graph traversal techniques and attribute-based filtering to efficiently search for communities that not only exhibit strong connectivity but also share similar edge attributes. The paper includes a detailed analysis of the algorithm's complexity and demonstrates its scalability to large graphs through extensive experiments on real-world datasets. The results show that the method outperforms existing techniques in both effectiveness and computational efficiency, particularly in applications where edge attributes play a crucial role, such as social network analysis, bioinformatics, and communication networks. This research provides a significant advancement in the field of graph-based data analysis, offering new tools for uncovering hidden structures in complex networks.",
+    "description": "Design a new community metric over edge-attributed graphs.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -655,7 +655,7 @@
     "year": 2023,
     "video": "https://neurips.cc/virtual/2023/poster/72677",
     "href": "https://openreview.net/pdf?id=7zkFc9TGKz",
-    "description": "LD2 is a scalable graph neural network model specifically designed to handle heterophilous graphs, where connected nodes are more likely to have dissimilar features\u2014a common scenario in many real-world networks, such as social networks or biological networks. Traditional graph neural networks (GNNs) often struggle with heterophilous graphs because they are typically optimized for homophily, where similar nodes are more likely to be connected. LD2 addresses this challenge by decoupling the embedding learning process, allowing the model to capture the diverse relationships and characteristics of nodes more effectively. The decoupled embedding approach enables the network to learn more flexible and discriminative representations, improving its performance on tasks such as node classification, link prediction, and clustering in heterophilous settings. The paper provides a comprehensive evaluation of LD2, comparing it with state-of-the-art GNN models across multiple benchmark datasets. The results demonstrate that LD2 consistently outperforms existing models, particularly in scenarios where the graph exhibits low homophily. This work represents a significant step forward in the development of GNNs for diverse and complex networks, offering a more robust tool for analyzing and understanding heterophilous graphs.",
+    "description": "A scalable heterophilous GNN with lightweight minibatch training.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -707,7 +707,7 @@
     "year": 2022,
     "video": "",
     "href": "https://arxiv.org/pdf/2204.07720.pdf",
-    "description": "",
+    "description": "Design a new community metric dubbed as density modularity.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -735,7 +735,7 @@
     "year": 2022,
     "video": "",
     "href": "https://arxiv.org/pdf/2207.01503.pdf",
-    "description": "Proteus is a self-designing range filter that dynamically adapts to varying workloads, optimizing its structure and performance based on observed query patterns. Range filters are crucial in many applications, including databases, key-value stores, and network security, where they are used to efficiently determine whether a query falls within a specific range of values. Traditional range filters often require manual tuning or preconfiguration to perform well under specific conditions, which can be time-consuming and prone to errors. Proteus addresses this challenge by incorporating machine learning techniques that allow the filter to learn and adjust its parameters automatically based on the workload. The system continuously monitors query patterns and dynamically reconfigures itself to maintain optimal performance, even as workloads change over time. The paper details the architecture of Proteus, including its learning algorithms, adaptation mechanisms, and performance evaluation. Experiments conducted on various benchmark datasets demonstrate that Proteus significantly outperforms traditional range filters in terms of both efficiency and accuracy, particularly in environments with highly variable workloads. This research represents a significant advancement in the field of adaptive data structures, offering a more flexible and robust solution for range filtering.",
+    "description": "The very first hybrid range filter that combines deterministic trie-structure and probabilistic Bloom filters.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -761,7 +761,7 @@
     "year": 2022,
     "video": "",
     "href": "https://arxiv.org/pdf/2207.09179.pdf",
-    "description": "SCARA introduces a scalable graph neural network (GNN) framework that focuses on feature-oriented optimization to improve the efficiency and effectiveness of graph learning. In many real-world applications, graphs are characterized by high-dimensional and complex feature spaces, which can pose significant challenges for traditional GNNs, particularly in terms of scalability and computational cost. SCARA addresses these challenges by incorporating a feature-oriented optimization strategy that selectively emphasizes the most relevant features for each task, reducing the overall complexity and improving the model's ability to generalize. The framework includes novel techniques for feature selection, dimensionality reduction, and adaptive learning rates, all designed to optimize the performance of GNNs on large and complex graphs. The paper provides a thorough analysis of SCARA's performance across various tasks, such as node classification, link prediction, and graph classification, using both synthetic and real-world datasets. The results demonstrate that SCARA not only scales more efficiently than existing GNN models but also achieves superior accuracy in feature-rich environments. This work represents a significant contribution to the field of graph neural networks, offering a powerful tool for handling large-scale and feature-intensive graph data.",
+    "description": "A feature-oriented GNN that scales to billion-scale extremely large graphs.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -787,7 +787,7 @@
     "year": 2022,
     "video": "",
     "href": "https://474ed25d-65f4-464c-95bf-ac85d6c4e9a3.filesusr.com/ugd/87d776_a17c1904528c4288be7d9ec92e377598.pdf",
-    "description": "This paper presents a scalable system for example-based spatial search, offering an innovative approach to querying large spatial datasets. Traditional spatial search systems often require users to input precise criteria, such as coordinates or attribute values, which can be difficult and unintuitive. The proposed system simplifies the process by allowing users to provide one or more examples of the spatial objects they are interested in, such as a specific type of building or a particular landform. The system then identifies similar objects within the dataset based on their spatial attributes, using advanced machine learning algorithms to understand the features that make the examples similar. This approach not only improves the user experience by making spatial search more intuitive but also enhances the accuracy and relevance of the search results. The paper details the system's architecture, including its data indexing techniques, feature extraction methods, and search algorithms. Extensive experiments demonstrate the system's ability to handle large-scale datasets efficiently, making it suitable for applications in urban planning, geographic information systems (GIS), and environmental monitoring.This research provides a significant advancement in the field of spatial data analysis, offering a more user-friendly and effective solution for spatial search at scale.",
+    "description": "A scalable algorithm for example-based spatial search.",
     "imgSrc": "",
     "keywords": [
       "spatial"
@@ -825,7 +825,7 @@
     "id": 31,
     "isExtension": false,
     "hasExtension": -1,
-    "isVisible": true
+    "isVisible": false
   },
   {
     "title": "Single-Source Personalized PageRanks with Workload Robustness.",
@@ -837,7 +837,7 @@
     "year": 2022,
     "video": "",
     "href": "https://474ed25d-65f4-464c-95bf-ac85d6c4e9a3.filesusr.com/ugd/87d776_661bdefe98314f55b88ea71c92815c73.pdf",
-    "description": "This paper introduces a robust method for computing single-source personalized PageRanks, focusing on enhancing workload robustness in dynamic and large-scale environments. Personalized PageRank (PPR) is a variation of the classic PageRank algorithm, designed to compute the importance of nodes in a graph relative to a particular source node. PPR is widely used in applications such as recommendation systems, social network analysis, and web search, where personalized results are crucial. However, the computation of PPR can be resource-intensive, especially in large graphs, and is sensitive to changes in the graph structure or query workload. The proposed method addresses these challenges by introducing a workload-robust framework that dynamically adjusts the computation process based on the observed workload patterns and changes in the graph. The framework includes adaptive algorithms that prioritize the most critical computations and efficiently handle variations in query frequency and graph updates. The paper provides a thorough evaluation of the method, demonstrating its ability to maintain high accuracy while significantly reducing computational overhead, even in the face of dynamic and unpredictable workloads. This research offers a valuable contribution to the field of graph-based data analysis, providing a more scalable and resilient solution for personalized PageRank computations.",
+    "description": "A dynamic PPR approach with theoretical guarantees.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -893,7 +893,7 @@
     "year": 2022,
     "video": "",
     "href": "https://arxiv.org/pdf/2205.02767.pdf",
-    "description": "",
+    "description": "When the energy-saving SNNs meet graphs. ",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -921,7 +921,7 @@
     "year": 2022,
     "video": "",
     "href": "https://arxiv.org/pdf/2205.07308.pdf",
-    "description": "",
+    "description": "It becomes one of the standard baselines for heterophilous GNNs.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -944,7 +944,7 @@
     "year": 2021,
     "video": "",
     "href": "https://dl.acm.org/doi/abs/10.1145/3459637.3482317",
-    "description": "Agenda introduces a robust method for computing personalized PageRanks in evolving graphs, addressing the challenges posed by dynamic changes in the graph structure. Personalized PageRank (PPR) is a variation of the classic PageRank algorithm, tailored to compute the importance of nodes relative to a specific source node. PPR is widely used in applications such as recommendation systems, social network analysis, and personalized search, where the graph structure can change frequently due to new connections, disconnections, or changes in node importance. The proposed method, Agenda, is designed to efficiently update PPR scores in response to such changes without requiring a complete recomputation, which is computationally expensive. Agenda leverages a combination of incremental updates and adaptive algorithms to maintain high accuracy while reducing the computational cost of handling evolving graphs. The paper provides a thorough evaluation of Agenda, demonstrating its effectiveness in maintaining robust PPR scores even in highly dynamic environments. This research offers a significant contribution to the field of graph-based data analysis, providing a scalable and resilient solution for personalized PageRank computations in evolving networks.",
+    "description": "Dynamic PPR approach with theorectical guarantees.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -971,7 +971,7 @@
     "year": 2020,
     "video": "https://drive.google.com/file/d/10tMsNwHt-95E7H1b_TDeEHZDOCAxEOCd/view",
     "href": "https://scholar.harvard.edu/files/stratos/files/rosetta.pdf",
-    "description": "Rosetta is a range filter optimized for space and time, specifically designed for use in key-value stores where efficient range queries are critical. Key-value stores are a fundamental component of many modern applications, providing fast and scalable storage solutions for large datasets. However, supporting range queries efficiently in such systems poses significant challenges, particularly in terms of balancing space efficiency with query performance. Rosetta addresses these challenges by introducing a novel range filter that dynamically optimizes its structure based on the observed query patterns, ensuring that both space and time resources are used efficiently. The filter employs a combination of space-partitioning techniques and adaptive data structures to achieve this balance, allowing it to handle a wide range of query types while minimizing memory usage and access time. The paper details the architecture of Rosetta, including its algorithms for space-time optimization and the mechanisms it uses to adapt to changing workloads. Extensive experiments demonstrate that Rosetta outperforms existing range filters in key-value stores, offering significant improvements in both query speed and memory efficiency. This research provides a valuable advancement in the design of data structures for modern storage systems, particularly in environments where efficient range queries are essential.",
+    "description": "Rosetta now is one of the standard baselines in the field of range filters.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -996,7 +996,7 @@
     "year": 2020,
     "video": "",
     "href": "https://lostronghku.github.io/pub/baton_TKDE_revision.pdf",
-    "description": "Baton introduces a novel approach for computing one-hop personalized PageRanks (PPR) in batches, optimizing both efficiency and effectiveness in large-scale graph processing. Personalized PageRank is a variation of the classic PageRank algorithm, tailored to measure the importance of nodes relative to a specific source node, and is widely used in applications like recommendation systems, social networks, and personalized search. However, computing PPR for a large number of nodes, especially in one-hop scenarios, can be resource-intensive and time-consuming. Baton addresses this challenge by introducing a batch processing framework that computes one-hop PPR for multiple source nodes simultaneously, leveraging shared computation and memory resources to improve efficiency. The framework includes novel techniques for workload balancing, memory management, and parallel processing, all designed to maximize throughput while maintaining high accuracy. The paper presents extensive experimental results, demonstrating that Baton significantly outperforms existing methods in terms of both speed and resource usage, making it particularly well-suited for large-scale applications where multiple personalized PageRank queries must be handled simultaneously. This research offers a valuable contribution to the field of graph-based data analysis, providing a scalable and efficient solution for batch processing of personalized PageRank computations.",
+    "description": "The study proposes one-hop PPR, inspired by the application scenario in Tencent.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -1023,7 +1023,7 @@
     "year": 2020,
     "video": "",
     "href": "https://lostronghku.github.io/pub/TKDE19-ROAM.pdf",
-    "description": "ROAM introduces a fundamental routing query method designed to enhance efficiency in road networks, addressing the challenges of large-scale and dynamic route planning. Traditional routing algorithms often rely on static data, such as predefined road maps or historical traffic conditions, which can lead to suboptimal routes, especially in dynamic environments where traffic conditions are constantly changing. ROAM addresses these challenges by introducing a routing algorithm that dynamically adjusts its pathfinding strategy based on real-time traffic data, historical trajectories, and predictive models. The algorithm incorporates a multi-level query processing framework that optimizes both the search space and the computational resources required to find the most efficient route. This approach not only improves the speed and accuracy of route calculations but also ensures that the routes are adaptable to changing conditions, such as road closures or traffic jams. The paper provides a comprehensive analysis of ROAM's performance, including detailed comparisons with existing routing algorithms and extensive experiments on real-world datasets. The results demonstrate that ROAM significantly outperforms traditional methods, particularly in large-scale road networks with dynamic traffic patterns, making it a valuable tool for applications in logistics, navigation, and urban planning.",
+    "description": "A fundamental routing query inspired by the application of Ride-Sharing.",
     "imgSrc": "",
     "keywords": [
       "spatial"
@@ -1045,7 +1045,7 @@
     "year": 2020,
     "video": "",
     "href": "http://proceedings.mlr.press/v119/luo20a/luo20a.pdf",
-    "description": "",
+    "description": "Improved the communication bandwith of MPC to O(log^3 n) in computing PageRank.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -1070,7 +1070,7 @@
     "year": 2019,
     "video": "",
     "href": "https://lostronghku.github.io/pub/ParallelKNN.pdf",
-    "description": "MPR introduces a novel framework for multi-processing k-nearest neighbor (kNN) search on road networks, focusing on optimizing both partitioning and replication strategies to enhance performance. kNN search is a fundamental operation in many spatial and geographic information systems, where the goal is to find the nearest points of interest (such as restaurants, gas stations, or hospitals) relative to a given location. Traditional kNN search methods often struggle with scalability, especially when applied to large road networks with millions of nodes and edges. MPR addresses these challenges by introducing a framework that combines effective partitioning of the road network with intelligent replication of critical data, ensuring that kNN queries can be processed efficiently in parallel across multiple processors. The framework includes novel algorithms for dynamic partitioning based on query load and data distribution, as well as techniques for minimizing the replication overhead while maintaining high query accuracy. The paper presents extensive experiments on real-world road network datasets, demonstrating that MPR significantly outperforms existing kNN search methods in terms of both speed and scalability. This research offers a valuable advancement in the field of spatial data processing, providing a more efficient and scalable solution for kNN search on road networks.",
+    "description": "A novel adaptive-optimization framework for multi-processing k-nearest neighbor (kNN) search on road networks.",
     "imgSrc": "",
     "keywords": [
       "spatial"
@@ -1095,7 +1095,7 @@
     "year": 2019,
     "video": "",
     "href": "https://ieeexplore.ieee.org/document/8731411",
-    "description": "This paper presents a method for efficient batch computation of one-hop personalized PageRanks, addressing the challenges of scaling personalized PageRank (PPR) computations in large graphs. Personalized PageRank is a widely used algorithm for measuring the importance of nodes relative to a specific source node, with applications in recommendation systems, search engines, and social network analysis. However, computing PPR for a large number of nodes simultaneously, particularly in one-hop scenarios, can be resource-intensive and time-consuming. The proposed method introduces a batch processing framework that allows multiple PPR computations to be performed in parallel, sharing computational resources and reducing the overall processing time. The framework includes novel techniques for memory management, workload balancing, and parallel processing, ensuring that the PPR computations are both efficient and scalable. The paper provides a detailed analysis of the method's performance, including extensive experiments on large-scale graph datasets. The results demonstrate that the proposed method significantly outperforms existing PPR computation techniques, making it particularly well-suited for applications that require fast and accurate personalized PageRank results across large networks.",
+    "description": "The study proposes one-hop PPR, inspired by the application scenario in Tencent.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -1117,7 +1117,7 @@
     "year": 2019,
     "video": "",
     "href": "https://ojs.aaai.org/index.php/AAAI/article/view/4363",
-    "description": "This study offers an improved theoretical analysis of distributed PageRank computation, focusing on optimizing communication and computational efficiency in large-scale distributed systems. PageRank, originally developed by Google, is a widely used algorithm for ranking web pages and other graph-based entities. In a distributed environment, where the graph is partitioned across multiple servers, the computation of PageRank can be challenging due to the need for frequent communication between servers, which can lead to high communication costs and increased processing time. The study introduces several novel techniques for reducing these costs, including more efficient data partitioning strategies, improved message compression methods, and the use of local aggregation to reduce the frequency of inter-server communication. The theoretical analysis demonstrates that these techniques can lead to substantial improvements in both the speed and scalability of distributed PageRank computations. The paper also provides detailed comparisons with existing methods, showing that the proposed approach can achieve significant performance gains, particularly in environments where communication costs are a major bottleneck. This research offers valuable insights into the design of more efficient distributed algorithms, with broad applications in large-scale data processing and distributed computing.",
+    "description": "Give an improved round-complexity upper-bound O(log log n), and before our results the best known one is =O(sqrt(log n)). ",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -1145,7 +1145,7 @@
     "year": 2019,
     "video": "",
     "href": "https://www.cs.hku.hk/data/techreps/document/TR-2016-04.pdf",
-    "description": "This research explores the concept of spatial-aware community search, introducing new methods for identifying communities within a graph that are not only structurally cohesive but also spatially relevant. Traditional community search algorithms typically focus on the structural properties of the graph, such as connectivity or density, while often overlooking the spatial aspects that can be crucial in certain applications, such as geographic information systems (GIS), urban planning, or social network analysis. The proposed methods integrate spatial information into the community search process, allowing for the discovery of communities that are both tightly connected and geographically coherent. The paper presents several algorithms designed to balance the trade-offs between structural cohesion and spatial proximity, ensuring that the identified communities are meaningful both in terms of their graph structure and their spatial distribution. Extensive experiments on real-world datasets demonstrate that the spatial-aware community search methods outperform traditional approaches, particularly in applications where spatial relevance is critical. This research provides a significant advancement in the field of graph-based data analysis, offering new tools for uncovering hidden structures in spatially embedded networks.",
+    "description": "Efficiently dentify communities within a graph that are not only structurally cohesive but also spatially relevant. ",
     "imgSrc": "",
     "keywords": [
       "Graph Systems",
@@ -1173,7 +1173,7 @@
     "year": 2018,
     "video": "",
     "href": "https://www.vldb.org/pvldb/vol11/p594-luo.pdf",
-    "description": "TOAIN introduces an adaptive index designed to optimize throughput for answering dynamic k-nearest neighbor (kNN) queries on road networks, addressing the challenges of scalability and efficiency in real-time spatial query processing. kNN queries are fundamental operations in geographic information systems (GIS), navigation, and location-based services, where the goal is to find the nearest points of interest relative to a given location. However, in dynamic environments where the road network or query patterns can change frequently, maintaining high throughput while ensuring query accuracy can be challenging. TOAIN addresses these challenges by introducing an adaptive index that dynamically adjusts its structure and parameters based on the observed query workload and changes in the road network. The index incorporates machine learning techniques to predict query patterns and optimize the indexing strategy accordingly, ensuring that the system can handle large volumes of queries efficiently. The paper provides a detailed description of the TOAIN architecture, including its adaptive algorithms and performance evaluation. Extensive experiments on real-world road network datasets demonstrate that TOAIN significantly outperforms existing indexing methods, offering substantial improvements in both throughput and query accuracy. This research provides a valuable contribution to the field of spatial data processing, offering a more flexible and efficient solution for dynamic kNN queries.",
+    "description": "An adaptive index designed to optimize throughput for answering dynamic k-nearest neighbor (kNN) queries on road networks, with theoretical guarantees.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems",
@@ -1199,7 +1199,7 @@
     "year": 2018,
     "video": "",
     "href": "https://dl.acm.org/doi/pdf/10.1145/3178876.3185993?casa_token=buVl8L6leNAAAAAA:g7Ax_y3rIKVmiVcYnUg7Bme7vSF1GdQdKNqx0C38miecEK2CIwFgAy6YpBp48dCZ_6MrKr2wmy8WAfc",
-    "description": "ROSC introduces a robust spectral clustering method designed for multi-scale data, addressing the challenges of clustering in environments where data exhibits variability across different scales. Spectral clustering is a popular technique for identifying clusters in data based on the eigenvalues and eigenvectors of a similarity matrix, making it well-suited for applications in image segmentation, social network analysis, and bioinformatics. However, traditional spectral clustering methods often struggle with multi-scale data, where the size, density, or distribution of clusters can vary significantly. ROSC addresses these challenges by introducing a multi-scale approach to spectral clustering, which dynamically adjusts the clustering process based on the scale of the data. The method incorporates techniques for scale selection, adaptive similarity computation, and robust eigenvalue analysis, ensuring that the clustering results are both accurate and stable across different scales. The paper provides a detailed analysis of ROSC's performance on various multi-scale datasets, including comparisons with existing spectral clustering methods. The results demonstrate that ROSC significantly improves clustering accuracy and robustness, particularly in challenging multi-scale environments. This research offers a valuable advancement in the field of clustering, providing a more flexible and effective tool for analyzing complex data.",
+    "description": "A robust spectral clustering method designed for multi-scale data.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -1225,7 +1225,7 @@
     "year": 2017,
     "video": "",
     "href": "http://www.vldb.org/pvldb/vol10/p709-fang.pdf",
-    "description": "This paper discusses methods for effective community search in large spatial graphs, focusing on optimizing both accuracy and efficiency in identifying meaningful communities. Spatial graphs, where nodes and edges are associated with spatial attributes, are common in applications such as geographic information systems (GIS), transportation networks, and social network analysis. Traditional community search methods often focus solely on the structural properties of the graph, such as connectivity or density, while overlooking the spatial dimensions that can be crucial in these applications. The proposed methods integrate spatial information into the community search process, allowing for the discovery of communities that are both structurally cohesive and geographically relevant. The paper presents several algorithms designed to balance the trade-offs between structural cohesion and spatial proximity, ensuring that the identified communities are meaningful in both aspects. Extensive experiments on real-world spatial graphs demonstrate that the proposed methods significantly outperform traditional approaches, particularly in applications where spatial relevance is critical. This research provides a significant advancement in the field of graph-based data analysis, offering new tools for uncovering hidden structures in large spatial networks.",
+    "description": "Efficiently dentify communities within a graph that are not only structurally cohesive but also spatially relevant.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems",
@@ -1252,7 +1252,7 @@
     "year": 2017,
     "video": "",
     "href": "",
-    "description": "C-Explorer is a system designed for browsing and exploring communities in large graphs, offering an interactive and user-friendly interface for discovering and analyzing community structures. Community detection is a fundamental task in network analysis, with applications ranging from social networks and biology to recommendation systems and cybersecurity. However, as graphs grow larger and more complex, traditional community detection methods can become computationally expensive and difficult to interpret. C-Explorer addresses these challenges by providing a system that allows users to interactively explore the community structure of large graphs, making it easier to identify, visualize, and analyze communities. The system includes advanced visualization tools, filtering options, and algorithms for community detection and refinement, all designed to enhance the user's ability to explore and understand the graph's structure. The paper provides a detailed description of the C-Explorer system, including its architecture, user interface, and underlying algorithms. Extensive user studies and experiments demonstrate that C-Explorer significantly improves the efficiency and effectiveness of community exploration, making it a valuable tool for researchers and practitioners working with large and complex graphs.",
+    "description": "C-Explorer is a system designed for browsing and exploring communities in large graphs.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -1278,7 +1278,7 @@
     "year": 2017,
     "video": "",
     "href": "https://lostronghku.github.io/tkde17-smcs.pdf",
-    "description": "This research focuses on the problem of querying minimal Steiner maximum-connected subgraphs in large graphs, introducing efficient algorithms for solving these complex queries. The Steiner tree problem, which involves finding the smallest tree that connects a given set of nodes in a graph, is a well-known combinatorial optimization problem with applications in network design, bioinformatics, and social network analysis. However, in many real-world scenarios, the goal is not just to find a tree, but to identify a subgraph that is both minimal in size and maximally connected, ensuring robustness and reliability. The proposed algorithms address this challenge by combining techniques from graph theory, combinatorial optimization, and heuristic search to efficiently identify minimal Steiner maximum-connected subgraphs. The paper provides a detailed analysis of the algorithms' performance, including their computational complexity, scalability, and accuracy. Extensive experiments on large-scale graph datasets demonstrate that the proposed methods significantly outperform existing approaches, offering faster and more accurate solutions to this complex query problem. This research provides a valuable contribution to the field of graph algorithms, offering new tools for solving Steiner-related problems in large and complex networks.",
+    "description": "Efficiently querying minimal Steiner maximum-connected subgraphs in large graphs.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -1304,7 +1304,7 @@
     "year": 2017,
     "video": "",
     "href": "https://lostronghku.github.io/pub/VLDBJ2017.pdf",
-    "description": "This paper presents methods for effective and efficient community search in attributed graphs, where nodes and edges are associated with various attributes, such as labels, weights, or temporal information. Attributed community search is a critical task in graph analysis, as it allows for the identification of communities that are not only structurally cohesive but also share similar attributes, making the results more meaningful and relevant for specific applications. Traditional community search methods often focus solely on the structural properties of the graph, such as connectivity or density, while overlooking the rich attribute information that can be crucial in applications like social network analysis, bioinformatics, and recommendation systems. The proposed methods integrate attribute information into the community search process, using advanced techniques for attribute-based filtering, similarity computation, and clustering. The paper provides a detailed analysis of the algorithms' performance, including their computational complexity, scalability, and accuracy. Extensive experiments on real-world attributed graphs demonstrate that the proposed methods significantly outperform traditional community search approaches, particularly in terms of finding communities that are both structurally and attribute-wise cohesive. This research provides a significant advancement in the field of graph-based data analysis, offering new tools for uncovering hidden structures in complex attributed networks.",
+    "description": "One of the first studies that introduce attributes in community search.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -1330,7 +1330,7 @@
     "year": 2017,
     "video": "",
     "href": "https://lostronghku.github.io/pub/CIKM17-urge.pdf",
-    "description": "This work explores methods for embedding uncertain graphs, addressing the challenges posed by uncertainty in graph structure and data. In many real-world applications, graphs are not always deterministic; edges or nodes may have associated probabilities, reflecting the uncertainty in their existence or relationships. This is common in areas such as social network analysis, biological networks, and sensor networks, where data can be incomplete, noisy, or subject to change. Traditional graph embedding techniques, which aim to represent nodes or edges in a low-dimensional space while preserving the graph's structure, often assume a fixed and certain graph, making them less effective for uncertain graphs. The proposed methods extend existing embedding techniques to handle uncertainty, incorporating probabilistic models and uncertainty-aware distance metrics into the embedding process. The paper provides a detailed analysis of the proposed methods, including their theoretical foundations, algorithmic implementation, and performance evaluation. Extensive experiments on synthetic and real-world uncertain graph datasets demonstrate that the proposed methods significantly outperform traditional embedding techniques, offering more accurate and meaningful representations of uncertain graphs. This research provides a valuable contribution to the field of graph-based data analysis, offering new tools for analyzing and interpreting uncertain graphs.",
+    "description": "The first study on embedding uncertain graphs.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -1356,7 +1356,7 @@
     "year": 2017,
     "video": "",
     "href": "https://lostronghku.github.io/pub/cikm17-seq.pdf",
-    "description": "SEQ is a query system that allows users to search for spatial objects based on examples, offering a flexible and user-friendly search experience. Traditional spatial query systems typically require users to specify their queries using precise parameters, such as coordinates, attribute values, or logical conditions, which can be cumbersome and unintuitive, particularly for non-expert users. SEQ simplifies the query process by enabling users to provide one or more examples of the spatial objects they are interested in, such as specific types of buildings, landforms, or geographic features. The system then identifies similar objects within the spatial database, using advanced machine learning algorithms to understand the features that make the examples similar, such as shape, size, location, or other spatial attributes. SEQ is designed to handle large-scale spatial datasets efficiently, making it suitable for applications in geographic information systems (GIS), urban planning, and real estate. The paper includes a detailed description of the SEQ system architecture, its algorithms for feature extraction and similarity computation, and the results of experiments demonstrating the system's effectiveness and efficiency. By offering a more intuitive and flexible query method, SEQ has the potential to make spatial search more accessible and useful in a wide range of applications.",
+    "description": "The first study that incorporates the example-based query into spatial database. ",
     "imgSrc": "",
     "keywords": [
       "spatial"
@@ -1381,7 +1381,7 @@
     "year": 2016,
     "video": "",
     "href": "http://www.vldb.org/pvldb/vol9/p1233-fang.pdf",
-    "description": "This paper presents methods for effective community search in large attributed graphs, focusing on optimizing both the accuracy and efficiency of community detection in graphs where nodes and edges are associated with various attributes. Attributed graphs are common in many real-world applications, such as social network analysis, bioinformatics, and recommendation systems, where nodes and edges carry additional information that can be crucial for identifying meaningful communities. Traditional community search methods often focus solely on the structural properties of the graph, such as connectivity or density, while overlooking the rich attribute information that can make the results more relevant and insightful. The proposed methods integrate attribute information into the community search process, using advanced techniques for attribute-based filtering, similarity computation, and clustering. The paper provides a detailed analysis of the algorithms' performance, including their computational complexity, scalability, and accuracy. Extensive experiments on real-world attributed graphs demonstrate that the proposed methods significantly outperform traditional community search approaches, particularly in terms of finding communities that are both structurally and attribute-wise cohesive. This research provides a significant advancement in the field of graph-based data analysis, offering new tools for uncovering hidden structures in large attributed networks.",
+    "description": "One of the first studies that introduce attributes in community search.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -1407,7 +1407,7 @@
     "year": 2016,
     "video": "",
     "href": "https://dl.acm.org/doi/10.1145/2983323.2983748",
-    "description": "This paper addresses the problem of querying minimal Steiner maximum-connected subgraphs in large graphs, introducing efficient algorithms for solving these complex queries. The Steiner tree problem, which involves finding the smallest tree that connects a given set of nodes in a graph, is a well-known combinatorial optimization problem with applications in network design, bioinformatics, and social network analysis. However, in many real-world scenarios, the goal is not just to find a tree, but to identify a subgraph that is both minimal in size and maximally connected, ensuring robustness and reliability. The proposed algorithms combine techniques from graph theory, combinatorial optimization, and heuristic search to efficiently identify minimal Steiner maximum-connected subgraphs. The paper provides a detailed analysis of the algorithms' performance, including their computational complexity, scalability, and accuracy. Extensive experiments on large-scale graph datasets demonstrate that the proposed methods significantly outperform existing approaches, offering faster and more accurate solutions to this complex query problem. This research provides a valuable contribution to the field of graph algorithms, offering new tools for solving Steiner-related problems in large and complex networks.",
+    "description": "Efficiently querying minimal Steiner maximum-connected subgraphs in large graphs.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -1433,7 +1433,7 @@
     "year": 2014,
     "video": "",
     "href": "https://openproceedings.org/2014/conf/edbt/LuoLZCG14.pdf",
-    "description": "This paper introduces methods for distributed spatial keyword querying on road networks, addressing the challenges of efficiently processing complex queries that involve both spatial and textual information in a distributed environment. Spatial keyword queries are commonly used in location-based services, geographic information systems (GIS), and urban planning, where the goal is to find spatial objects (such as points of interest) that are not only close to a given location but also relevant to a set of keywords. However, processing these queries efficiently in large-scale road networks, where data is distributed across multiple servers or nodes, poses significant challenges in terms of communication costs, load balancing, and query optimization. The proposed methods introduce novel techniques for partitioning and indexing the road network, as well as for distributing the query processing tasks across multiple servers, ensuring that the system can handle large volumes of queries efficiently. The paper provides a detailed analysis of the methods' performance, including their computational complexity, scalability, and accuracy. Extensive experiments on real-world road network datasets demonstrate that the proposed methods significantly outperform existing approaches, offering substantial improvements in both query speed and accuracy. This research provides a valuable advancement in the field of spatial data processing, offering a more efficient and scalable solution for distributed spatial keyword queries on road networks.",
+    "description": "",
     "imgSrc": "",
     "keywords": [
       "spatial"
@@ -1460,7 +1460,7 @@
     "year": 2013,
     "video": "",
     "href": "https://dl.acm.org/doi/10.1145/2463676.2465277",
-    "description": "This paper examines the problem of shortest path and distance queries on road networks, focusing on bridging the gap between theoretical models and practical applications. Shortest path queries, which involve finding the quickest or most efficient route between two points on a road network, are a fundamental operation in many applications, including navigation systems, transportation planning, and logistics. While there has been extensive theoretical research on algorithms for shortest path queries, these algorithms often make simplifying assumptions or focus on idealized conditions that may not hold in real-world road networks, where factors such as traffic, road closures, and varying speed limits can significantly impact route planning. The paper explores ways to adapt and extend existing shortest path algorithms to account for these real-world complexities, introducing new techniques for handling dynamic conditions, incorporating historical trajectory data, and optimizing query processing for large-scale road networks. The paper provides a detailed analysis of the proposed methods, including their theoretical foundations, computational complexity, and practical performance on real-world datasets. The results demonstrate that the proposed methods offer significant improvements in both accuracy and efficiency, making them more applicable to real-world scenarios. This research provides a valuable contribution to the field of road network analysis, offering new insights into the practical challenges of shortest path and distance queries.",
+    "description": "A shortest path algorithm that has both practical efficiency and desired theoretical complexity.",
     "imgSrc": "",
     "keywords": [
       "Graph Systems"
@@ -1486,7 +1486,7 @@
     "year": 2012,
     "video": "",
     "href": "https://dl.acm.org/doi/10.14778/2367502.2367549",
-    "description": "DISKs introduces a system designed for distributed spatial group keyword search on road networks, addressing the challenges of efficiently processing complex queries that involve both spatial and textual information in a distributed environment. Spatial group keyword queries are commonly used in location-based services, geographic information systems (GIS), and urban planning, where the goal is to find groups of spatial objects (such as points of interest) that are not only close to a given location but also relevant to a set of keywords. However, processing these queries efficiently in large-scale road networks, where data is distributed across multiple servers or nodes, poses significant challenges in terms of communication costs, load balancing, and query optimization. DISKs introduces novel techniques for partitioning and indexing the road network, as well as for distributing the query processing tasks across multiple servers, ensuring that the system can handle large volumes of queries efficiently. The paper provides a detailed description of the DISKs architecture, including its algorithms for spatial group keyword search, data partitioning, and query distribution. Extensive experiments on real-world road network datasets demonstrate that DISKs significantly outperforms existing systems, offering substantial improvements in both query speed and accuracy. This research provides a valuable advancement in the field of spatial data processing, offering a more efficient and scalable solution for distributed spatial group keyword queries on road networks.",
+    "description": "",
     "imgSrc": "",
     "keywords": [
       "spatial"
