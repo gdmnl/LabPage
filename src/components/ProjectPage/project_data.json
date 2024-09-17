@@ -2,19 +2,8 @@
   {
     "title": "key-value",
     "img": "key-value.png",
-    "description": "Data stores are ubiquitous, supporting petabyte data services such as Google and Facebook. Data stores locate large amounts of data, respond to various application data-queries, and react to any
-data-updates from the application side. Decades of research efforts have been devoted to improving
-the performances of queries and updates in data stores, reaching a consensus that there exists no
-static parameter settings that perform well for all query and update workloads. A traditional solution
-is to involve human (called Database Admins) to timely tune the data stores. Nevertheless, this
-solution is vulnerable and inefficient. Many database admins spend nearly 25% of their time on
-tuning but half of the total cost of a data store goes into personnel. If the data stores
-could automatically optimize themselves without human intervention, then the system deployment
-cost would be significantly reduced. This project aims to design and develop the next-generation data stores, called autonomous data
-stores, that can automatically tune itself in reaction to the changes of environment (e.g., with various
-data distribution, workload characteristics, and resources). Different from previous research, our focus
-is on the key-value data store, which increasingly serves as the backbone of many real-world big data
-applications."
+    "description": "Data stores are ubiquitous, supporting petabyte data services such as Google and Facebook. Data stores locate large amounts of data, respond to various application data-queries, and react to any data-updates from the application side. Decades of research efforts have been devoted to improving the performances of queries and updates in data stores, reaching a consensus that there exists no static parameter settings that perform well for all query and update workloads. A traditional solution is to involve human (called Database Admins) to timely tune the data stores. Nevertheless, this
+solution is vulnerable and inefficient. Many database admins spend nearly 25% of their time on tuning but half of the total cost of a data store goes into personnel. If the data stores could automatically optimize themselves without human intervention, then the system deployment cost would be significantly reduced. This project aims to design and develop the next-generation data stores, called autonomous data stores, that can automatically tune itself in reaction to the changes of environment (e.g., with various data distribution, workload characteristics, and resources). Different from previous research, our focus is on the key-value data store, which increasingly serves as the backbone of many real-world big data applications."
   },
   {
     "title": "graph",
