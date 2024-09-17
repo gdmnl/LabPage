@@ -2,7 +2,19 @@
   {
     "title": "key-value",
     "img": "key-value.png",
-    "description": "An Autonomous Key-Value Storage System is a sophisticated data management solution designed to streamline and optimize the storage and retrieval of data using key-value pairs without human intervention. This type of storage system operates under the principle of associating unique keys with specific values, enabling efficient data access and manipulation. At its core, the autonomous system leverages advanced algorithms and machine learning techniques to manage and optimize its operations. This includes dynamic scaling to handle varying workloads, self-healing mechanisms to recover from hardware or software failures, and intelligent data distribution to ensure high availability and reliability. The system continuously monitors its performance, automatically tuning itself to improve efficiency and reduce latency. One of the primary advantages of an Autonomous Key-Value Storage System is its ability to provide high performance and low latency, making it ideal for applications that require fast data access, such as real-time analytics, online transaction processing, and large-scale web services. Its architecture is typically distributed, meaning it can spread data across multiple nodes and geographic locations, further enhancing performance and fault tolerance. Security is another critical aspect. These systems often incorporate robust encryption methods for data at rest and in transit, along with automated access controls and anomaly detection to protect against unauthorized access and data breaches.  From a usability perspective, the autonomous nature of the system reduces the need for manual management, freeing up IT resources and reducing operational costs. Developers and administrators can interact with the system through APIs, allowing for seamless integration with other applications and services. In summary, an Autonomous Key-Value Storage System offers a highly efficient, resilient, and secure solution for managing key-value data. Its ability to self-manage, self-optimize, and self-heal makes it a valuable asset in environments demanding high performance, reliability, and minimal manual intervention."
+    "description": "Data stores are ubiquitous, supporting petabyte data services such as Google and Facebook. Data stores locate large amounts of data, respond to various application data-queries, and react to any
+data-updates from the application side. Decades of research efforts have been devoted to improving
+the performances of queries and updates in data stores, reaching a consensus that there exists no
+static parameter settings that perform well for all query and update workloads. A traditional solution
+is to involve human (called Database Admins) to timely tune the data stores. Nevertheless, this
+solution is vulnerable and inefficient. Many database admins spend nearly 25% of their time on
+tuning but half of the total cost of a data store goes into personnel. If the data stores
+could automatically optimize themselves without human intervention, then the system deployment
+cost would be significantly reduced. This project aims to design and develop the next-generation data stores, called autonomous data
+stores, that can automatically tune itself in reaction to the changes of environment (e.g., with various
+data distribution, workload characteristics, and resources). Different from previous research, our focus
+is on the key-value data store, which increasingly serves as the backbone of many real-world big data
+applications."
   },
   {
     "title": "graph",
