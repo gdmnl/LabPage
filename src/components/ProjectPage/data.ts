@@ -28,9 +28,9 @@ const keyValuePublications = keyValuePubsId.map((id) => {
 
 
 const graphPubsId: number[] = [
-  0,1,6,7,8,9,11,12,13,14,17,18,19,20,21,
+  0,1,6,7,8,9,11,12,13,14,17,18,19,20,
   22,24,25,27,29,31,32,34,35,36,38,40,42,43,
-  44,45,47,48,49,50,51,53,54,56
+  44,45,47,48,49,50,53,54,56
 ];
 
 const graphPublications = graphPubsId.map((id) => {

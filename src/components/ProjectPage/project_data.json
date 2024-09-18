@@ -7,7 +7,7 @@
   {
     "title": "graph",
     "img": "graph.png",
-    "description": "This project focuses on optimizing and applying graph algorithms to solve real-world problems efficiently. It involves developing and enhancing classic algorithms like Dijkstra's, DFS, and Ford-Fulkerson, using advanced data structures and techniques to improve performance. The project applies these algorithms in domains such as transportation, social network analysis, and bioinformatics, demonstrating their utility in optimizing routes, identifying social influencers, and modeling biological interactions. Additionally, the project includes creating intuitive visualization tools and user-friendly interfaces, making advanced graph algorithms accessible to non-specialists. The ultimate goal is to bridge the gap between theoretical graph algorithms and practical applications, providing robust solutions for complex challenges in various fields."
+    "description": "Graphs are among the most widely used data representations, supporting diverse applications such as social networks, transportation systems, biological PPI networks, chemical molecular structures, vision graphs, and financial transaction networks. In today's world, graph data often reaches scales of billions of edges. As a result, the need for scalable algorithms to efficiently process these large graphs has become increasingly urgent and inevitable. This project tackles scalable graph computation problem, aiming to achieve ultra-fast graph algorithms with minimum computation resources for a variety of graph-related problems. These include graph learning, fundamental graph algorithms, graph computation theory and graph database systems."
   },
   {
     "title": "llm",
