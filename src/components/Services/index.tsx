@@ -11,8 +11,26 @@ interface ServiceType {
   category: string;
 }
 
-function formatRoleAndYears(service: ServiceType): string {
-  return service.years.map((val) => `${val.role}${val.year !== "0" ? ' for ' + val.year: ""}`).join(', ');
+function highlightRole(role: string): React.ReactNode {
+  return (
+    role.toLowerCase().includes("chair") || role.toLowerCase().includes("editor") ? 
+    <span style={{ color: '#F65353', fontWeight: 'bold' }}>{role}</span> :
+    <span>{role}</span>
+  );
+}
+
+function formatRoleAndYears(service: ServiceType): React.ReactNode {
+  return (
+    <span>
+    {service.years.map(
+      (val, idx) => (
+        <span>
+          {highlightRole(val.role)} for {val.year === "0" ? "" : val.year}{idx === service.years.length - 1 ? "" : ", "}
+        </span>
+      )
+    )}
+    </span>
+  );
 }
 
 const serviceData: ServiceType[] = serviceDatabase;
@@ -37,7 +55,11 @@ export class Services extends React.Component {
                 {serviceData.filter((item) => item.category === "Conference Services").map((item) => (
                   <li style={{ fontSize: "18px", lineHeight: "1.6" }}>
                     <span>{item.name}</span>
-                    {item.keyword.length > 0 && <span style={{ fontWeight: "bold" }}>{` (${item.keyword} ${formatRoleAndYears(item)})`}</span>}
+                    {
+                      item.keyword.length > 0 && <span style={{ fontWeight: "bold" }}>
+                        ({item.keyword} {formatRoleAndYears(item)})
+                      </span>
+                    }
                   </li>
                 ))}
               </ul>
@@ -47,7 +69,7 @@ export class Services extends React.Component {
               <ul>
                 {serviceData.filter((item) => item.category === "Journal Services").map((item) => (
                   <li style={{ fontSize: "18px", lineHeight: "1.6" }}>
-                    <span>{item.name}</span>
+                    {formatRoleAndYears(item)}{item.name}
                     {item.keyword.length > 0 && <span style={{ fontWeight: "bold" }}>{` (${item.keyword})`}</span>}
                   </li>
                 ))}

@@ -207,19 +207,19 @@
     "keyword": "APWeb-WAIM",
     "years": [
       {
-        "role": "PC Member",
+        "role": "Publicity Co-Chair",
         "year": "2022"
       }
     ],
     "category": "Conference Services"
   },
   {
-    "name": "Associate Editor for Data and Knowledge Engineering",
+    "name": "Data and Knowledge Engineering",
     "keyword": "DKE",
     "years": [
       {
         "year": "0",
-        "role": "Reviewer"
+        "role": "Associate Editor"
       }
     ],
     "category": "Journal Services"
@@ -249,7 +249,12 @@
   {
     "name": "IEEE Transactions on Knowledge and Data Engineering",
     "keyword": "TKDE",
-    "years": [],
+    "years": [
+      {
+        "year": "0",
+        "role": "Reviewer"
+      }
+    ],
     "category": "Journal Services"
   },
   {
