@@ -20,17 +20,7 @@ class Project extends React.Component<ProjectProps> {
     return (
       <div style={{ fontFamily: "'Cardo'" }}>
         <h1>{title}</h1>
-        <div style={{ marginBottom: "1rem", marginTop: "1rem" }}>
-          {/* <Carousel autoplay arrows>
-            {
-              this.props.imgs.map((img) => (
-                <div>
-                  <img style={{ width: "100%", height: "30rem" }} src={`project_img/${img}`} />
-                </div>
-              ))
-            }
-          </Carousel> */}
-        </div>
+        <div style={{ marginBottom: "1rem", marginTop: "1rem" }}></div>
         <div style={{ textAlign: "left", fontSize: "1.1rem" }}>{description}</div>
         <div style={{ textAlign: "left", fontSize: "1.5rem", fontWeight: "bold", marginTop: "1rem", marginBottom: "1rem" }}>
           Members

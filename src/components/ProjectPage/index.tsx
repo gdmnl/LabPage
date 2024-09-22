@@ -24,7 +24,14 @@ class ProjectPage extends React.Component {
     return (
       <div>
         <div style={{ height: "64px" }}></div>
-        <h1 style={{ fontSize: "40px", fontFamily: "'Cardo'"  }}>Featured Projects</h1>
+        <div style={{
+          background: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(project_banner.webp)",
+          height: "100px",
+          backgroundSize: "cover", marginBottom: "1rem", opacity: '1',
+          textAlign: "left", fontSize: "45px", color: "white",
+          display: "flex", alignItems: "center" }}>
+          <div style={{ marginLeft: "40px", fontFamily: "'Cardo'" }}>Featured Projects</div>
+        </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <div style={{ width: "80%" }}>
             <Tabs indicator={{ align: "center" }} defaultActiveKey="1" items={items} />
