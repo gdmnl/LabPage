@@ -17,9 +17,11 @@ export interface PubType {
   isExtension: boolean;
   hasExtension: number;
   isVisible: boolean;
+  confExtra: string;
+  code: string;
 }
 
-export const searchKeywords: string[] = ["Graph Systems", "Data Systems"];
+export const searchKeywords: string[] = ["Graph Algorithm", "Data Systems"];
 
 
 export const searchYears: string[] = [... new Set(pubDatabase.map((pub) => pub.year))].sort((a, b) => b - a).map(

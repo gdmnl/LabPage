@@ -3,14 +3,8 @@ import * as React from "react";
 
 import { pubData, pubIndex, PubType, searchConferences, searchKeywords, searchYears } from "./pub";
 
-function genConferenceInfo(conferenceName: string, year: number) {
-  if (conferenceName.length === 0) {
-    if (year !== 0) {
-      return " in " + year;
-    }
-    return "";
-  }
-  return " in " + conferenceName + " " + year;
+function genConferenceInfo(conferenceName: string, year: number, confExtra: string) {
+  return ` ${conferenceName}${confExtra.length > 0 ? " (" + confExtra + ") ": ""} in ${year}`;
 }
 
 interface PublicationListState {
@@ -26,8 +20,15 @@ function getExtensionHref(extensionId: number, pubs: PubType[]): string {
   return pubs.filter((val) => val.id === extensionId)[0].href;
 }
 
+function getExtensionString(extensionId: number, pubs: PubType[]): string {
+  const pub = pubs.filter((val => val.id === extensionId))[0];
+  const conference = pub.conference;
+  const year = pub.year;
+  return `[${conference} ${year} extension]`;
+}
+
 function getIcon(item: PubType): React.ReactNode {
-  if (item.keywords.find(val => val === 'Graph Systems')) {
+  if (item.keywords.find(val => val === 'Graph Algorithm')) {
     return <img style={{width: '0.9rem' }} src="graph.svg" />
   } else if (item.keywords.find(val => val === 'Data Systems')) {
     return <img style={{width: '0.9rem' }} src="database.svg"/>
@@ -91,11 +92,26 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
 
   public render() {
     return (
-      <div style={{ marginTop: "64px", textAlign: "left", marginBottom: "64px" }}>
+      <div style={{ marginTop: "64px", textAlign: "left", marginBottom: "64px", fontFamily: "'Cardo'" }}>
+        <div style={{
+          background: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pub_banner.webp)",
+          height: "100px",
+          backgroundSize: "cover", marginBottom: "1rem", opacity: '1',
+          textAlign: "left", fontSize: "45px", color: "white",
+          display: "flex", alignItems: "center" }}>
+          <div style={{ marginLeft: "40px" }}>Selected Publication</div>
+        </div>
         <div style={{ display: "flex", justifyContent: 'center' }}>
           <div style={{ width: '90%' }}>
-            <div style={{ fontSize: "2rem", padding: "1.5rem", fontFamily: "'Cardo'", fontWeight: "bold" }}>
-              Selected Publication
+            <div style={{ paddingLeft: '1.5rem', display: 'flex', justifyContent: 'left', fontSize: '0.8rem', color: '#0080FF', fontStyle: 'italic' }}>
+              <div style={{ display: 'flex', justifyContent: 'left', marginRight: '1rem' }}>
+                <img style={{width: '0.8rem' }} src="graph.svg" />
+                <div> Graph Algorithm</div>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'left' }}>
+                <img style={{width: '0.8rem' }} src="database.svg" />
+                <div> Data System</div>
+              </div>
             </div>
             <div style={{ padding: "1rem" }}>
               <span style={{ marginRight: "1rem", marginLeft: "1rem" }}>
@@ -155,7 +171,7 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
                           {item.authors.join(", ")}
                         </span>
                         <span style={{ fontWeight: "bold", color: "black" }}>
-                          {genConferenceInfo(item.conference, item.year)}
+                          {genConferenceInfo(item.conference, item.year, item.confExtra)}
                         </span>
                       </span>
                       }
@@ -164,7 +180,8 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
                     <p>
                       {item.video.length > 0 ? <a href={item.video}>[video]</a> : "" }
                       {item.href.length > 0 ? <a href={item.href}>[paper]</a> : "" }
-                      {item.hasExtension >= 0 ? <a href={getExtensionHref(item.hasExtension, this.state.allPubs)}>[extension]</a> : ""}
+                      {item.hasExtension >= 0 ? <a href={getExtensionHref(item.hasExtension, this.state.allPubs)}>{getExtensionString(item.hasExtension, this.state.allPubs)}</a> : ""}
+                      {item.code.length > 0 ? <a href={item.code}>[code]</a>: ""}
                     </p>
                   </List.Item> : ""
                 )}
