@@ -7,21 +7,6 @@
       "bg": "PhD from Dalian University of Technology & Macquarie University",
       "web": "https://scholar.google.com/citations?user=QHBzdg8AAAAJ",
       "area": "Graph Algorithm & Learning"
-    },
-    {
-      "name": "Yow Kai Song",
-      "date": "Joined in Feb 2022",
-      "img": "YowKaiSiong.PNG",
-      "bg": "PhD from Monash University & Awarded Southeast Asia Postdoctoral Fellowship",
-      "web": "",
-      "area": ""
-    },
-    {
-      "name": "Tiancheng HUANG",
-      "date": "Joined in Aug 2023",
-      "bg": "PhD from WestLake&Zhejiang University",
-      "web": "",
-      "area": ""
     }
   ],
   "phds": [
@@ -75,6 +60,7 @@
     },
     {
       "name": "Junfeng LIU",
+      "img": "LiuJunfeng.png",
       "date": "Aug 2023 - Present",
       "bg": "MS from University of Manchester",
       "web": "https://buchuitoudegou.github.io/",
@@ -82,6 +68,7 @@
     },
     {
       "name": "Shurui ZHONG",
+      "img": "ZhongShurui.jpg",
       "date": "Aug 2023 - Present",
       "bg": "BS from University of Science and Technology of China",
       "web": "https://zongziren.github.io/",
@@ -89,9 +76,10 @@
     },
     {
       "name": "Haoxuan XIE",
+      "img": "XieHaoxuan.jpg",
       "date": "Aug 2023 - Present",
       "bg": "BS from Chinese University of Hong Kong, Shenzhen",
-      "web": "",
+      "web": "https://haoxuanxie.github.io/",
       "area": "Graph Algorithm"
     },
     {
@@ -101,5 +89,22 @@
       "web": "",
       "area": "Spatial Data Mining"
     }
-  ]  
+  ],
+  "alumni": [
+    {
+      "name": "Yow Kai Song",
+      "date": "Joined in Feb 2022",
+      "img": "YowKaiSiong.PNG",
+      "bg": "PhD from Monash University & Awarded Southeast Asia Postdoctoral Fellowship",
+      "web": "",
+      "area": ""
+    },
+    {
+      "name": "Tiancheng HUANG",
+      "date": "Joined in Aug 2023",
+      "bg": "PhD from WestLake&Zhejiang University",
+      "web": "",
+      "area": ""
+    }
+  ]
 }

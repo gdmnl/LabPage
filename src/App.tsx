@@ -7,7 +7,6 @@ import { Menu } from "antd";
 import { Content, Footer, Header } from "antd/es/layout/layout";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Banner from "./components/Banner";
-import NewsPage from "./components/News";
 import PeopleList from "./components/People";
 import ProjectPage from "./components/ProjectPage";
 import PublicationList from "./components/Publication";
@@ -37,11 +36,7 @@ const items: MenuItem[] = [
   {
     label: <a href="/project">Projects</a>,
     key: "project",
-  },
-  {
-    label: <a href="/news">News</a>,
-    key: "news",
-  },
+  }
 ];
 
 class LabHome extends React.Component {
@@ -73,7 +68,6 @@ function App() {
             <Route path="/publication" element={<PublicationList />} />
             <Route path="/services" element={<Services />} />
             <Route path="/project" element={<ProjectPage />} />
-            <Route path="/news" element={<NewsPage />} />
           </Routes>
         </BrowserRouter>
         </Content>
