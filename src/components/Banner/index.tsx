@@ -4,7 +4,7 @@ import "./banner.css";
 
 import { animated, Spring, useSpring } from 'react-spring';
 
-const title = [...'Data System and Graph Analysis Lab'];
+const title = [...'Graph Analysis and Data System Lab'];
 
 const LineFill = () => {
   const props = useSpring({from: { width: '0%' }, to: { width: '80%' }, config: { duration: 500 } });

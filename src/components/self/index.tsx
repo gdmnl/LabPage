@@ -1,7 +1,8 @@
 import * as React from "react";
 
-import { Col, Row, Space } from "antd";
+import { Col, Row } from "antd";
 import { Content } from "antd/es/layout/layout";
+import NewsList from "./news";
 
 export class SelfIntro extends React.Component {
   public render()  {
@@ -59,6 +60,9 @@ export class SelfIntro extends React.Component {
               Interested candidates are welcome to submit CVs by email (<a href="mailto:siqiang.luo@ntu.edu.sg">siqiang.luo@ntu.edu.sg</a>).
             </p>
           </div>
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <NewsList />
         </div>
       </Content>
     );
