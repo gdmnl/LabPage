@@ -46,7 +46,7 @@ export class SelfIntro extends React.Component {
                 3. Machine-learning enhanced data management
               </p>
               <p>
-                Please refer to his <a href="/lab">lab website</a> for more details.
+                Please refer to our <a href="/lab">lab website</a> for more details.
               </p>
             </p>
             <p>
