@@ -16,6 +16,7 @@ export interface ProjectProps {
   imgSrc: string;
   imgs: string[];
   members: MemberType[];
+  codes: string[];
 }
 
 const keyValuePubsId: number[] = [
@@ -69,7 +70,12 @@ export const keyValueProject: ProjectProps = {
     "key-value.png",
     "oasis.png",
   ],
-  members: dataSystemMembers
+  members: dataSystemMembers,
+  codes: [
+    "https://github.com/NTU-Siqiang-Group/MooseLSM",
+    "https://github.com/Woooooow-Pro/Oasis-RangeFilter",
+    "https://github.com/Eric-R-Knorr/Proteus"
+  ]
 };
 
 export const graphProject: ProjectProps = {
@@ -81,5 +87,13 @@ export const graphProject: ProjectProps = {
     "graph.png",
     "bird.png",
   ],
-  members: graphSystemMembers
+  members: graphSystemMembers,
+  codes: [
+    "https://github.com/ZulunZhu/dynamiccontrastive-learning",
+    "https://github.com/gdmnl/LD2",
+    "https://github.com/gdmnl/SCARA-PPR",
+    "https://github.com/algorithm-panda/CSEQ",
+    "https://github.com/gdmnl/Agenda"
+  ]
 };
+

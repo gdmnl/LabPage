@@ -3,8 +3,20 @@ import * as React from "react";
 import { PubType } from "../Publication/pub";
 import { ProjectProps } from "./data";
 
-import { Card, Carousel } from "antd";
+import { Card } from "antd";
 
+function getCodeBadge(code: string) {
+  if (code.length > 0) {
+    return (
+      <a href={code}>
+        <img style={{ width: '0.75rem' }} src="https://github.githubassets.com/favicons/favicon.svg" />
+      </a>
+    );
+  }
+  return (
+    <img style={{ width: '0.75rem' }} src="https://github.githubassets.com/favicons/favicon.svg" />
+  );
+}
 
 class Project extends React.Component<ProjectProps> {
   constructor(props: ProjectProps) {
@@ -39,8 +51,25 @@ class Project extends React.Component<ProjectProps> {
             ))
           }
         </div>
-        <div style={{ textAlign: "left", fontSize: "1.5rem", fontWeight: "bold", marginTop: "1rem", marginBottom: "1rem" }}>
+        <div>
+          <div style={{ textAlign: "left", fontSize: "1.5rem", fontWeight: "bold", marginTop: "1rem", marginBottom: "0.1rem" }}>Codes</div>
+          <div>
+            {
+              this.props.codes.map((code) => (
+                <div style={{ textAlign: 'start' }}>
+                  <a href={code} >{getCodeBadge("")} {code}</a>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+        <div style={{ textAlign: "left", fontSize: "1.5rem", fontWeight: "bold", marginTop: "1rem", marginBottom: "0.1rem" }}>
           Publications
+        </div>
+        <div style={{ textAlign: 'left', marginBottom: '0.1rem', 
+          fontStyle: 'italic', color: '#2170BF', display: 'flex', justifyContent: 'start', alignItems: 'start' }}>
+          <span>code available </span>
+          <span style={{ marginLeft: '0.3rem' }}>{getCodeBadge("")}</span>
         </div>
         {
           [...pubInMap.entries()].map(([key, pubs]) => (
@@ -60,7 +89,7 @@ class Project extends React.Component<ProjectProps> {
                           <Card.Meta description={
                             <div style={{ textAlign: "left", marginBottom: "0.5rem" }}>{pub.authors.join(", ")}</div>
                           } />
-                          <div style={{ textAlign: "left", fontWeight: "bold" }}>
+                          <div style={{ textAlign: "left", fontWeight: "bold", display: 'flex', justifyContent: 'start' }}>
                             {
                               pub.conference.length > 0 ? pub.conference : ""
                             }
@@ -69,6 +98,13 @@ class Project extends React.Component<ProjectProps> {
                             }
                             {
                               pub.year !== 0 ? pub.year : ""
+                            }
+                            {
+                              pub.code.length > 0 ? 
+                              <span style={{ marginLeft: '0.5rem' }}>
+                                {getCodeBadge(pub.code)}
+                              </span>
+                              : ""
                             }
                           </div>
                         </Card>

@@ -321,7 +321,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/ZulunZhu/dynamiccontrastive-learning",
     "confExtra": ""
   },
   {
@@ -450,7 +450,7 @@
     "description": "It is effective to use large language models (LLMs) as prompters for inductive reasoning on arbitrary knowledge graphs, even under low-resource settings.",
     "imgSrc": "",
     "keywords": [
-      "llm"
+      "Graph Algorithm"
     ],
     "subKeywords": [
       "others"
@@ -622,17 +622,17 @@
     "description": "An in-depth evaluation of multi-task processing in vertex-centric Graph Algorithm.",
     "imgSrc": "",
     "keywords": [
-      "Data Systems"
+      "Graph Algorithm"
     ],
     "subKeywords": [
-      "Graph Algorithm"
+      "Graph System"
     ],
     "id": 22,
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": "Demo"
+    "confExtra": ""
   },
   {
     "title": "Seesaw Counting Filter: A Dynamic Filtering Framework for Vulnerable Negative Keys.",
@@ -659,9 +659,9 @@
       "Filter"
     ],
     "id": 23,
-    "isExtension": true,
+    "isExtension": false,
     "hasExtension": -1,
-    "isVisible": false,
+    "isVisible": true,
     "code": "",
     "confExtra": ""
   },
@@ -882,14 +882,14 @@
       "Graph Algorithm"
     ],
     "subKeywords": [
-      "Graph Algorithm"
+      "Graph System"
     ],
     "id": 31,
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "Demo"
   },
   {
     "title": "Single-Source Personalized PageRanks with Workload Robustness.",
@@ -1155,7 +1155,7 @@
     "description": "A novel adaptive-optimization framework for multi-processing k-nearest neighbor (kNN) search on road networks.",
     "imgSrc": "",
     "keywords": [
-      "spatial"
+      "Graph Algorithm"
     ],
     "subKeywords": [
       "others"
@@ -1294,7 +1294,7 @@
     "description": "A robust spectral clustering method designed for multi-scale data.",
     "imgSrc": "",
     "keywords": [
-      "Data Systems"
+      
     ],
     "subKeywords": [
       "Data Mining"
@@ -1610,7 +1610,7 @@
     ],
     "id": 57,
     "isExtension": false,
-    "hasExtension": 23,
+    "hasExtension": -1,
     "isVisible": true,
     "code": "",
     "confExtra": ""
