@@ -90,21 +90,66 @@
       "area": "Spatial Data Mining"
     }
   ],
+  "masters": [
+    {
+      "name": "Jiarui YE",
+      "date": "Aug 2024 - Present",
+      "bg": "BS from Fudan University",
+      "web": "",
+      "area": "",
+      "img": ""
+    },
+    {
+      "name": "Shambhavi Das",
+      "date": "Dec 2023 - Present",
+      "bg": "By MSDS",
+      "web": "",
+      "area": "",
+      "img": ""
+    }
+  ],
   "alumni": [
     {
-      "name": "Yow Kai Song",
-      "date": "Joined in Feb 2022",
-      "img": "YowKaiSiong.PNG",
-      "bg": "PhD from Monash University & Awarded Southeast Asia Postdoctoral Fellowship",
-      "web": "",
-      "area": ""
+      "name": "Meng LI",
+      "date": "Jul 2021 - Jul 2022",
+      "bg": "Visiting PhD ",
+      "area": "Current: Assistant Researcher (Faculty) at Nanjing University"
+    },
+    {
+      "name": "Wenting ZHAO",
+      "date": "Joined in Dec 2021",
+      "bg": "Visiting PhD",
+      "area": "co-hosted with Prof. Long Cheng"
+    },
+    {
+      "name": "Fanchao CHEN",
+      "date": "Joined in Jan 2021",
+      "bg": "Undergraduate Intern",
+      "area": "Next: PhD of University of Wisconsin-Madison"
+    },
+    {
+      "name": "Yixiang DONG",
+      "date": "Joined in Sep 2022",
+      "bg": "",
+      "area": "Visiting PhD"
+    },
+    {
+      "name": "Zefeng LI",
+      "date": "Joined in May 2023",
+      "bg": "Master Intern ",
+      "area": " Next: PhD@UBC"
+    },
+    {
+      "name": "Yinan HE",
+      "date": "2021 - 2022",
+      "bg": "URECA Student",
+      "area": "Next: Harvard MS"
     },
     {
       "name": "Tiancheng HUANG",
-      "date": "Joined in Aug 2023",
-      "bg": "PhD from WestLake&Zhejiang University",
-      "web": "",
-      "area": ""
+      "date": "Postdoc, 2023-2024",
+      "bg": "",
+      "area": "Next: Research Fellow @ NTU "
     }
   ]
 }
