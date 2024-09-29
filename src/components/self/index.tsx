@@ -38,18 +38,15 @@ export class SelfIntro extends React.Component {
         <div style={{ display: "flex", justifyContent: "center", fontFamily: "'Cardo'", textAlign: "left", fontSize: "16px", lineHeight: "2" }}>
           <div style={{ width: "70%" }}>
             <p>
-              Siqiang Luo is a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University.
-              He is also affiliated with <a href="https://www3.ntu.edu.sg/scse/dmal/dante/">DANTE</a>. He received his B.S. and M.S. degrees in computer science from Fudan University,
-              and a Ph.D. degree in computer science from the University of Hong Kong (co-supervised by <a href="https://www.cs.hku.hk/index.php/people/academic-staff/kao">Prof. Ben Kao</a> and <a href="https://www.cs.hku.hk/people/academic-staff/ckcheng">Prof. Reynold Cheng</a>).
-              He was a postdoc researcher at Harvard University working with <a href="https://stratos.seas.harvard.edu/biocv">Prof. Stratos Idreos</a>.
-              He has broad interest in efficient and effective big data analytics, queries and learning, particularly about:
+              I am a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University.
+              I am also affiliated with <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>. I have broad interest in efficient and effective big data analytics, queries and learning, particularly about:
               <p>
                 1. Graph analytics and learning <br/>
                 2. Scalable data structures and systems <br/>
                 3. Machine-learning enhanced data management
               </p>
               <p>
-                Please refer to his <a href="/lab">lab website</a> for more details.
+                Please refer to our <a href="/lab">lab website</a> for more details.
               </p>
             </p>
             <p style={{ display: 'flex', justifyContent: 'start' }}>
@@ -62,8 +59,7 @@ export class SelfIntro extends React.Component {
                 <span style={{ marginLeft: '0.2rem' }}>Recruitment (Updated in July 2024):</span>
                 </p>
                 <p> 
-                  1. A few opennings for Research Assistant (remote or physical) <br/>
-                  2. One Ph.D. openning for January 2025 batch <br/>
+                  A few opennings for Research Assistant (remote or physical) <br/>
                   Interested candidates are welcome to submit CVs by email (<a href="mailto:siqiang.luo@ntu.edu.sg">siqiang.luo@ntu.edu.sg</a>).
                 </p>
               </div>
