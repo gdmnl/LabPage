@@ -52,12 +52,21 @@ export class SelfIntro extends React.Component {
                 Please refer to his <a href="/lab">lab website</a> for more details.
               </p>
             </p>
-            <p>
-              <p style={{ fontSize: "20px", fontWeight: "bold", fontFamily: "Droid Serif" }}>Recruitment (Updated in July 2024):</p>
-              1. A few opennings for Research Assistant (remote or physical) <br/>
-              2. One Ph.D. openning for January 2025 batch <br/>
-
-              Interested candidates are welcome to submit CVs by email (<a href="mailto:siqiang.luo@ntu.edu.sg">siqiang.luo@ntu.edu.sg</a>).
+            <p style={{ display: 'flex', justifyContent: 'start' }}>
+              <div>
+              <p style={{ fontSize: "20px", fontWeight: "bold", 
+                fontFamily: "Droid Serif", backgroundColor: '#CCE5FF',
+                border: 'solid', borderColor: '#99CCFF', padding: '0.2rem',
+                color: '#2170BF', borderRadius: '0.6rem'
+              }}>
+                <span style={{ marginLeft: '0.2rem' }}>Recruitment (Updated in July 2024):</span>
+                </p>
+                <p> 
+                  1. A few opennings for Research Assistant (remote or physical) <br/>
+                  2. One Ph.D. openning for January 2025 batch <br/>
+                  Interested candidates are welcome to submit CVs by email (<a href="mailto:siqiang.luo@ntu.edu.sg">siqiang.luo@ntu.edu.sg</a>).
+                </p>
+              </div>
             </p>
           </div>
         </div>
