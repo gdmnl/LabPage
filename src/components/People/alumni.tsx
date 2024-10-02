@@ -47,6 +47,10 @@ export class Alumni extends React.Component<{ isVisible: boolean }> {
                 <div style={{ display: 'flex', justifyContent: 'start' }}>
                   {
                     alumniGroup.map((alumnus, _) => (
+                      alumnus.web.length > 0 ?
+                      <a href={alumnus.web}>
+                        <AlumnusCard name={alumnus.name} date={alumnus.date} nxt={alumnus.area} />
+                      </a> :
                       <AlumnusCard name={alumnus.name} date={alumnus.date} nxt={alumnus.area} />
                     ))
                   }

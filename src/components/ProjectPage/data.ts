@@ -71,11 +71,7 @@ export const keyValueProject: ProjectProps = {
     "oasis.png",
   ],
   members: dataSystemMembers,
-  codes: [
-    "https://github.com/NTU-Siqiang-Group/MooseLSM",
-    "https://github.com/Woooooow-Pro/Oasis-RangeFilter",
-    "https://github.com/Eric-R-Knorr/Proteus"
-  ]
+  codes: keyValuePublications.filter((pub) => pub.code.length > 0).map((pub) => pub.code)
 };
 
 export const graphProject: ProjectProps = {
@@ -88,12 +84,6 @@ export const graphProject: ProjectProps = {
     "bird.png",
   ],
   members: graphSystemMembers,
-  codes: [
-    "https://github.com/ZulunZhu/dynamiccontrastive-learning",
-    "https://github.com/gdmnl/LD2",
-    "https://github.com/gdmnl/SCARA-PPR",
-    "https://github.com/algorithm-panda/CSEQ",
-    "https://github.com/gdmnl/Agenda"
-  ]
+  codes: graphPublications.filter((pub) => pub.code.length > 0).map((pub) => pub.code)
 };
 

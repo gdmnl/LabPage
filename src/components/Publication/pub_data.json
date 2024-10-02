@@ -183,7 +183,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/hyLiu-777/BIRD",
     "confExtra": ""
   },
   {
@@ -209,7 +209,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/gdmnl/GENTI",
     "confExtra": ""
   },
   {
@@ -222,7 +222,7 @@
     "conference": "PVLDB",
     "year": 2024,
     "video": "",
-    "href": "/docs/PVLDB24_Kai_TIGER_Final",
+    "href": "/docs/PVLDB24_Kai_TIGER_Final.pdf",
     "description": "An efficient sub-graph extraction approach for reasoning over large-scale knowledge graphs.",
     "imgSrc": "",
     "keywords": [
@@ -235,7 +235,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/KyneWang/TIGER",
     "confExtra": ""
   },
   {

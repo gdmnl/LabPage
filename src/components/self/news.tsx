@@ -15,7 +15,10 @@ export class NewsList extends React.Component {
   render() {
     return (
       <div style={{ width: '70%' }}>
-        <div style={{ textAlign: 'left', fontSize: "20px", fontWeight: "bold", fontFamily: "Droid Serif", marginBottom: '2rem' }}>Recent News</div>
+        <div style={{ textAlign: 'left', display:'flex', fontSize: "20px", fontWeight: "bold", fontFamily: "Droid Serif", marginBottom: '2rem' }}>
+          <img src="news_gray.png" style={{ width: '1.5rem', marginRight: '0.5rem' }} />
+          <div>Recent News</div>
+        </div>
         <ul style={{ textAlign: 'left', listStyleType: 'none', paddingInlineStart: '0rem', height: '15rem', overflow: "scroll"  }}>
           {
             news.map(val => (
