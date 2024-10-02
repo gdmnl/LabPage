@@ -2,7 +2,7 @@ name: Build Check
 
 on:
   push:
-    branches: [ "react", "prod" ]
+    branches: [ "react" ]
   pull_request:
     branches: [ "react", "prod" ]
 
