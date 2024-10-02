@@ -20,7 +20,7 @@ export interface ProjectProps {
 }
 
 const keyValuePubsId: number[] = [
-  2,3,4,5,23,28,33,37
+  2,3,4,5,28,37
 ];
 
 const keyValuePublications = keyValuePubsId.map((id) => {
