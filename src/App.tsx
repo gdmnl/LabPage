@@ -66,6 +66,7 @@ function App() {
             <Route path="/lab" element={<LabHome />} />
             <Route path="/" element={<SelfIntro />} />
             <Route path="/publication" element={<PublicationList />} />
+            <Route path="/papers" element={<PublicationList />} />
             <Route path="/services" element={<Services />} />
             <Route path="/project" element={<ProjectPage />} />
           </Routes>
