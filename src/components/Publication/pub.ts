@@ -30,7 +30,7 @@ export const searchYears: string[] = [... new Set(pubDatabase.map((pub) => pub.y
 
 export const searchConferences: string[] =["SIGMOD", "PVLDB", "ICDE", "SIGKDD"];
 
-export const pubData: PubType[] = pubDatabase;
+export const pubData: PubType[] = pubDatabase.sort((a, b) => b.year - a.year);
 
 export const pubIndex = elasticlunr(function(this: any) {
   this.addField("title");

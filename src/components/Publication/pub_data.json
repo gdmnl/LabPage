@@ -64,7 +64,7 @@
     "conference": "SIGMOD",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://dl.acm.org/doi/pdf/10.1145/3677138",
     "description": "The first research that uses active learning to optimize LSM-trees.",
     "imgSrc": "",
     "keywords": [
@@ -1609,6 +1609,63 @@
       "others"
     ],
     "id": 57,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": ""
+  },
+  {
+    "title": "VEGA: An Active-tuning Learned Index with Group-Wise Learning Granularity.",
+    "authors": [
+      "Meng Li", 
+      "Huayi Chai", 
+      "Siqiang Luo", 
+      "Haipeng Dai", 
+      "Rong Gu", 
+      "Jiaqi Zheng", 
+      "Guihai Chen"
+    ],
+    "conference": "SIGMOD",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Data Systems"
+    ],
+    "subKeywords": [
+      "others"
+    ],
+    "id": 58,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": ""
+  },
+  {
+    "title": "Aster: Enhancing LSM-structures for Scalable Graph Database.",
+    "authors": [
+      "Dingheng Mo", 
+      "Junfeng Liu", 
+      "Fan Wang", 
+      "Siqiang Luo"
+    ],
+    "conference": "SIGMOD",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "A graph database system that leverages LSM-trees to store graph data.",
+    "imgSrc": "",
+    "keywords": [
+      "Data Systems"
+    ],
+    "subKeywords": [
+      "Application Specialized"
+    ],
+    "id": 59,
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
