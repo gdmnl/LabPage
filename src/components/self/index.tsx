@@ -60,6 +60,7 @@ export class SelfIntro extends React.Component {
                 </p>
                 <p> 
                   A few opennings for Research Assistant (remote or physical) <br/>
+                  One openning for postdoc working on data systems or graph learning <br/>
                   Interested candidates are welcome to submit CVs by email (<a href="mailto:siqiang.luo@ntu.edu.sg">siqiang.luo@ntu.edu.sg</a>).
                 </p>
               </div>
