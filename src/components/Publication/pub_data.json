@@ -1676,7 +1676,8 @@
     "title": "Are Joins over LSM-trees Ready: Take RocksDB as an Example.",
     "authors": [
       "Weiping Yu", 
-      "Fan Wang", 
+      "Fan Wang",
+      "Xuwei Zhang",
       "Siqiang Luo"
     ],
     "conference": "PVLDB",
