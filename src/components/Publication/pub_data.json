@@ -1671,5 +1671,31 @@
     "isVisible": true,
     "code": "",
     "confExtra": ""
+  },
+  {
+    "title": "Are Joins over LSM-trees Ready: Take RocksDB as an Example.",
+    "authors": [
+      "Weiping Yu", 
+      "Fan Wang", 
+      "Siqiang Luo"
+    ],
+    "conference": "PVLDB",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "A comprehensive benchmark evaluating the overhead of joins over LSM-trees.",
+    "imgSrc": "",
+    "keywords": [
+      "Data Systems"
+    ],
+    "subKeywords": [
+      "Application Specialized"
+    ],
+    "id": 60,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": ""
   }
 ]
