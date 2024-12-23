@@ -203,6 +203,17 @@
     "category": "Conference Services"
   },
   {
+    "name": "Conference of ACM Special Interest Group on Management of Data",
+    "keyword": "SIGMOD",
+    "years": [
+      {
+        "role": "PC Member",
+        "year": "2026"
+      }
+    ],
+    "category": "Conference Services"
+  },
+  {
     "name": "Asia Pacific Web and Web-Age Information Management",
     "keyword": "APWeb-WAIM",
     "years": [
