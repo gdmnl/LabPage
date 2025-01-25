@@ -56,7 +56,7 @@ export class SelfIntro extends React.Component {
                 border: 'solid', borderColor: '#99CCFF', padding: '0.2rem',
                 color: '#2170BF', borderRadius: '0.6rem'
               }}>
-                <span style={{ marginLeft: '0.2rem' }}>Recruitment (Updated in July 2024):</span>
+                <span style={{ marginLeft: '0.2rem' }}>Recruitment (Updated in Dec 2024):</span>
                 </p>
                 <p> 
                   A few opennings for Research Assistant (remote or physical) <br/>

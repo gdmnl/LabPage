@@ -114,98 +114,126 @@
       "date": "Jul 2021 - Jul 2022",
       "bg": "Visiting PhD ",
       "area": "Current: Assistant Researcher (Faculty) at Nanjing University",
-      "web": "https://njulimn.github.io/"
+      "web": "https://njulimn.github.io/",
+      "position": "Visiting PhD",
+      "next": "Assistant Researcher (Faculty) @ Nanjing University"
     },
     {
       "name": "Ling LI",
       "date": "Joined in Nov 2021",
       "bg": "Visiting PhD",
       "area": "",
-      "web": ""
+      "web": "",
+      "position": "Visiting PhD",
+      "next": ""
     },
     {
       "name": "Wenting ZHAO",
       "date": "Joined in Dec 2021",
       "bg": "Visiting PhD",
       "area": "co-hosted with Prof. Long Cheng",
-      "web": "https://dblp.org/pid/41/10049-1.html"
+      "web": "https://dblp.org/pid/41/10049-1.html",
+      "position": "Visiting PhD",
+      "next": ""
     },
     {
       "name": "Peng FANG",
       "date": "Joined in Mar 2022",
       "bg": "Visiting PhD",
       "area": "co-hosted with Prof. Arijit Khan",
-      "web": "https://scholar.google.com/citations?user=YP2cGtMAAAAJ"
+      "web": "https://scholar.google.com/citations?user=YP2cGtMAAAAJ",
+      "position": "Visiting PhD",
+      "next": ""
     },
     {
       "name": "Fanchao CHEN",
       "date": "Joined in Jan 2021",
       "bg": "Undergraduate Intern",
-      "area": "Next: PhD of University of Wisconsin-Madison",
-      "web": "https://cfc87.github.io/"
+      "area": "",
+      "web": "https://cfc87.github.io/",
+      "position": "Intern",
+      "next": "PhD of University of Wisconsin-Madison"
     },
     {
       "name": "Chunbo LI",
       "date": "Joined in Aug 2021",
       "bg": "BS from Tongji University",
-      "area": "Xiaomi",
-      "web": ""
+      "area": "",
+      "web": "",
+      "position": "Master",
+      "next": "Xiaomi"
     },
     {
       "name": "Yixiang DONG",
       "date": "Joined in Sep 2022",
       "bg": "",
       "area": "Visiting PhD",
-      "web": "https://dblp.org/pid/260/0886.html"
+      "web": "https://dblp.org/pid/260/0886.html",
+      "position": "Visiting PhD",
+      "next": ""
     },
     {
       "name": "Yufei HAN",
       "date": "",
       "bg": "Research Assistant",
       "area": "Next: Columbia University",
-      "web": ""
+      "web": "",
+      "position": "Intern",
+      "next": "Columbia University"
     },
     {
       "name": "Zefeng LI",
       "date": "Joined in May 2023",
       "bg": "Master Intern ",
-      "area": " Next: PhD@UBC",
-      "web": ""
+      "area": "",
+      "web": "",
+      "position": "Intern",
+      "next": "PhD@UBC"
     },
     {
       "name": "Guanduo CHEN",
       "date": "Joined in Feb 2023",
       "bg": "Master Intern from Fudan University",
       "area": "",
-      "web": "https://woooooow-pro.github.io/"
+      "web": "https://woooooow-pro.github.io/",
+      "position": "Intern",
+      "next": ""
     },
     {
       "name": "Yinan HE",
       "date": "2021 - 2022",
       "bg": "URECA Student",
-      "area": "Next: Harvard MS",
-      "web": ""
+      "area": "",
+      "web": "",
+      "position": "Intern",
+      "next": "Harvard MS"
     },
     {
       "name": "Yow Kai Siong",
       "date": "Feb 2022 - June 2024",
       "bg": "Postdoc, Awarded Southeast Asia Postdoc Fellowship",
       "area": "Next: Senior Lecturer @ Universiti Putra Malaysia",
-      "web": ""
+      "web": "",
+      "position": "PostDoc",
+      "next": "Senior Lecturer @ Universiti Putra Malaysia"
     },
     {
       "name": "Tiancheng HUANG",
       "date": "Postdoc, 2023-2024",
       "bg": "",
       "area": "Next: Research Fellow @ NTU",
-      "web": ""
+      "web": "",
+      "position": "PostDoc",
+      "next": "Research Fellow @ NTU"
     },
     {
       "name": "Mengshi CHEN",
       "date": "2022-2024",
       "bg": "Master Student",
       "area": "Next: PhD @ SJTU",
-      "web": ""
+      "web": "",
+      "position": "Master",
+      "next": "PhD @ SJTU"
     }
   ]
 }
