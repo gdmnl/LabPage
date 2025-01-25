@@ -2,8 +2,8 @@ import * as React from "react";
 
 import { alumni } from "./data";
 
-class AlumnusCard extends React.Component<{ name: string, date: string, nxt: string }> {
-  constructor(props: { name: string, date: string, nxt: string }) {
+class AlumnusCard extends React.Component<{ name: string, date: string, pos: string, nxt: string }> {
+  constructor(props: { name: string, date: string, pos: string, nxt: string }) {
     super(props);
   }
   public render() {
@@ -17,11 +17,12 @@ class AlumnusCard extends React.Component<{ name: string, date: string, nxt: str
       }}>
         <div style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{this.props.name}</div>
         <div style={{ fontSize: '1rem', marginTop: '0.5rem', color: 'gray' }}>{this.props.date}</div>
+        <div style={{ fontSize: "1rem", color: "gray", marginTop: "0.5rem", marginBottom: "0.5rem" }}>{this.props.pos}</div>
         <div style={{
           fontSize: '0.8rem',
           color: 'gray'
         }}>
-          {this.props.nxt}
+          {this.props.nxt.length > 0 ? `Next: ${this.props.nxt}` : ""}
         </div>
       </div>
     );
@@ -49,9 +50,9 @@ export class Alumni extends React.Component<{ isVisible: boolean }> {
                     alumniGroup.map((alumnus, _) => (
                       alumnus.web.length > 0 ?
                       <a href={alumnus.web}>
-                        <AlumnusCard name={alumnus.name} date={alumnus.date} nxt={alumnus.area} />
+                        <AlumnusCard name={alumnus.name} pos={alumnus.position} date={alumnus.date} nxt={alumnus.next} />
                       </a> :
-                      <AlumnusCard name={alumnus.name} date={alumnus.date} nxt={alumnus.area} />
+                      <AlumnusCard name={alumnus.name} pos={alumnus.position} date={alumnus.date} nxt={alumnus.next} />
                     ))
                   }
                 </div>

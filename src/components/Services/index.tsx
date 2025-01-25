@@ -57,7 +57,7 @@ export class Services extends React.Component {
                     <span>{item.name}</span>
                     {
                       item.keyword.length > 0 && <span style={{ fontWeight: "bold" }}>
-                        ({item.keyword} {formatRoleAndYears(item)})
+                        {" (" + item.keyword} {formatRoleAndYears(item)}{")"}
                       </span>
                     }
                   </li>
