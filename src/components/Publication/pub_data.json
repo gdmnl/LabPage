@@ -309,7 +309,7 @@
     "year": 2024,
     "video": "",
     "href": "/docs/KDD24_Zulun.pdf",
-    "description": "Pioneering efforts on studying dynamic graph contrastive learning. ",
+    "description": "Pioneering efforts on studying dynamic graph contrastive learning.",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithm"
@@ -321,7 +321,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "https://github.com/ZulunZhu/dynamiccontrastive-learning",
+    "code": "https://github.com/ZulunZhu/dynamic-contrastive-learning",
     "confExtra": ""
   },
   {
