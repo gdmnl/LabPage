@@ -1741,7 +1741,7 @@
     "conference": "PVLDB",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://arxiv.org/pdf/2501.16759",
     "description": "A comprehensive benchmark evaluating the overhead of joins over LSM-trees.",
     "imgSrc": "",
     "keywords": [
