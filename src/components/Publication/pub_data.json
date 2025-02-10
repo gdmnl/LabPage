@@ -25,7 +25,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "SIMGA: A simple and effective heterophilous graph neural network with efficient global aggregation.",
@@ -51,7 +52,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "CAMAL: Optimizing LSM-trees via Active Learning.",
@@ -78,7 +80,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Structural Designs Meet Optimality: Exploring Optimized LSM-tree Structures in A Colossal Configuration Space.",
@@ -105,7 +108,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "https://github.com/NTU-Siqiang-Group/MooseLSM",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Learning to Optimize LSM-trees: Towards A Reinforcement Learning based Key-Value Store for Dynamic Workloads.",
@@ -132,7 +136,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Oasis: An Optimal Disjoint Segmented Learned Range Filter.",
@@ -159,7 +164,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "https://github.com/Woooooow-Pro/Oasis-RangeFilter",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "BIRD: Efficient Approximation of Bidirectional Hidden Personalized PageRank.",
@@ -184,7 +190,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "https://github.com/hyLiu-777/BIRD",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "GENTI: GPU-powered Walk-based Subgraph Extraction for Scalable Representation Learning on Dynamic Graphs.",
@@ -210,7 +217,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "https://github.com/gdmnl/GENTI",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "TIGER: Training Inductive Graph Neural Network for Large-scale Knowledge Graph Reasoning.",
@@ -236,7 +244,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "https://github.com/KyneWang/TIGER",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Personalized PageRanks over Dynamic Graphs -- The Case for Optimizing Quality of Service.",
@@ -265,7 +274,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Resurrecting Label Propagation for Graphs with Heterophily and Label Noise.",
@@ -294,7 +304,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Topology-monitorable Contrastive Learning on Dynamic Graphs.",
@@ -322,7 +333,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "https://github.com/ZulunZhu/dynamic-contrastive-learning",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Scalable Decoupling Graph Neural Network with Feature-Oriented Optimization.",
@@ -350,7 +362,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": true
   },
   {
     "title": "Information-Oriented Random Walks and Pipeline Optimization for Distributed Graph Embedding.",
@@ -380,7 +393,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": true
   },
   {
     "title": "Massively Parallel Single-Source SimRanks in o(log n) Rounds.",
@@ -405,7 +419,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "StructAM: Enhancing Address Matching through Semantic Understanding of Structure-aware Information.",
@@ -433,7 +448,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs.",
@@ -460,7 +476,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": "Findings"
+    "confExtra": "Findings",
+    "isJournal": false
   },
   {
     "title": "Machine Learning for Subgraph Extraction: Methods, Applications and Challenges.",
@@ -487,7 +504,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": "Tutorial"
+    "confExtra": "Tutorial",
+    "isJournal": false
   },
   {
     "title": "Effective and Efficient Route Planning Using Historical Trajectories on Road Networks.",
@@ -516,7 +534,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Distributed Graph Embedding with Information-Oriented Random Walks.",
@@ -547,7 +566,8 @@
     "hasExtension": 13,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "COCLEP: Contrastive Learning-based Semi-Supervised Community Search.",
@@ -576,7 +596,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Example Searcher: A Spatial Query System via Example.",
@@ -603,7 +624,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": "Demo"
+    "confExtra": "Demo",
+    "isJournal": false
   },
   {
     "title": "Multi-Task Processing in Vertex-Centric Graph Algorithm: Evaluations and Insights.",
@@ -632,7 +654,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Seesaw Counting Filter: A Dynamic Filtering Framework for Vulnerable Negative Keys.",
@@ -663,7 +686,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": true
   },
   {
     "title": "Efficient Community Search in Edge-Attributed Graphs.",
@@ -691,7 +715,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": true
   },
   {
     "title": "LD2: Scalable Heterophilous Graph Neural Network with Decoupled Embedding.",
@@ -718,7 +743,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "https://github.com/gdmnl/LD2",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Deep Graph Structural Infomax.",
@@ -747,7 +773,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "DMCS : Density Modularity based Community Search.",
@@ -774,7 +801,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Proteus: A Self-Designing Range Filter.",
@@ -804,7 +832,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "https://github.com/Eric-R-Knorr/Proteus",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "SCARA: Scalable Graph Neural Networks with Feature-Oriented Optimization.",
@@ -832,7 +861,8 @@
     "hasExtension": 12,
     "isVisible": true,
     "code": "https://github.com/gdmnl/SCARA-PPR",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Example-based Spatial Search at Scale.",
@@ -860,7 +890,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "https://github.com/algorithm-panda/CSEQ",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "VC-Tune: Tuning and Exploring Distributed Vertex-Centric Graph Algorithms.",
@@ -889,7 +920,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": "Demo"
+    "confExtra": "Demo",
+    "isJournal": false
   },
   {
     "title": "Single-Source Personalized PageRanks with Workload Robustness.",
@@ -914,7 +946,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": true
   },
   {
     "title": "Seesaw Counting Filter: An Efficient Guardian for Vulnerable Negative Keys During Dynamic Filtering. ",
@@ -945,7 +978,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Spiking Graph Convolutional Networks. ",
@@ -974,7 +1008,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Finding Global Homophily in Graph Neural Networks When Meeting Heterophily. ",
@@ -1004,7 +1039,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Agenda: Robust Personalized PageRanks in Evolving Graphs.",
@@ -1029,7 +1065,8 @@
     "hasExtension": 32,
     "isVisible": true,
     "code": "https://github.com/gdmnl/Agenda",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Rosetta: A Robust Space-Time Optimized Range Filter for Key-Value Stores.",
@@ -1058,7 +1095,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Baton: Batch One-Hop Personalized PageRanks with Efficiency and Effectiveness.",
@@ -1085,7 +1123,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": true
   },
   {
     "title": "ROAM: A Fundamental Routing Query on Road Networks with Efficiency.",
@@ -1104,7 +1143,7 @@
     "description": "A fundamental routing query inspired by the application of Ride-Sharing.",
     "imgSrc": "",
     "keywords": [
-      "spatial"
+      "Graph Algorithm"
     ],
     "subKeywords": [
       "others"
@@ -1114,7 +1153,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": true
   },
   {
     "title": "Improved Communication Cost for Distributed PageRank Computation -- A Theorectical Study.",
@@ -1138,7 +1178,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "MPR - A Partitioning-Replication Framework for Multi-Processing kNN Search on Road Networks.",
@@ -1165,7 +1206,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Efficient Batch One-Hop Personalized PageRanks.",
@@ -1192,7 +1234,8 @@
     "hasExtension": 38,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Distributed PageRank Computation: An Improved Theoretical Study.",
@@ -1216,7 +1259,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": "Spotlight Paper"
+    "confExtra": "Spotlight Paper",
+    "isJournal": false
   },
   {
     "title": "On Spatial-Aware Community Search.",
@@ -1247,7 +1291,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": true
   },
   {
     "title": "TOAIN: A Throughput Optimizing Adaptive Index for Answering Dynamic kNN Queries on Road Networks.",
@@ -1277,7 +1322,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "ROSC: Robust Spectral Clustering on Multi-scale Data.",
@@ -1293,9 +1339,7 @@
     "href": "https://dl.acm.org/doi/pdf/10.1145/3178876.3185993?casa_token=buVl8L6leNAAAAAA:g7Ax_y3rIKVmiVcYnUg7Bme7vSF1GdQdKNqx0C38miecEK2CIwFgAy6YpBp48dCZ_6MrKr2wmy8WAfc",
     "description": "A robust spectral clustering method designed for multi-scale data.",
     "imgSrc": "",
-    "keywords": [
-      
-    ],
+    "keywords": [],
     "subKeywords": [
       "Data Mining"
     ],
@@ -1304,7 +1348,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Effective Community Search over Large Spatial Graphs.",
@@ -1333,7 +1378,8 @@
     "hasExtension": 44,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "C-Explorer: Browsing Communities in Large Graphs.",
@@ -1361,7 +1407,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": "Demo"
+    "confExtra": "Demo",
+    "isJournal": false
   },
   {
     "title": "On Minimal Steiner Maximum-Connected Subgraph Queries.",
@@ -1389,7 +1436,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": true
   },
   {
     "title": "Effective and efficient attributed community search.",
@@ -1417,7 +1465,8 @@
     "hasExtension": -1,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": true
   },
   {
     "title": "On Embedding Uncertain Graphs.",
@@ -1445,7 +1494,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "SEQ: Example-based Query for Spatial Objects.",
@@ -1473,7 +1523,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Effective Community Search for Large Attributed Graphs.",
@@ -1500,7 +1551,8 @@
     "hasExtension": 50,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Querying Minimal Steiner Maximum-Connected Subgraphs in Large Graphs.",
@@ -1528,7 +1580,8 @@
     "hasExtension": 49,
     "isVisible": false,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Distributed Spatial Keyword Querying on Road Networks.",
@@ -1556,7 +1609,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Shortest path and distance queries on road networks: towards bridging theory and practice.",
@@ -1585,7 +1639,8 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "DISKs: A System for Distributed Spatial Group Keyword Search on Road Networks.",
@@ -1603,7 +1658,7 @@
     "description": "",
     "imgSrc": "",
     "keywords": [
-      "spatial"
+      "Graph Algorithm"
     ],
     "subKeywords": [
       "others"
@@ -1613,17 +1668,18 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "VEGA: An Active-tuning Learned Index with Group-Wise Learning Granularity.",
     "authors": [
-      "Meng Li", 
-      "Huayi Chai", 
-      "Siqiang Luo", 
-      "Haipeng Dai", 
-      "Rong Gu", 
-      "Jiaqi Zheng", 
+      "Meng Li",
+      "Huayi Chai",
+      "Siqiang Luo",
+      "Haipeng Dai",
+      "Rong Gu",
+      "Jiaqi Zheng",
       "Guihai Chen"
     ],
     "conference": "SIGMOD",
@@ -1643,20 +1699,21 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Aster: Enhancing LSM-structures for Scalable Graph Database.",
     "authors": [
-      "Dingheng Mo", 
-      "Junfeng Liu", 
-      "Fan Wang", 
+      "Dingheng Mo",
+      "Junfeng Liu",
+      "Fan Wang",
       "Siqiang Luo"
     ],
     "conference": "SIGMOD",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://arxiv.org/pdf/2501.06570",
     "description": "A graph database system that leverages LSM-trees to store graph data.",
     "imgSrc": "",
     "keywords": [
@@ -1670,12 +1727,13 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
   },
   {
     "title": "Are Joins over LSM-trees Ready: Take RocksDB as an Example.",
     "authors": [
-      "Weiping Yu", 
+      "Weiping Yu",
       "Fan Wang",
       "Xuwei Zhang",
       "Siqiang Luo"
@@ -1697,6 +1755,62 @@
     "hasExtension": -1,
     "isVisible": true,
     "code": "",
-    "confExtra": ""
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "Advances in Designing Scalable Graph Neural Networks: The Perspective of Graph Data Management.",
+    "authors": [
+      "Ningyi Liao",
+      "Siqiang Luo",
+      "Xiaokui Xiao",
+      "Reynold Cheng"
+    ],
+    "conference": "SIGMOD",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithm"
+    ],
+    "subKeywords": [
+      "Graph Learning"
+    ],
+    "id": 61,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "Tutorial",
+    "isJournal": false
+  },
+  {
+    "title": "Graph Percolation Embeddings for Efficient Knowledge Graph Reasoning.",
+    "authors": [
+      "Kai Wang",
+      "Dan Lin",
+      "Siqiang Luo"
+    ],
+    "conference": "IEEE TKDE",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithm"
+    ],
+    "subKeywords": [
+      "Graph Learning"
+    ],
+    "id": 62,
+    "isExtension": true,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": true
   }
 ]
