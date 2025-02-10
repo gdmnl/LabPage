@@ -30,7 +30,31 @@ export const searchYears: string[] = [... new Set(pubDatabase.map((pub) => pub.y
 
 export const searchConferences: string[] =["SIGMOD", "PVLDB", "ICDE", "SIGKDD"];
 
-export const pubData: PubType[] = pubDatabase.sort((a, b) => b.year - a.year);
+export const pubData: PubType[] = pubDatabase.sort((a, b) => {
+  if (a.year !== b.year) {
+    return b.year - a.year;
+  }
+  // SIGMOD > PVLDB > IsJournal
+  if (a.conference === "SIGMOD" && b.conference !== "SIGMOD") {
+    return -1;
+  }
+  if (a.conference !== "SIGMOD" && b.conference === "SIGMOD") {
+    return 1;
+  }
+  if (a.conference === "PVLDB" && b.conference !== "PVLDB") {
+    return -1;
+  }
+  if (a.conference !== "PVLDB" && b.conference === "PVLDB") {
+    return 1;
+  }
+  if (a.conference === "IsJournal" && b.conference !== "IsJournal") {
+    return -1;
+  }
+  if (a.conference !== "IsJournal" && b.conference === "IsJournal") {
+    return 1;
+  }
+  return b.id - a.id;
+});
 
 export const pubIndex = elasticlunr(function(this: any) {
   this.addField("title");
