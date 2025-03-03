@@ -1812,5 +1812,32 @@
     "code": "",
     "confExtra": "",
     "isJournal": true
+  },
+  {
+    "title": "How to Grow an LSM-tree? Towards Bridging The Gap Between Theory and Practice.",
+    "authors": [
+      "Dingheng Mo",
+      "Siqiang Luo",
+      "Stratos Idreos"
+    ],
+    "conference": "SIGMOD",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Data Systems"
+    ],
+    "subKeywords": [
+      "Instance Optimization"
+    ],
+    "id": 63,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
   }
 ]
