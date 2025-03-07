@@ -1,11 +1,11 @@
 {
   "postdocs": [
     {
-      "name": "Kai WANG",
-      "date": "Sep 2022 - Present",
-      "img": "WangKai.png",
-      "bg": "PhD from Dalian University of Technology & Macquarie University",
-      "web": "https://scholar.google.com/citations?user=QHBzdg8AAAAJ",
+      "name": "Changan LIU",
+      "date": "Mar 2025 - Present",
+      "img": "changan.jpg",
+      "bg": "PhD from Fudan University",
+      "web": "https://scholar.google.com/citations?user=uk4iwHwAAAAJ&hl=en",
       "area": "Graph Algorithm & Learning"
     }
   ],
@@ -234,6 +234,14 @@
       "web": "",
       "position": "Master",
       "next": "PhD @ SJTU"
+    },
+    {
+      "name": "Kai WANG",
+      "date": "Sep 2022 - Mar 2025",
+      "bg": "PhD from Dalian University of Technology & Macquarie University",
+      "web": "https://scholar.google.com/citations?user=QHBzdg8AAAAJ",
+      "next": "Associate Professor @ HIT",
+      "position": "PostDoc"
     }
   ]
 }
