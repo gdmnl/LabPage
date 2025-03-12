@@ -178,10 +178,10 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
                     />
                     {item.description}
                     <p>
-                      {item.video.length > 0 ? <a href={item.video}>[video]</a> : "" }
-                      {item.href.length > 0 ? <a href={item.href}>[paper]</a> : "" }
+                      {item.video.length > 0 ? <a href={item.video} target="_blank">[video]</a> : "" }
+                      {item.href.length > 0 ? <a href={item.href} target="_blank">[paper]</a> : "" }
                       {item.hasExtension >= 0 ? <a href={getExtensionHref(item.hasExtension, this.state.allPubs)}>{getExtensionString(item.hasExtension, this.state.allPubs)}</a> : ""}
-                      {item.code.length > 0 ? <a href={item.code}>[code]</a>: ""}
+                      {item.code.length > 0 ? <a href={item.code} target="_blank">[code]</a>: ""}
                     </p>
                   </List.Item> : ""
                 )}
