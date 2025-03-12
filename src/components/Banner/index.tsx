@@ -43,38 +43,40 @@ class Banner extends React.Component {
   public render() {
     return (
     <div className="banner">
-      <div style={{ paddingTop: '64px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-        <div style={{ marginTop: '4rem' }}>
-          {
-            title.map((letter, idx)=>(
-              <Spring
-                from={{opacity: 0}}
-                to={{opacity: 1}}
-                delay={idx * 10 + 100}
-              >
-                {
-                  (style: any) => (
-                    <animated.span
-                      style={{
-                        fontSize: '4rem',
-                        color: 'white',
-                        ...style
-                      }}
-                    >
-                      {letter}
-                    </animated.span>
-                  )
-                }
-              </Spring>
-            ))
-          }
-        </div>
-        {
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1rem' }}>
-            <LineFill />
+      <div style={{ display: 'flex', alignItems: 'center', minHeight: '50vh' }}>
+        <div style={{ display: 'flex', width: '100%', flexDirection: 'column', justifyContent: 'space-between' }}>
+          <div style={{ marginTop: '4rem' }}>
+            {
+              title.map((letter, idx)=>(
+                <Spring
+                  from={{opacity: 0}}
+                  to={{opacity: 1}}
+                  delay={idx * 10 + 100}
+                >
+                  {
+                    (style: any) => (
+                      <animated.span
+                        style={{
+                          fontSize: '4rem',
+                          color: 'white',
+                          ...style
+                        }}
+                      >
+                        {letter}
+                      </animated.span>
+                    )
+                  }
+                </Spring>
+              ))
+            }
           </div>
-        }
-        <LogoFill />
+          {
+            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1rem' }}>
+              <LineFill />
+            </div>
+          }
+          <LogoFill />
+        </div>
       </div>
     </div>
     );

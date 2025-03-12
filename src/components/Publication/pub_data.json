@@ -79,7 +79,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/NTU-Siqiang-Group/CAMAL",
     "confExtra": "",
     "isJournal": false
   },
@@ -1713,7 +1713,7 @@
     "conference": "SIGMOD",
     "year": 2025,
     "video": "",
-    "href": "https://arxiv.org/pdf/2501.06570",
+    "href": "https://dl.acm.org/doi/pdf/10.1145/3709662",
     "description": "A graph database system that leverages LSM-trees to store graph data.",
     "imgSrc": "",
     "keywords": [
@@ -1726,7 +1726,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/NTU-Siqiang-Group/AsterDB",
     "confExtra": "",
     "isJournal": false
   },
@@ -1754,7 +1754,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/we1pingyu/lsmjoin",
     "confExtra": "",
     "isJournal": false
   },
