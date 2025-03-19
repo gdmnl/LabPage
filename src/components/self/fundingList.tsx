@@ -12,7 +12,7 @@ export class FundingList extends React.Component {
         <div style={{ textAlign: 'left', display:'flex', fontSize: "20px", fontWeight: "bold", fontFamily: "Droid Serif", marginBottom: '2rem' }}>
           
           <img src="funds.png" style={{ width: '1.5rem', marginRight: '0.5rem' }} />
-          <div>Funding List</div>
+          <div>Research Grants</div>
         </div>
         <ul style={{ textAlign: 'left', listStyleType: 'none', paddingInlineStart: '0rem', height: '15rem', overflow: "scroll"  }}>
           {
