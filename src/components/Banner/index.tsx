@@ -30,7 +30,10 @@ const LogoFill = () => {
   });
   return (
     <animated.div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem', ...props }}>
-      <img src="ntu_logo_white.png" style={{ width: '10rem' }} />
+      <div style={{ display: 'flex', justifyContent: 'left' }}>
+        <img src="gadsl_bw_logo.png" style={{ height: '4rem', marginLeft: '1rem' }} />
+        <img src="ntu_logo_white.png" style={{ height: '4rem' }} />
+      </div>
       <div style={{ height: '4rem', width: '1px', backgroundColor: 'white', marginLeft: '1rem', marginRight: '1rem' }}/>
       <div style={{ color: 'white', fontSize: '1rem', textAlign: 'left' }}>
         College of Computing <br/> and Data Science
