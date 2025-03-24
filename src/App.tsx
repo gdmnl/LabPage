@@ -55,10 +55,13 @@ function App() {
   return (
     <div className="App" style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
       <Layout>
-        <Header style={{ position: "fixed", top: 0, zIndex: 1000, width: "100%" }}>
-          <div className="ntulogo">
+        <Header style={{ position: "fixed", top: 0, zIndex: 1000, width: "100%", paddingLeft: '1rem' }}>
+          <div className="gadsl-logo" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+            <a href="/lab" style={{ height: '3rem' }}>
+              <img src="gadsl_hd_logo.png" style={{ height: '3rem' }} />
+            </a>
+            <Menu theme="dark" mode="horizontal" selectable={false} items={items} style={{justifyContent: "right", fontSize: "18px", width: "90%" }} />
           </div>
-          <Menu theme="dark" mode="horizontal" selectable={false} items={items} style={{justifyContent: "right", fontSize: "18px", width: "90%" }} />
         </Header>
         <Content>
           <BrowserRouter>
