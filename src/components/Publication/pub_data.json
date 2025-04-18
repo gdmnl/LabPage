@@ -1839,5 +1839,93 @@
     "code": "",
     "confExtra": "",
     "isJournal": false
+  },
+  {
+    "title": "SIGMA: An Efficient Heterophilous Graph Neural Network With Similarity-based Efficient Global Aggregation.",
+    "authors": [
+      "Haoyu Liu",
+      "Ningyi Liao", 
+      "Siqiang Luo"
+    ],
+    "conference": "ICDE",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithm"
+    ],
+    "subKeywords": [
+      "Graph Learning" 
+    ],
+    "id": 64,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "Finding Near-Optimal Maximum Set of Disjoint $k$-Cliques in Real-World Social Networks.",
+    "authors": [
+      "Wenqing Lin",
+      "Xin Chen",
+      "Haoxuan Xie",
+      "Sibo Wang", 
+      "Siqiang Luo"
+    ],
+    "conference": "ICDE",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithm"
+    ],
+    "subKeywords": [
+      "Graph Theory" 
+    ],
+    "id": 65,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "OMeGa: Boosting Large-scale Graph Embeddings with Heterogeneous Memory Processing.", 
+    "authors": [
+      "Peng Fang",
+      "Siqiang Luo",
+      "Fang Wang",
+      "Bolong Zheng", 
+      "Hong Jiang",
+      "Dan Feng",
+      "Hechang Pan", 
+      "Xinyu Wan"
+    ],
+    "conference": "ICDE",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithm"
+    ],
+    "subKeywords": [
+      "Graph Learning" 
+    ],
+    "id": 66,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
   }
 ]
