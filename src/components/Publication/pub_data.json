@@ -1692,7 +1692,7 @@
       "Data Systems"
     ],
     "subKeywords": [
-      "others"
+      "Application Specialized"
     ],
     "id": 58,
     "isExtension": false,
@@ -1921,6 +1921,34 @@
       "Graph Learning" 
     ],
     "id": 66,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "You Need Fewer Operations for Efficient Graph Neural Networks.", 
+    "authors": [
+      "Ningyi Liao",
+      "Zihao Yu",
+      "Ruixiao Zeng",
+      "Siqiang Luo" 
+    ],
+    "conference": "ICML",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithm"
+    ],
+    "subKeywords": [
+      "Graph Learning" 
+    ],
+    "id": 67,
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,

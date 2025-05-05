@@ -7,6 +7,22 @@
       "bg": "PhD from Fudan University",
       "web": "https://scholar.google.com/citations?user=uk4iwHwAAAAJ&hl=en",
       "area": "Graph Algorithm & Learning"
+    },
+    {
+      "name": "Chaoyu GONG",
+      "date": "May 2025 - Present",
+      "img": "chaoyu.jpg",
+      "bg": "PhD from NUS",
+      "web": "https://scholar.google.com/citations?user=sp6xe90AAAAJ&hl=zh-CN",
+      "area": "Graph Algorithm & Learning"
+    },
+    {
+      "name": "Zizhong MENG",
+      "date": "Feb 2025 - Present",
+      "img": "",
+      "bg": "PhD from NTU",
+      "web": "https://scholar.google.com/citations?user=uk4iwHwAAAAJ&hl=en",
+      "area": "Data Systems"
     }
   ],
   "phds": [
@@ -55,7 +71,7 @@
       "img": "LiuHaoyu.jpg",
       "date": "Feb 2023 - Present",
       "bg": "BS from Renmin University of China",
-      "web": "",
+      "web": "https://scholar.google.com/citations?user=DI_fmh0AAAAJ&hl=en",
       "area": "Graph Algorithm"
     },
     {
