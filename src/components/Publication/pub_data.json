@@ -15,7 +15,7 @@
     "description": "A Comprehensive benchmarks for evaluating spectral graph neural networks (GNNs).",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -42,7 +42,7 @@
     "description": "The first one to use SimRank to tackle Graph neural networks (GNNs) with heterophily.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -180,7 +180,7 @@
     "description": "Improves the previously best-known time complexity (pseudo-linear in m) to pseudo-linear in n, for BHPPR problem.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -207,7 +207,7 @@
     "description": "A GPU-oriented subgraph representation learning algorithm on dynamic data.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -234,7 +234,7 @@
     "description": "An efficient sub-graph extraction approach for reasoning over large-scale knowledge graphs.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -264,7 +264,7 @@
     "description": "The marriage of queuing theory and PPR computation. ",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -294,7 +294,7 @@
     "description": "Revisits the label propagation algorithm (LPA) to enhance its effectiveness on graphs exhibiting heterophily and label noise. ",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -323,7 +323,7 @@
     "description": "Pioneering efforts on studying dynamic graph contrastive learning.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -352,7 +352,7 @@
     "description": "This paper introduces a novel graph neural network (GNN) architecture designed to enhance scalability and performance through decoupling and feature-oriented optimization. The approach separates the learning of node features from the aggregation of graph topology information, allowing for more efficient computation and better scalability. Feature-oriented optimization techniques are applied to improve the quality and relevance of the learned node features. This decoupling strategy significantly boosts the GNN's ability to handle large-scale graphs while maintaining high accuracy, making it ideal for applications such as social network analysis, recommendation systems, and large-scale knowledge graph processing.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -383,7 +383,7 @@
     "description": "This paper presents a new method for generating graph embeddings in distributed systems. The approach employs information-oriented random walks to capture more relevant structural and semantic information from the graph. Additionally, it introduces pipeline optimization techniques to enhance the efficiency and scalability of the embedding process. This combination allows for more accurate and meaningful embeddings while reducing computational overhead. The proposed method significantly improves performance in various graph-related tasks such as node classification, link prediction, and community detection, particularly in large-scale distributed environments.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -409,7 +409,7 @@
     "description": "Single-Source SimRank in Massively Parallel Computing Model can be done in o(log n) rounds, improving over the best known results previously.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Theory"
@@ -438,7 +438,7 @@
     "description": "StructAM presents a novel approach to address matching by incorporating a deep semantic understanding of the structure-aware information inherent in addresses. Traditional address matching techniques often rely on syntactic comparisons, which can lead to inaccuracies, especially in cases where addresses are incomplete, misspelled, or formatted differently. StructAM addresses these challenges by leveraging advanced natural language processing techniques to understand the underlying structure and semantics of addresses. The method analyzes the components of an address (such as street names, house numbers, postal codes) in a context-aware manner, enabling more accurate matches even in the presence of variations and errors. The system is designed to be robust and scalable, capable of handling large datasets with diverse address formats. Extensive experiments conducted on real-world datasets demonstrate that StructAM significantly outperforms existing methods in terms of both precision and recall. This advancement is particularly valuable for applications in logistics, e-commerce, and public administration, where accurate address matching is critical for service delivery and operational efficiency.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -466,7 +466,7 @@
     "description": "It is effective to use large language models (LLMs) as prompters for inductive reasoning on arbitrary knowledge graphs, even under low-resource settings.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "others"
@@ -494,7 +494,7 @@
     "description": "This tutorial offers a comprehensive survey of machine learning techniques for subgraph extraction, a critical task in graph-based data analysis. ",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -524,7 +524,7 @@
     "description": "A novel approach to route planning that utilizes historical trajectory data to enhance both the effectiveness and efficiency of route computations on road networks. ",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -556,7 +556,7 @@
     "description": "A new method for distributed graph embedding that utilizes information-oriented random walks to improve the quality of the embeddings. ",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -586,7 +586,7 @@
     "description": "A pioneer effort showing that Graph Contrastive Learning is promising for Community Search.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -614,10 +614,10 @@
     "description": "Example Searcher is demonstration system for spatial query via examples. ",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "id": 21,
     "isExtension": false,
@@ -628,7 +628,7 @@
     "isJournal": false
   },
   {
-    "title": "Multi-Task Processing in Vertex-Centric Graph Algorithm: Evaluations and Insights.",
+    "title": "Multi-Task Processing in Vertex-Centric Graph Algorithms: Evaluations and Insights.",
     "authors": [
       "Siqiang Luo*",
       "Zichen Zhu*",
@@ -641,10 +641,10 @@
     "year": 2023,
     "video": "",
     "href": "https://openproceedings.org/2023/conf/edbt/paper-176.pdf",
-    "description": "An in-depth evaluation of multi-task processing in vertex-centric Graph Algorithm.",
+    "description": "An in-depth evaluation of multi-task processing in vertex-centric Graph Algorithms.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph System"
@@ -705,7 +705,7 @@
     "description": "Design a new community metric over edge-attributed graphs.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -733,7 +733,7 @@
     "description": "A scalable heterophilous GNN with lightweight minibatch training.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -763,7 +763,7 @@
     "description": "Deep Graph Structural Infomax (DGSI) introduces a deep learning framework designed to maximize the mutual information between the structure of a graph and its node representations. This approach is grounded in the concept of infomax, which aims to create representations that preserve as much relevant information as possible about the input data. In the context of graphs, this means learning embeddings that retain the structural properties and relationships between nodes, which are crucial for downstream tasks like link prediction, node classification, and community detection. DGSI leverages a combination of graph convolutional networks (GCNs) and a global-local infomax objective, where the model is trained to maximize the mutual information between global graph-level representations and local node-level representations. This dual focus allows DGSI to capture both macro-level patterns and micro-level details within the graph, leading to more informative and robust embeddings. The paper presents extensive experiments on several benchmark datasets, demonstrating that DGSI outperforms existing methods in terms of both accuracy and computational efficiency. This research contributes to the growing field of unsupervised learning on graphs, providing a powerful new tool for graph representation learning.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -791,7 +791,7 @@
     "description": "Design a new community metric dubbed as density modularity.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -851,7 +851,7 @@
     "description": "A feature-oriented GNN that scales to billion-scale extremely large graphs.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -910,7 +910,7 @@
     "description": "VC-Tune is a powerful tool designed to optimize the performance of distributed vertex-centric Graph Algorithms, which are widely used for processing large-scale graphs in a distributed environment. Vertex-centric systems, where each vertex in the graph is treated as an independent unit of computation, are popular for their scalability and flexibility. However, achieving optimal performance in such systems requires careful tuning of various parameters, such as partitioning strategies, communication overhead, and load balancing, which can be complex and time-consuming. VC-Tune addresses these challenges by providing a comprehensive suite of tools for tuning and exploring different configurations of vertex-centric systems. The tool integrates advanced profiling techniques, automated parameter tuning, and visualization tools to help developers identify performance bottlenecks and explore alternative configurations. The paper provides a detailed overview of VC-Tune's architecture, its key features, and its application to several popular vertex-centric systems. The results from extensive experiments show that VC-Tune can significantly improve the performance of vertex-centric systems, reducing computation time and resource usage while maintaining or even enhancing the accuracy of graph processing tasks. This research is particularly valuable for developers and researchers working with large-scale distributed graphs, offering a practical solution for optimizing system performance.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph System"
@@ -936,7 +936,7 @@
     "description": "A dynamic PPR approach with theoretical guarantees.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -998,7 +998,7 @@
     "description": "When the energy-saving SNNs meet graphs. ",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -1029,7 +1029,7 @@
     "description": "It becomes one of the standard baselines for heterophilous GNNs.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -1055,7 +1055,7 @@
     "description": "Dynamic PPR approach with theorectical guarantees.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -1113,7 +1113,7 @@
     "description": "The study proposes one-hop PPR, inspired by the application scenario in Tencent.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -1143,7 +1143,7 @@
     "description": "A fundamental routing query inspired by the application of Ride-Sharing.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "others"
@@ -1168,7 +1168,7 @@
     "description": "Improved the communication bandwith of MPC to O(log^3 n) in computing PageRank.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Theory"
@@ -1196,7 +1196,7 @@
     "description": "A novel adaptive-optimization framework for multi-processing k-nearest neighbor (kNN) search on road networks.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "others"
@@ -1224,7 +1224,7 @@
     "description": "The study proposes one-hop PPR, inspired by the application scenario in Tencent.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -1249,7 +1249,7 @@
     "description": "Give an improved round-complexity upper-bound O(log log n), and before our results the best known one is =O(sqrt(log n)). ",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Theory"
@@ -1280,7 +1280,7 @@
     "description": "Efficiently dentify communities within a graph that are not only structurally cohesive but also spatially relevant. ",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm",
+      "Graph Algorithms",
       "spatial"
     ],
     "subKeywords": [
@@ -1311,7 +1311,7 @@
     "description": "An adaptive index designed to optimize throughput for answering dynamic k-nearest neighbor (kNN) queries on road networks, with theoretical guarantees.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm",
+      "Graph Algorithms",
       "spatial"
     ],
     "subKeywords": [
@@ -1367,7 +1367,7 @@
     "description": "Efficiently dentify communities within a graph that are not only structurally cohesive but also spatially relevant.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm",
+      "Graph Algorithms",
       "spatial"
     ],
     "subKeywords": [
@@ -1397,7 +1397,7 @@
     "description": "C-Explorer is a system designed for browsing and exploring communities in large graphs.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -1426,7 +1426,7 @@
     "description": "Efficiently querying minimal Steiner maximum-connected subgraphs in large graphs.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -1455,7 +1455,7 @@
     "description": "One of the first studies that introduce attributes in community search.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -1484,7 +1484,7 @@
     "description": "The first study on embedding uncertain graphs.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -1541,7 +1541,7 @@
     "description": "One of the first studies that introduce attributes in community search.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -1570,7 +1570,7 @@
     "description": "Efficiently querying minimal Steiner maximum-connected subgraphs in large graphs.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -1629,7 +1629,7 @@
     "description": "A shortest path algorithm that has both practical efficiency and desired theoretical complexity.",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Fundamental Graph Operators"
@@ -1658,7 +1658,7 @@
     "description": "",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "others"
@@ -1773,7 +1773,7 @@
     "description": "",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -1800,7 +1800,7 @@
     "description": "",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning"
@@ -1823,7 +1823,7 @@
     "conference": "SIGMOD",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://dl.acm.org/doi/pdf/10.1145/3725310",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -1854,7 +1854,7 @@
     "description": "",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning" 
@@ -1883,7 +1883,7 @@
     "description": "",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Theory" 
@@ -1915,7 +1915,7 @@
     "description": "",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning" 
@@ -1943,12 +1943,41 @@
     "description": "",
     "imgSrc": "",
     "keywords": [
-      "Graph Algorithm"
+      "Graph Algorithms"
     ],
     "subKeywords": [
       "Graph Learning" 
     ],
     "id": 67,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "A Comprehensive Benchmark on Spectral GNNs: The lmpact on Efficiency,Memory, and Effectiveness.", 
+    "authors": [
+      "Ningyi Liao",
+      "Haoyu Liu",
+      "Zulun Zhu",
+      "Siqiang Luo",
+      "Laks V.S. Lakshmanan" 
+    ],
+    "conference": "SIGMOD",
+    "year": 2026,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph Learning" 
+    ],
+    "id": 68,
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,

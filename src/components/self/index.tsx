@@ -44,9 +44,8 @@ export class SelfIntro extends React.Component {
               I am a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University.
               I am also affiliated with <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>. I have broad interest in efficient and effective big data analytics, queries and learning, particularly about:
               <p>
-                1. Graph analytics and learning <br/>
-                2. Scalable data structures and systems <br/>
-                3. Machine-learning enhanced data management
+                1. Scalable graph analytics and learning <br/>
+                2. Scalable data structures and systems
               </p>
               <p>
                 Please refer to our <a href="/lab">lab website</a> for more details.
