@@ -21,7 +21,7 @@ export interface PubType {
   code: string;
 }
 
-export const searchKeywords: string[] = ["Graph Algorithm", "Data Systems"];
+export const searchKeywords: string[] = ["Graph Algorithms", "Data Systems"];
 
 
 export const searchYears: string[] = [... new Set(pubDatabase.map((pub) => pub.year))].sort((a, b) => b - a).map(

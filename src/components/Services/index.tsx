@@ -13,7 +13,9 @@ interface ServiceType {
 
 function highlightRole(role: string): React.ReactNode {
   return (
-    role.toLowerCase().includes("chair") || role.toLowerCase().includes("editor") ? 
+    role.toLowerCase().includes("chair") || role.toLowerCase().includes("editor") 
+      || role.toLowerCase().includes("outstanding")
+    ? 
     <span style={{ color: '#F65353', fontWeight: 'bold' }}>{role}</span> :
     <span>{role}</span>
   );

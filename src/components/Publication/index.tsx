@@ -28,7 +28,7 @@ function getExtensionString(extensionId: number, pubs: PubType[]): string {
 }
 
 function getIcon(item: PubType): React.ReactNode {
-  if (item.keywords.find(val => val === 'Graph Algorithm')) {
+  if (item.keywords.find(val => val === 'Graph Algorithms')) {
     return <img style={{width: '0.9rem' }} src="graph.svg" />
   } else if (item.keywords.find(val => val === 'Data Systems')) {
     return <img style={{width: '0.9rem' }} src="database.svg"/>
@@ -106,11 +106,11 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
             <div style={{ paddingLeft: '1.5rem', display: 'flex', justifyContent: 'left', fontSize: '0.8rem', color: '#0080FF', fontStyle: 'italic' }}>
               <div style={{ display: 'flex', justifyContent: 'left', marginRight: '1rem' }}>
                 <img style={{width: '0.8rem' }} src="graph.svg" />
-                <div> Graph Algorithm</div>
+                <div> Graph Algorithms</div>
               </div>
               <div style={{ display: 'flex', justifyContent: 'left' }}>
                 <img style={{width: '0.8rem' }} src="database.svg" />
-                <div> Data System</div>
+                <div> Data Systems</div>
               </div>
             </div>
             <div style={{ padding: "1rem" }}>
