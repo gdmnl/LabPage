@@ -1,5 +1,7 @@
-import { Input, List, Select } from "antd";
+import { Input, List, Select, Card } from "antd";
 import * as React from "react";
+
+import './pub.css';
 
 import { pubData, pubIndex, PubType, searchConferences, searchKeywords, searchYears } from "./pub";
 
@@ -102,15 +104,15 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
           <div style={{ marginLeft: "40px" }}>Selected Publication</div>
         </div>
         <div style={{ display: "flex", justifyContent: 'center' }}>
-          <div style={{ width: '90%' }}>
-            <div style={{ paddingLeft: '1.5rem', display: 'flex', justifyContent: 'left', fontSize: '0.8rem', color: '#0080FF', fontStyle: 'italic' }}>
+          <div style={{ width: '60%' }}>
+            <div style={{ paddingLeft: '1.5rem', display: 'flex', justifyContent: 'left', fontSize: '1rem', fontStyle: 'italic' }}>
               <div style={{ display: 'flex', justifyContent: 'left', marginRight: '1rem' }}>
-                <img style={{width: '0.8rem' }} src="graph.svg" />
-                <div> Graph Algorithms</div>
+                <img style={{width: '1rem' }} src="graph.svg" />
+                <div style={{ backgroundColor: '#DDF6D2' }}> Graph Algorithms</div>
               </div>
               <div style={{ display: 'flex', justifyContent: 'left' }}>
-                <img style={{width: '0.8rem' }} src="database.svg" />
-                <div> Data Systems</div>
+                <img style={{width: '1rem' }} src="database.svg" />
+                <div style={{ backgroundColor: '#fff5e1' }}> Data Systems</div>
               </div>
             </div>
             <div style={{ padding: "1rem" }}>
@@ -163,26 +165,36 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
                   <List.Item
                     key={item.title}
                   >
-                    <List.Item.Meta
-                      title={<a href={item.href}>{getIcon(item)}{item.title}</a>}
-                      description={
-                      <span>
-                        <span style={{ fontStyle: "italic" }}>
-                          {item.authors.join(", ")}
+                    <a href={item.href} target='_blank'><Card
+                      className="hover-card"
+                      style={{
+                      border: '1px solid #d9d9d9',
+                      backgroundColor: item.keywords[0] == 'Graph Algorithms' ? '#DDF6D2' : '#fff5e1' 
+                    }}
+                      >
+                      <List.Item.Meta
+                        title={<a href={item.href}>{getIcon(item)}{
+                          <span>{item.title}</span>
+                        }</a>}
+                        description={
+                        <span>
+                          <span style={{ fontStyle: "italic" }}>
+                            {item.authors.join(", ")}
+                          </span>
+                          <span style={{ fontWeight: "bold", color: "black" }}>
+                            {genConferenceInfo(item.conference, item.year, item.confExtra)}
+                          </span>
                         </span>
-                        <span style={{ fontWeight: "bold", color: "black" }}>
-                          {genConferenceInfo(item.conference, item.year, item.confExtra)}
-                        </span>
-                      </span>
-                      }
-                    />
-                    {item.description}
-                    <p>
-                      {item.video.length > 0 ? <a href={item.video} target="_blank">[video]</a> : "" }
-                      {item.href.length > 0 ? <a href={item.href} target="_blank">[paper]</a> : "" }
-                      {item.hasExtension >= 0 ? <a href={getExtensionHref(item.hasExtension, this.state.allPubs)}>{getExtensionString(item.hasExtension, this.state.allPubs)}</a> : ""}
-                      {item.code.length > 0 ? <a href={item.code} target="_blank">[code]</a>: ""}
-                    </p>
+                        }
+                      />
+                      {item.description}
+                      <p>
+                        {item.video.length > 0 ? <a href={item.video} target="_blank">[video]</a> : "" }
+                        {item.href.length > 0 ? <a href={item.href} target="_blank">[paper]</a> : "" }
+                        {item.hasExtension >= 0 ? <a href={getExtensionHref(item.hasExtension, this.state.allPubs)}>{getExtensionString(item.hasExtension, this.state.allPubs)}</a> : ""}
+                        {item.code.length > 0 ? <a href={item.code} target="_blank">[code]</a>: ""}
+                      </p>
+                    </Card></a>
                   </List.Item> : ""
                 )}
               />
