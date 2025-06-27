@@ -1841,7 +1841,7 @@
     "isJournal": false
   },
   {
-    "title": "SIGMA: An Efficient Heterophilous Graph Neural Network With Similarity-based Efficient Global Aggregation.",
+    "title": "SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation.",
     "authors": [
       "Haoyu Liu",
       "Ningyi Liao", 
