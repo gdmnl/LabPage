@@ -1841,7 +1841,7 @@
     "isJournal": false
   },
   {
-    "title": "SIGMA: An Efficient Heterophilous Graph Neural Network With Similarity-based Efficient Global Aggregation.",
+    "title": "SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation.",
     "authors": [
       "Haoyu Liu",
       "Ningyi Liao", 
@@ -1850,7 +1850,7 @@
     "conference": "ICDE",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://arxiv.org/abs/2305.09958",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -1863,7 +1863,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/hyLiu-777/SIGMA",
     "confExtra": "",
     "isJournal": false
   },
@@ -1957,7 +1957,7 @@
     "isJournal": false
   },
   {
-    "title": "A Comprehensive Benchmark on Spectral GNNs: The lmpact on Efficiency,Memory, and Effectiveness.", 
+    "title": "A Comprehensive Benchmark on Spectral GNNs: The lmpact on Efficiency, Memory, and Effectiveness.", 
     "authors": [
       "Ningyi Liao",
       "Haoyu Liu",
