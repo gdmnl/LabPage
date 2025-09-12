@@ -41,10 +41,21 @@ export class SelfIntro extends React.Component {
         <div style={{ display: "flex", justifyContent: "center", fontFamily: "'Cardo'", textAlign: "left", fontSize: "16px", lineHeight: "2" }}>
           <div style={{ width: "70%" }}>
             <p>
-              I am a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University.
-              I am also affiliated with <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>. I have broad interest in efficient and effective big data analytics, queries and learning, particularly about:
+              {/* I am a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University.
+              I am also affiliated with <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>. I have broad interest in efficient and effective big data analytics, queries and learning, particularly about: */}
+              I am a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University, and an affiliated member of <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>.
+              I was a Postdoctoral Researcher at Harvard University, advised by <a href="https://stratos.seas.harvard.edu/">Prof. Stratos Idreos</a>.
+              I earned my Ph.D. in Computer Science from the University of Hong Kong under the supervision of <a href="https://www.cs.hku.hk/index.php/people/academic-staff/kao">Prof. Ben Kao</a> and <a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a>.
+              Before that, I completed both my master's and bachelor's degrees in Computer Science at Fudan University (advised by <a href="https://admis.fudan.edu.cn/sgzhou/">Prof. Shuigeng Zhou</a>).
+              <br/>
+              <br/>
+              I have also been a visiting student/intern at the University of Cambridge (hosted by <a href="https://www.cl.cam.ac.uk/~tms41/">Prof. Thomas Sauerwald</a>), Nanyang Technological University (hosted by <a href="https://www.comp.nus.edu.sg/~xiaoxk/">Prof. Xiaokui Xiao</a>)
+              and Tsinghua University (hosted by <a href="https://dbgroup.cs.tsinghua.edu.cn/ligl/">Prof. Guoliang Li</a>).
+              <br/>
+              <br/>
+              I have broad interest in efficient and effective big data analytics, queries and mining, particularly about:
               <p>
-                1. Scalable graph analytics and learning <br/>
+                1. Scalable graph analytics and mining <br/>
                 2. Scalable data structures and systems
               </p>
               <p>
