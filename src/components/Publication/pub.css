@@ -8,3 +8,9 @@
   transform: scale(1.05) translateY(-4px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
+
+a[href=""] {
+  pointer-events: none;
+  text-decoration: none;
+  cursor: default;
+}
