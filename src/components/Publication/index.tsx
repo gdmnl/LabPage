@@ -165,36 +165,36 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
                   <List.Item
                     key={item.title}
                   >
-                    <a href={item.href} target='_blank'><Card
-                      className="hover-card"
-                      style={{
-                      border: '1px solid #d9d9d9',
-                      backgroundColor: item.keywords[0] == 'Graph Algorithms' ? '#DDF6D2' : '#fff5e1' 
-                    }}
+                      <Card
+                        className="hover-card"
+                        style={{
+                        border: '1px solid #d9d9d9',
+                        backgroundColor: item.keywords[0] == 'Graph Algorithms' ? '#DDF6D2' : '#fff5e1' 
+                      }}
                       >
-                      <List.Item.Meta
-                        title={<a href={item.href}>{getIcon(item)}{
-                          <span>{item.title}</span>
-                        }</a>}
-                        description={
-                        <span>
-                          <span style={{ fontStyle: "italic" }}>
-                            {item.authors.join(", ")}
+                        <List.Item.Meta
+                          title={<a href={item.href}>{getIcon(item)}{
+                            <span>{item.title}</span>
+                          }</a>}
+                          description={
+                          <span>
+                            <span style={{ fontStyle: "italic" }}>
+                              {item.authors.join(", ")}
+                            </span>
+                            <span style={{ fontWeight: "bold", color: "black" }}>
+                              {genConferenceInfo(item.conference, item.year, item.confExtra)}
+                            </span>
                           </span>
-                          <span style={{ fontWeight: "bold", color: "black" }}>
-                            {genConferenceInfo(item.conference, item.year, item.confExtra)}
-                          </span>
-                        </span>
-                        }
-                      />
-                      {item.description}
-                      <p>
-                        {item.video.length > 0 ? <a href={item.video} target="_blank">[video]</a> : "" }
-                        {item.href.length > 0 ? <a href={item.href} target="_blank">[paper]</a> : "" }
-                        {item.hasExtension >= 0 ? <a href={getExtensionHref(item.hasExtension, this.state.allPubs)}>{getExtensionString(item.hasExtension, this.state.allPubs)}</a> : ""}
-                        {item.code.length > 0 ? <a href={item.code} target="_blank">[code]</a>: ""}
-                      </p>
-                    </Card></a>
+                          }
+                        />
+                        {item.description}
+                        <p>
+                          {item.video.length > 0 ? <a href={item.video} target="_blank">[video]</a> : "" }
+                          {item.href.length > 0 ? <a href={item.href} target="_blank">[paper]</a> : "" }
+                          {item.hasExtension >= 0 ? <a href={getExtensionHref(item.hasExtension, this.state.allPubs)}>{getExtensionString(item.hasExtension, this.state.allPubs)}</a> : ""}
+                          {item.code.length > 0 ? <a href={item.code} target="_blank">[code]</a>: ""}
+                        </p>
+                      </Card>
                   </List.Item> : ""
                 )}
               />
