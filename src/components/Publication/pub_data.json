@@ -1685,7 +1685,7 @@
     "conference": "SIGMOD",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://dl.acm.org/doi/10.1145/3709736",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -1796,7 +1796,7 @@
     "conference": "IEEE TKDE",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://ieeexplore.ieee.org/document/10770758",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -1868,7 +1868,7 @@
     "isJournal": false
   },
   {
-    "title": "Finding Near-Optimal Maximum Set of Disjoint $k$-Cliques in Real-World Social Networks.",
+    "title": "Finding Near-Optimal Maximum Set of Disjoint k-Cliques in Real-World Social Networks.",
     "authors": [
       "Wenqing Lin",
       "Xin Chen",
@@ -1879,7 +1879,7 @@
     "conference": "ICDE",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://arxiv.org/pdf/2503.20299",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -1911,7 +1911,7 @@
     "conference": "ICDE",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://ieeexplore.ieee.org/document/11113136",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -1929,7 +1929,7 @@
     "isJournal": false
   },
   {
-    "title": "You Need Fewer Operations for Efficient Graph Neural Networks.", 
+    "title": "Unifews: You Need Fewer Operations for Efficient Graph Neural Networks.", 
     "authors": [
       "Ningyi Liao",
       "Zihao Yu",
@@ -1939,7 +1939,7 @@
     "conference": "ICML",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://openreview.net/pdf?id=INg866tEaT",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -1978,6 +1978,62 @@
       "Graph Learning" 
     ],
     "id": 68,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "HubGT: Fast Graph Transformers with Decoupled Hierarchy Labelling.", 
+    "authors": [
+      "Ningyi Liao",
+      "Zihao Yu",
+      "Siqiang Luo",
+      "Gao Cong" 
+    ],
+    "conference": "NeurIPS",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph Learning" 
+    ],
+    "id": 69,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "Towards Graph Foundation Models: Training on Knowledge Graphs Enables Transferability to General Graphs.", 
+    "authors": [
+      "Kai Wang",
+      "Siqiang Luo",
+      "Caihua Shan",
+      "Yifei Shen"
+    ],
+    "conference": "NeurIPS",
+    "year": 2025,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph Learning" 
+    ],
+    "id": 70,
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
