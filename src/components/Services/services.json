@@ -49,7 +49,7 @@
     "years": [
       {
         "role": "PC Member",
-        "year": "2026"
+        "year": "2026,2027"
       }
     ],
     "category": "Conference Services"
@@ -79,7 +79,7 @@
       },
       {
         "role": "Area Chair",
-        "year": "2025"
+        "year": "2025,2026"
       },
       {
         "role": "Outstanding Reviewer",
@@ -120,7 +120,7 @@
     "years": [
       {
         "role": "PC Member",
-        "year": "2022, 2025"
+        "year": "2022,2025,2026"
       },
       {
         "role": "TKDE poster",
@@ -133,6 +133,17 @@
       {
         "role": "Sponsorship Co-Chair",
         "year": "2025"
+      }
+    ],
+    "category": "Conference Services"
+  },
+  {
+    "name": "Database Systems for Advanced Applications",
+    "keyword": "DASFAA",
+    "years": [
+      {
+        "role": "Demo Co-chair",
+        "year": "2026"
       }
     ],
     "category": "Conference Services"
@@ -309,6 +320,17 @@
       {
         "year": "0",
         "role": "Reviewer"
+      }
+    ],
+    "category": "Journal Services"
+  },
+  {
+    "name": "Distributed and Parallel Databases",
+    "keyword": "",
+    "years": [
+      {
+        "year": "0",
+        "role": "Associate Editor"
       }
     ],
     "category": "Journal Services"
