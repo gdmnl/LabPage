@@ -2040,5 +2040,35 @@
     "code": "",
     "confExtra": "",
     "isJournal": false
+  },
+  {
+    "title": "When Deepfake Detection Meets Graph Neural Network: a Unified and Lightweight Framework.", 
+    "authors": [
+      "Haoyu Liu",
+      "Chaoyu Gong",
+      "Mengke He",
+      "Jiate Li",
+      "Kai Han",
+      "Siqiang Luo"
+    ],
+    "conference": "SIGKDD",
+    "year": 2026,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph Learning" 
+    ],
+    "id": 71,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
   }
 ]
