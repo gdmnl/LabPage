@@ -5,6 +5,17 @@ import './pub.css';
 
 import { pubData, pubIndex, PubType, searchConferences, searchKeywords, searchYears } from "./pub";
 
+// temporary feature. Not sure whether to change schema
+function getAwardInfo(pubId: Number) {
+  if (pubId === 7) {
+    return <span style={{ color: "gray" }}> | ★ PREMIA Best Student Paper Award 2024, Certificate of Merit</span>
+  }
+  if (pubId === 68) {
+    return <span style={{ color: "gray" }}> | ★ PREMIA Best Student Paper Awards, Certificate of Commendation</span>
+  }
+  return "";
+}
+
 function genConferenceInfo(conferenceName: string, year: number, confExtra: string) {
   return ` ${conferenceName}${confExtra.length > 0 ? " (" + confExtra + ") ": ""} in ${year}`;
 }
@@ -182,7 +193,7 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
                               {item.authors.join(", ")}
                             </span>
                             <span style={{ fontWeight: "bold", color: "black" }}>
-                              {genConferenceInfo(item.conference, item.year, item.confExtra)}
+                              {genConferenceInfo(item.conference, item.year, item.confExtra)}{getAwardInfo(item.id)}
                             </span>
                           </span>
                           }

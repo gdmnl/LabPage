@@ -43,7 +43,7 @@ class Project extends React.Component<ProjectProps> {
               <div style={{ marginLeft: "1rem", marginRight: "1rem"}}>
                 <div>
                   <a href={member.web}>
-                    <img src={member.imgSrc.length > 0 ? "avatar/" + member.imgSrc : "anonymous.png" } style={{ width: "5rem", height: "5rem", borderRadius: "50%" }} />
+                    <img src={member.imgSrc.length > 0 ? "avatar/" + member.imgSrc : "hubot.png" } style={{ width: "5rem", height: "5rem", borderRadius: "50%" }} />
                   </a>
                 </div>
                 <div>{member.name}</div>

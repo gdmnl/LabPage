@@ -14,7 +14,7 @@ const items: TabsProps["items"] = [
   },
   {
     key: "2",
-    label: "Scalable Graph Computation",
+    label: "Graph Data Mining and Learning",
     children: <Project {...projectData.graphProject} />,
   },
 ];

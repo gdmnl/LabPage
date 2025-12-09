@@ -34,10 +34,14 @@ const graphPubsId: number[] = [
   44,45,47,48,49,50,53,54,56,59,61,62,64,65,66,67
 ];
 
+// deep copy
 const graphPublications = graphPubsId.map((id) => {
-  return pubData.filter((pub) => pub.id === id)[0];
+  const pub = pubData.find((p) => p.id === id)!;
+  return structuredClone(pub);
 });
 
+// modify the label of Aster
+graphPublications[37]!.subKeywords = ["Graph System"];
 
 const allPeople = peopleData.phds.map((person) => {
   return {
@@ -75,7 +79,7 @@ export const keyValueProject: ProjectProps = {
 };
 
 export const graphProject: ProjectProps = {
-  title: "Scalable Graph Computation",
+  title: "Graph Data Mining and Learning",
   description: rawData[1].description,
   imgSrc: rawData[1].img,
   publications: graphPublications,
