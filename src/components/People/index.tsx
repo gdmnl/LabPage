@@ -4,11 +4,18 @@ import { Col, Row } from "antd";
 import { Content } from "antd/es/layout/layout";
 import { PlusCircleOutlined, MinusCircleOutlined } from '@ant-design/icons';
 
-import { phds, postdocs, masters, alumni } from "./data";
+import { phds, postdocs, masters, ras, alumni } from "./data";
 
 import Alumni from "./alumni";
 
 const elementInRow = 4;
+
+function getResearchPosition(name: string) {
+  for (let i = 0; i < postdocs.length; i++) {
+    if (postdocs[i].name === name) return "Postdoctoral Researcher";
+  }
+  return "Research Assistant";
+}
 
 export class PeopleList extends React.Component<{}, { alumniVisible: boolean }> {
   constructor(props: {}) {
@@ -22,9 +29,10 @@ export class PeopleList extends React.Component<{}, { alumniVisible: boolean }> 
     for (let i = 0; i < phds.length; i += elementInRow) {
       phdGroups.push(phds.slice(i, i + elementInRow));
     }
-    const postDocsGroup = [];
-    for (let i = 0; i < postdocs.length; i += elementInRow) {
-      postDocsGroup.push(postdocs.slice(i, i + elementInRow));
+    const mergedRAs = [...postdocs, ...ras];
+    const researchStaffGroups = [];
+    for (let i = 0; i < mergedRAs.length; i += elementInRow) {
+      researchStaffGroups.push(mergedRAs.slice(i, i + elementInRow));
     }
     const mastersGroups = [];
     for (let i = 0; i < masters.length; i += elementInRow) {
@@ -66,8 +74,8 @@ export class PeopleList extends React.Component<{}, { alumniVisible: boolean }> 
               ))}
             </Row>
         ))}
-        <div style={{ fontSize: "30px", marginTop: "10px", marginBottom: "10px" }}>Postdoctoral Researchers</div>
-        {postDocsGroup.map((postDocGroup, _) => (
+        <div style={{ fontSize: "30px", marginTop: "10px", marginBottom: "10px" }}>Research Staffs</div>
+        {researchStaffGroups.map((postDocGroup, _) => (
             <Row justify="center">
               {postDocGroup.map((postDoc, _) => (
                 <Col span={5} style={{ padding: "1rem"}}>
@@ -82,8 +90,9 @@ export class PeopleList extends React.Component<{}, { alumniVisible: boolean }> 
                   </div>
                   <div style={{ fontSize: "1rem", color: "#7d7d7d", lineHeight: "1.5" }}>{postDoc.date}</div>
                   <div style={{ fontSize: "1rem", color: "#7d7d7d", lineHeight: "1.5" }}>Research Area: {postDoc.area}</div>
+                  <div style={{ fontSize: "1rem", color: "#7d7d7d", lineHeight: "1.5" }}>Position: {getResearchPosition(postDoc.name)}</div>
                 </Col>
-              ))}
+              ))} 
             </Row>
         ))}
         <div style={{ fontSize: "30px", marginTop: "10px", marginBottom: "10px" }}>

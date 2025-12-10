@@ -21,7 +21,7 @@
       "date": "Feb 2025 - Present",
       "img": "",
       "bg": "PhD from NTU",
-      "web": "https://scholar.google.com/citations?user=uk4iwHwAAAAJ&hl=en",
+      "web": "https://scholar.google.com/citations?user=9bOrHwsAAAAJ&hl=en",
       "area": "Data Systems"
     },
     {
@@ -46,6 +46,24 @@
       "img": "chengyao.jpg",
       "bg": "PhD from East China Normal University",
       "web": "https://scholar.google.com/citations?user=0BzLJqkAAAAJ&hl=zh-CN",
+      "area": "Graph Algorithm & Learning"
+    }
+  ],
+  "RA": [
+    {
+      "name": "Weitang Ye",
+      "date": "Aug 2025 - Present",
+      "img": "weitang.jpg",
+      "bg": "BS from RUC",
+      "web": "https://github.com/WittenYeh",
+      "area": "Data Systems"
+    },
+    {
+      "name": "Mengke He",
+      "date": "Mar 2025 - Present",
+      "img": "mengke.jpg",
+      "bg": "Master from Nanyang Technological University",
+      "web": "https://scholar.google.com/citations?hl=zh-CN&user=B69QIDUAAAAJ",
       "area": "Graph Algorithm & Learning"
     }
   ],
@@ -149,7 +167,7 @@
       "web": "https://volatill.github.io/",
       "area": "Data Systems",
       "position": "Graduated PhD",
-      "next": ""
+      "next": "PostDoc @ NTU"
     },
     {
       "name": "Ningyi LIAO",

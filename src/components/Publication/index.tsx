@@ -8,10 +8,10 @@ import { pubData, pubIndex, PubType, searchConferences, searchKeywords, searchYe
 // temporary feature. Not sure whether to change schema
 function getAwardInfo(pubId: Number) {
   if (pubId === 7) {
-    return <span style={{ color: "gray" }}> | ★ PREMIA Best Student Paper Award 2024, Certificate of Merit</span>
+    return <a href="https://nyliao.github.io/media/albums/premia_24.pdf" target="_blank"><span style={{ color: "gray" }}> | ★ PREMIA Best Student Paper Award 2024, Certificate of Merit</span></a>
   }
   if (pubId === 68) {
-    return <span style={{ color: "gray" }}> | ★ PREMIA Best Student Paper Awards, Certificate of Commendation</span>
+    return <a href="https://nyliao.github.io/media/albums/premia_25.pdf" target="_blank"><span style={{ color: "gray" }}> | ★ PREMIA Best Student Paper Awards, Certificate of Commendation</span></a>
   }
   return "";
 }
@@ -184,7 +184,7 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
                       }}
                       >
                         <List.Item.Meta
-                          title={<a href={item.href}>{getIcon(item)}{
+                          title={<a href={item.href} target="_blank">{getIcon(item)}{
                             <span>{item.title}</span>
                           }</a>}
                           description={
