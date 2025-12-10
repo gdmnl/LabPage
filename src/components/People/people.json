@@ -21,27 +21,53 @@
       "date": "Feb 2025 - Present",
       "img": "",
       "bg": "PhD from NTU",
-      "web": "https://scholar.google.com/citations?user=uk4iwHwAAAAJ&hl=en",
+      "web": "https://scholar.google.com/citations?user=9bOrHwsAAAAJ&hl=en",
       "area": "Data Systems"
+    },
+    {
+      "name": "Wei ZHUO",
+      "date": "Jul 2025 - Present",
+      "img": "zhuowei.png",
+      "bg": "PhD from SYSU",
+      "area": "Graph Learning",
+      "web": "https://wei2hu0.github.io/"
+    },
+    {
+      "name": "Tianhao WU",
+      "date": "Aug 2025 - Present",
+      "img": "tianhao.jpg",
+      "bg": "PhD from Tsinghua University",
+      "web": "https://herew.github.io",
+      "area": "Graph Algorithm & Learning"
+    },
+    {
+      "name": "Yao CHENG",
+      "date": "Aug 2025 - Present",
+      "img": "chengyao.jpg",
+      "bg": "PhD from East China Normal University",
+      "web": "https://scholar.google.com/citations?user=0BzLJqkAAAAJ&hl=zh-CN",
+      "area": "Graph Algorithm & Learning"
+    }
+  ],
+  "RA": [
+    {
+      "name": "Weitang Ye",
+      "date": "Aug 2025 - Present",
+      "img": "weitang.jpg",
+      "bg": "BS from RUC",
+      "web": "https://github.com/WittenYeh",
+      "area": "Data Systems"
+    },
+    {
+      "name": "Mengke He",
+      "date": "Mar 2025 - Present",
+      "img": "mengke.jpg",
+      "bg": "Master from Nanyang Technological University",
+      "web": "https://scholar.google.com/citations?hl=zh-CN&user=B69QIDUAAAAJ",
+      "area": "Graph Algorithm & Learning"
     }
   ],
   "phds": [
-    {
-      "name": "Dingheng MO",
-      "date": "Aug 2021 - Present",
-      "img": "MoDingheng.png",
-      "bg": "BS from University of Science and Technology of China",
-      "web": "https://volatill.github.io/",
-      "area": "Data Systems"
-    },
-    {
-      "name": "Ningyi LIAO",
-      "date": "Aug 2021 - Present",
-      "img": "LiaoNingyi.jpeg",
-      "bg": "BS from Shanghai Jiao Tong University",
-      "web": "https://nyliao.github.io/",
-      "area": "Graph Algorithm"
-    },
     {
       "name": "Zulun ZHU",
       "img": "ZhuZulun.jpg",
@@ -63,7 +89,7 @@
       "img": "WangFan.jpg",
       "date": "Feb 2023 - Present",
       "bg": "MS from Zhejiang University",
-      "web": "",
+      "web": "https://scholar.google.com/citations?user=MUF_CTIAAAAJ&hl=zh-CN&oi=sra",
       "area": "Data Systems"
     },
     {
@@ -102,8 +128,16 @@
       "name": "Zhaoqi ZHANG",
       "date": "Feb 2022 - Present",
       "bg": "co-supervised with Prof. Cong GAO",
-      "web": "",
+      "web": "https://scholar.google.com/citations?user=eige9cUAAAAJ&hl=en",
       "area": "Spatial Data Mining"
+    },
+    {
+      "name": "Yige JIANG",
+      "date": "Aug 2025 - Present",
+      "bg": "BS from Chinese University of Hong Kong, Shenzhen",
+      "web": "https://kiwihm.github.io",
+      "img": "yige.jpg",
+      "area": "Data Systems"
     }
   ],
   "masters": [
@@ -113,7 +147,7 @@
       "bg": "BS from Fudan University",
       "web": "",
       "area": "",
-      "img": ""
+      "img": "jiarui.jpg"
     },
     {
       "name": "Shambhavi Das",
@@ -125,6 +159,26 @@
     }
   ],
   "alumni": [
+    {
+      "name": "Dingheng MO",
+      "date": "Aug 2021 - Dec 2025",
+      "img": "MoDingheng.png",
+      "bg": "Graduated PhD",
+      "web": "https://volatill.github.io/",
+      "area": "Data Systems",
+      "position": "Graduated PhD",
+      "next": "PostDoc @ NTU"
+    },
+    {
+      "name": "Ningyi LIAO",
+      "date": "Aug 2021 - Dec 2025",
+      "img": "LiaoNingyi.jpeg",
+      "bg": "Graduated PhD",
+      "web": "https://nyliao.github.io/",
+      "area": "Graph Algorithm",
+      "position": "Graduated PhD",
+      "next":"PostDoc @ UBC"
+    },
     {
       "name": "Meng LI",
       "date": "Jul 2021 - Jul 2022",

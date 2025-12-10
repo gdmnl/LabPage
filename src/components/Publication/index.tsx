@@ -5,6 +5,17 @@ import './pub.css';
 
 import { pubData, pubIndex, PubType, searchConferences, searchKeywords, searchYears } from "./pub";
 
+// temporary feature. Not sure whether to change schema
+function getAwardInfo(pubId: Number) {
+  if (pubId === 7) {
+    return <a href="https://nyliao.github.io/media/albums/premia_24.pdf" target="_blank"><span style={{ color: "gray" }}> | ★ PREMIA Best Student Paper Award 2024, Certificate of Merit</span></a>
+  }
+  if (pubId === 68) {
+    return <a href="https://nyliao.github.io/media/albums/premia_25.pdf" target="_blank"><span style={{ color: "gray" }}> | ★ PREMIA Best Student Paper Awards, Certificate of Commendation</span></a>
+  }
+  return "";
+}
+
 function genConferenceInfo(conferenceName: string, year: number, confExtra: string) {
   return ` ${conferenceName}${confExtra.length > 0 ? " (" + confExtra + ") ": ""} in ${year}`;
 }
@@ -173,7 +184,7 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
                       }}
                       >
                         <List.Item.Meta
-                          title={<a href={item.href}>{getIcon(item)}{
+                          title={<a href={item.href} target="_blank">{getIcon(item)}{
                             <span>{item.title}</span>
                           }</a>}
                           description={
@@ -182,7 +193,7 @@ export class PublicationList extends React.Component<{}, PublicationListState> {
                               {item.authors.join(", ")}
                             </span>
                             <span style={{ fontWeight: "bold", color: "black" }}>
-                              {genConferenceInfo(item.conference, item.year, item.confExtra)}
+                              {genConferenceInfo(item.conference, item.year, item.confExtra)}{getAwardInfo(item.id)}
                             </span>
                           </span>
                           }

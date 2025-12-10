@@ -16,8 +16,8 @@ class AlumnusCard extends React.Component<{ name: string, date: string, pos: str
         backgroundColor: 'white'
       }}>
         <div style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{this.props.name}</div>
-        <div style={{ fontSize: '1rem', marginTop: '0.5rem', color: 'gray' }}>{this.props.date}</div>
-        <div style={{ fontSize: "1rem", color: "gray", marginTop: "0.5rem", marginBottom: "0.5rem" }}>{this.props.pos}</div>
+        {this.props.date.length > 0 ? <div style={{ fontSize: '1rem', marginTop: '0.5rem', color: 'gray' }}>{this.props.date}</div> : ""}
+        {this.props.pos.length > 0 ? <div style={{ fontSize: "1rem", color: "gray", marginTop: "0.5rem", marginBottom: "0.5rem" }}>{this.props.pos}</div>: ""}
         <div style={{
           fontSize: '0.8rem',
           color: 'gray'
@@ -29,23 +29,74 @@ class AlumnusCard extends React.Component<{ name: string, date: string, pos: str
   }
 }
 
+const rowNum = 3;
+const graduatedPhds = alumni.filter((a) => a.position === "Graduated PhD");
+const postDocs = alumni.filter((a) => a.position === "PostDoc");
+const others = alumni.filter((a) => a.position !== "Graduated PhD" && a.position !== "PostDoc");
+
 export class Alumni extends React.Component<{ isVisible: boolean }> {
   constructor(props: { isVisible: boolean }) {
     super(props);
   }
   public render() {
-    const alumniGroups = [];
-    for (let i = 0; i < alumni.length; i += 3) {
-      alumniGroups.push(alumni.slice(i, i + 3));
+    const phdsGroups = [];
+    const postDocGroups = [];
+    const otherGroups = [];
+    for (let i = 0; i < graduatedPhds.length; i += rowNum) {
+      phdsGroups.push(graduatedPhds.slice(i, i + rowNum));
+    }
+    for (let i = 0; i < postDocs.length; i += rowNum) {
+      postDocGroups.push(postDocs.slice(i, i + rowNum));
+    }
+    for (let i = 0; i < others.length; i += rowNum) {
+      otherGroups.push(others.slice(i, i + rowNum));
     }
     return (
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         {
           this.props.isVisible ?
           <div>
+            <div style={{ fontSize: "1.5rem" }}>Graduated PhDs</div>
+            <div>
             {
-              alumniGroups.map((alumniGroup, _) => (
+              phdsGroups.map((alumniGroup, _) => (
                 <div style={{ display: 'flex', justifyContent: 'start' }}>
+                  {
+                    alumniGroup.map((alumnus, _) => (
+                      alumnus.web.length > 0 ?
+                      <a href={alumnus.web}>
+                        <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next} />
+                      </a> :
+                      <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next} />
+                    ))
+                  }
+                </div>
+              ))
+            }
+            </div>
+            <div style={{ fontSize: "1.5rem" }}>Postdoctoral Researchers</div>
+            <div>
+            {
+              postDocGroups.map((alumniGroup, _) => (
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                  {
+                    alumniGroup.map((alumnus, _) => (
+                      alumnus.web.length > 0 ?
+                      <a href={alumnus.web}>
+                        <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next} />
+                      </a> :
+                      <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next} />
+                    ))
+                  }
+                </div>
+              ))
+            }
+            </div>
+            <div style={{ fontSize: "1.5rem" }}>Others</div>
+            <div>
+            {
+              otherGroups.map((alumniGroup, _) => (
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
                   {
                     alumniGroup.map((alumnus, _) => (
                       alumnus.web.length > 0 ?
@@ -58,7 +109,8 @@ export class Alumni extends React.Component<{ isVisible: boolean }> {
                 </div>
               ))
             }
-          </div>:
+            </div>
+          </div> :
           ""
         }
       </div>
