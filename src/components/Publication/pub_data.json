@@ -94,7 +94,7 @@
     "conference": "SIGMOD",
     "year": 2024,
     "video": "https://www.youtube.com/watch?v=ZgNyIsNxlGk",
-    "href": "/docs/SIGMOD24_MOOSE_Camera___Junfeng___Fan.pdf",
+    "href": "/docs/moose_corrected_version.pdf",
     "description": "A research that analyzes the optimality of LSM operators and build a KV system Moose.",
     "imgSrc": "",
     "keywords": [
