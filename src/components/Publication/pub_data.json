@@ -2124,5 +2124,35 @@
     "code": "",
     "confExtra": "",
     "isJournal": false
+  },
+  {
+    "title": "Graph-Based Approaches and Functionalities in Retrieval-Augmented Generation: A Comprehensive Survey", 
+    "authors": [
+      "Zulun Zhu",
+      "Tiancheng Huang",
+      "Kai Wang",
+      "Junda Ye",
+      "Xinghe Chen",
+      "Siqiang Luo"
+    ],
+    "conference": "ACM Computing Survey",
+    "year": 2026,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph System" 
+    ],
+    "id": 74,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
   }
 ]
