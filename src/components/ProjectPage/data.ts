@@ -79,7 +79,7 @@ export const keyValueProject: ProjectProps = {
 };
 
 export const graphProject: ProjectProps = {
-  title: "Graph Data Mining and Learning",
+  title: "Graph Data Analytics, Mining and Learning",
   description: rawData[1].description,
   imgSrc: rawData[1].img,
   publications: graphPublications,

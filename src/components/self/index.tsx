@@ -56,7 +56,7 @@ export class SelfIntro extends React.Component {
               I have broad interest in efficient and effective big data analytics, queries and mining, particularly about:
               <p>
                 1. Scalable graph analytics and mining <br/>
-                2. Scalable data structures and systems
+                2. Scalable data storage and systems
               </p>
               <p>
                 Please refer to our <a href="/lab">lab website</a> for more details.
