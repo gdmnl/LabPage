@@ -2154,5 +2154,59 @@
     "code": "",
     "confExtra": "",
     "isJournal": false
+  },
+  {
+    "title": "Modality-free Graph In-context Alignment.", 
+    "authors": [
+      "Wei Zhuo",
+      "Siqiang Luo"
+    ],
+    "conference": "NeurIPS (Oral)",
+    "year": 2026,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph Theory" 
+    ],
+    "id": 75,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "Near-Optimality for Single-Source Personalized PageRank.", 
+    "authors": [
+      "Xinpeng Jiang",
+      "Haoyu Liu",
+      "Siqiang Luo",
+      "Xiaokui Xiao"
+    ],
+    "conference": "PODS",
+    "year": 2026,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph Theory" 
+    ],
+    "id": 76,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
   }
 ]
