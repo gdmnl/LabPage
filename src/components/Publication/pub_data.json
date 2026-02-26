@@ -2208,5 +2208,61 @@
     "code": "",
     "confExtra": "",
     "isJournal": false
+  },
+  {
+    "title": "Are Learned DBMS Components Robust to Workload Drift?", 
+    "authors": [
+      "Zizhong Meng",
+      "Gao Cong",
+      "Siqiang Luo"
+    ],
+    "conference": "SIGMOD",
+    "year": 2026,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Data Systems"
+    ],
+    "subKeywords": [
+      "Application Specialized" 
+    ],
+    "id": 77,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "DIFFCOM: Conditional Discrete Diffusion Model for Community Search.", 
+    "authors": [
+      "Ling Li",
+      "Liang Bai",
+      "Siqiang Luo",
+      "Yejiang Wang",
+      "Yuhai Zhao"
+    ],
+    "conference": "ICDE",
+    "year": 2026,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph Data Analytics" 
+    ],
+    "id": 78,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
   }
 ]
