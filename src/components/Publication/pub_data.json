@@ -2044,12 +2044,12 @@
   {
     "title": "When Deepfake Detection Meets Graph Neural Network: a Unified and Lightweight Framework.", 
     "authors": [
-      "Haoyu Liu",
-      "Chaoyu Gong",
+      "Haoyu Liu*",
+      "Chaoyu Gong*",
       "Mengke He",
       "Jiate Li",
       "Kai Han",
-      "Siqiang Luo"
+      "Siqiang Luo  (* Equal Contribution)"
     ],
     "conference": "SIGKDD",
     "year": 2026,
@@ -2184,10 +2184,10 @@
   {
     "title": "Near-Optimality for Single-Source Personalized PageRank.", 
     "authors": [
-      "Xinpeng Jiang",
-      "Haoyu Liu",
-      "Siqiang Luo",
-      "Xiaokui Xiao"
+      "Haoyu Liu*",
+      "Siqiang Luo*",
+      "Xiaokui Xiao*",
+      "Xinpeng Jiang*  (* Order Alphabetically)"
     ],
     "conference": "PODS",
     "year": 2026,
