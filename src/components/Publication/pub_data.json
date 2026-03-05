@@ -2184,10 +2184,10 @@
   {
     "title": "Near-Optimality for Single-Source Personalized PageRank.", 
     "authors": [
+      "Xinpeng Jiang*",
       "Haoyu Liu*",
       "Siqiang Luo*",
-      "Xiaokui Xiao*",
-      "Xinpeng Jiang*  (* Order Alphabetically)"
+      "Xiaokui Xiao*  (* Order Alphabetically)"
     ],
     "conference": "PODS",
     "year": 2026,
