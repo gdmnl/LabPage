@@ -18,6 +18,24 @@ function getCodeBadge(code: string) {
   );
 }
 
+function renderText(text: string) {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+
+  return text.split("\n").map((line, i) => (
+    <div key={i}>
+      {line.split(urlRegex).map((part, j) =>
+        part.match(/^https?:\/\/[^\s]+$/) ? (
+          <a key={j} href={part} target="_blank" rel="noreferrer">
+            {part}
+          </a>
+        ) : (
+          part
+        )
+      )}
+    </div>
+  ));
+}
+
 class Project extends React.Component<ProjectProps> {
   constructor(props: ProjectProps) {
     super(props);
@@ -33,7 +51,7 @@ class Project extends React.Component<ProjectProps> {
       <div style={{ fontFamily: "'Cardo'" }}>
         <h1>{title}</h1>
         <div style={{ marginBottom: "1rem", marginTop: "1rem" }}></div>
-        <div style={{ textAlign: "left", fontSize: "1.1rem" }}>{description}</div>
+        <div style={{ textAlign: "left", fontSize: "1.1rem", whiteSpace: "pre-line" }}>{renderText(description)}</div>
         <div style={{ textAlign: "left", fontSize: "1.5rem", fontWeight: "bold", marginTop: "1rem", marginBottom: "1rem" }}>
           Members
         </div>
