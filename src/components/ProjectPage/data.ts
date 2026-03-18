@@ -78,6 +78,9 @@ export const keyValueProject: ProjectProps = {
   codes: keyValuePublications.filter((pub) => pub.code.length > 0).map((pub) => pub.code)
 };
 
+keyValueProject.codes.push("https://github.com/NTU-Siqiang-Group/LSM-Vec")
+keyValueProject.codes.push("https://volatill.github.io/lsm-vec-site/")
+
 export const graphProject: ProjectProps = {
   title: "Graph Data Analytics, Mining and Learning",
   description: rawData[1].description,
