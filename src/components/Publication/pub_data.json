@@ -2156,32 +2156,6 @@
     "isJournal": false
   },
   {
-    "title": "Modality-free Graph In-context Alignment.", 
-    "authors": [
-      "Wei Zhuo",
-      "Siqiang Luo"
-    ],
-    "conference": "ICLR (Oral)",
-    "year": 2026,
-    "video": "",
-    "href": "",
-    "description": "",
-    "imgSrc": "",
-    "keywords": [
-      "Graph Algorithms"
-    ],
-    "subKeywords": [
-      "Graph Theory" 
-    ],
-    "id": 75,
-    "isExtension": false,
-    "hasExtension": -1,
-    "isVisible": true,
-    "code": "",
-    "confExtra": "",
-    "isJournal": false
-  },
-  {
     "title": "Near-Optimality for Single-Source Personalized PageRank.", 
     "authors": [
       "Xinpeng Jiang*",
@@ -2201,7 +2175,7 @@
     "subKeywords": [
       "Graph Theory" 
     ],
-    "id": 76,
+    "id": 75,
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
@@ -2228,7 +2202,7 @@
     "subKeywords": [
       "Application Specialized" 
     ],
-    "id": 77,
+    "id": 76,
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
@@ -2257,7 +2231,59 @@
     "subKeywords": [
       "Graph Data Analytics" 
     ],
+    "id": 77,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "Modality-free Graph In-context Alignment.", 
+    "authors": [
+      "Wei Zhuo",
+      "Siqiang Luo"
+    ],
+    "conference": "ICLR (Oral)",
+    "year": 2026,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph Theory" 
+    ],
     "id": 78,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "What Makes a Desired Graph for Relational Deep Learning?", 
+    "authors": [
+      "Cheng Yao",
+      "Siqiang Luo"
+    ],
+    "conference": "ICML",
+    "year": 2026,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph Data Analytics" 
+    ],
+    "id": 79,
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
