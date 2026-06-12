@@ -13,7 +13,7 @@ function getAwardInfo(pubId: Number) {
   if (pubId === 68) {
     return <a href="https://www.premiasg.org/web/" target="_blank"><span style={{ color: "gray" }}> | ★ Singapore PREMIA Best Student Paper Awards, Certificate of Commendation</span></a>
   }
-  if (pubId === 76) {
+  if (pubId === 75) {
     return <span style={{ color: "gray" }}> | ★ Best Newcomer Award of PODS 2026</span>
   }
   return "";
