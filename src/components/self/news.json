@@ -1,8 +1,23 @@
 [
   {
     "year": 2026,
+    "month": "June",
+    "content": "Our team members attend SIGMOD/PODS 2026 at Bengaluru, India, with 3 SIGMOD papers and 1 PODS paper!"
+  },
+  {
+    "year": 2026,
+    "month": "May",
+    "content": "Our postdoc, Dr. Gong Chaoyu, joined South East University as an associate professor!"
+  },
+  {
+    "year": 2026,
     "month": "April",
     "content": "Our paper “Near-Optimality for Single-Source Personalized PageRank” has received the Best Newcomer Award of PODS 2026!"
+  },
+  {
+    "year": 2026,
+    "month": "April",
+    "content": "Our incoming PhD student, Levina Li, has received the Nanyang President's Graduate Scholarship (NPGS)!"
   },
   {
     "year": 2025,
