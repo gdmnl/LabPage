@@ -51,14 +51,6 @@
   ],
   "RA": [
     {
-      "name": "Weitang Ye",
-      "date": "Aug 2025 - Present",
-      "img": "weitang.jpg",
-      "bg": "BS from RUC",
-      "web": "https://github.com/WittenYeh",
-      "area": "Data Systems"
-    },
-    {
       "name": "Mengke He",
       "date": "Mar 2025 - Present",
       "img": "mengke.jpg",
@@ -68,14 +60,6 @@
     }
   ],
   "phds": [
-    {
-      "name": "Zulun ZHU",
-      "img": "ZhuZulun.jpg",
-      "date": "Feb 2022 - Present",
-      "bg": "BS from Zhejiang University",
-      "web": "https://dblp.org/pid/219/4427.html",
-      "area": "Graph Algorithm"
-    },
     {
       "name": "Weiping YU",
       "img": "YuWeiping.JPG",
@@ -138,6 +122,21 @@
       "web": "https://kiwihm.github.io",
       "img": "yige.jpg",
       "area": "Data Systems"
+    },
+    {
+      "name": "Levina Mengting Li",
+      "date": "Aug 2026 (incoming)",
+      "bg": "BS from UCLA",
+      "web": "https://scholar.google.com/citations?user=eige9cUAAAAJ&hl=en",
+      "area": "T.B.D."
+    },
+    {
+      "name": "Weitang Ye",
+      "date": "Aug 2025 - Present",
+      "img": "weitang.jpg",
+      "bg": "BS from RUC",
+      "web": "https://github.com/WittenYeh",
+      "area": "Data Systems"
     }
   ],
   "masters": [
@@ -167,7 +166,7 @@
       "web": "https://volatill.github.io/",
       "area": "Data Systems",
       "position": "Graduated PhD",
-      "next": "PostDoc @ NTU"
+      "next": "Research Fellow @ NTU"
     },
     {
       "name": "Ningyi LIAO",
@@ -180,13 +179,23 @@
       "next":"PostDoc @ UBC"
     },
     {
+      "name": "Zulun ZHU",
+      "img": "ZhuZulun.jpg",
+      "date": "Feb 2022 - Present",
+      "bg": "BS from Zhejiang University",
+      "web": "https://dblp.org/pid/219/4427.html",
+      "area": "Graph Algorithm",
+      "position": "Graduated PhD",
+      "next": "ByteDance @ Singapore"
+    },
+    {
       "name": "Meng LI",
       "date": "Jul 2021 - Jul 2022",
       "bg": "Visiting PhD ",
       "area": "Current: Assistant Researcher (Faculty) at Nanjing University",
       "web": "https://njulimn.github.io/",
       "position": "Visiting PhD",
-      "next": "Assistant Researcher (Faculty) @ Nanjing University"
+      "next": "Assistant Professor @ Nanjing University"
     },
     {
       "name": "Ling LI",
@@ -195,7 +204,7 @@
       "area": "",
       "web": "",
       "position": "Visiting PhD",
-      "next": ""
+      "next": "Assistant Professor @ Shanxi University"
     },
     {
       "name": "Wenting ZHAO",
@@ -234,15 +243,6 @@
       "next": "Xiaomi"
     },
     {
-      "name": "Yixiang DONG",
-      "date": "Joined in Sep 2022",
-      "bg": "",
-      "area": "Visiting PhD",
-      "web": "https://dblp.org/pid/260/0886.html",
-      "position": "Visiting PhD",
-      "next": ""
-    },
-    {
       "name": "Yufei HAN",
       "date": "",
       "bg": "Research Assistant",
@@ -264,10 +264,10 @@
       "name": "Guanduo CHEN",
       "date": "Joined in Feb 2023",
       "bg": "Master Intern from Fudan University",
-      "area": "",
+      "area": "Current: Moonshot AI",
       "web": "https://woooooow-pro.github.io/",
       "position": "Intern",
-      "next": ""
+      "next": "Moonshot AI"
     },
     {
       "name": "Yinan HE",
