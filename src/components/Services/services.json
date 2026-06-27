@@ -207,28 +207,6 @@
     ],
     "category": "Conference Services"
   },
-  // {
-  //   "name": "International Conference on Web Information Systems Engineering",
-  //   "keyword": "WISE",
-  //   "years": [
-  //     {
-  //       "role": "PC Member",
-  //       "year": "2019-2021"
-  //     }
-  //   ],
-  //   "category": "Conference Services"
-  // },
-  // {
-  //   "name": "ACM Turing Celebration Conference 2020",
-  //   "keyword": "SIGMOD China",
-  //   "years": [
-  //     {
-  //       "role": "PC Member",
-  //       "year": "2020"
-  //     }
-  //   ],
-  //   "category": "Conference Services"
-  // },
   {
     "name": "Special Interest Group on Management of Data Conference",
     "keyword": "SIGMOD Reproducibility",
@@ -306,38 +284,4 @@
     ],
     "category": "Journal Services"
   }
-  // ,
-  // {
-  //   "name": "World Wide Web",
-  //   "keyword": "WWWJ",
-  //   "years": [
-  //     {
-  //       "year": "0",
-  //       "role": "Reviewer"
-  //     }
-  //   ],
-  //   "category": "Journal Services"
-  // },
-  // {
-  //   "name": "Geoinformatica",
-  //   "keyword": "",
-  //   "years": [
-  //     {
-  //       "year": "0",
-  //       "role": "Reviewer"
-  //     }
-  //   ],
-  //   "category": "Journal Services"
-  // },
-  // {
-  //   "name": "International Journal of Machine Learning and Cybernetics",
-  //   "keyword": "",
-  //   "years": [
-  //     {
-  //       "year": "0",
-  //       "role": "Reviewer"
-  //     }
-  //   ],
-  //   "category": "Journal Services"
-  // }
 ]
