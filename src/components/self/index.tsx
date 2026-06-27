@@ -43,17 +43,19 @@ export class SelfIntro extends React.Component {
             <p>
               {/* I am a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University.
               I am also affiliated with <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>. I have broad interest in efficient and effective big data analytics, queries and learning, particularly about: */}
-              I am a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University, and an affiliated member of <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>.
+              {/* I am a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University, and an affiliated member of <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>.
               I was a Postdoctoral Researcher at Harvard University, advised by <a href="https://stratos.seas.harvard.edu/">Prof. Stratos Idreos</a>.
               I earned my Ph.D. in Computer Science from the University of Hong Kong under the supervision of <a href="https://www.cs.hku.hk/index.php/people/academic-staff/kao">Prof. Ben Kao</a> and <a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a>.
-              Before that, I completed both my master's and bachelor's degrees in Computer Science at Fudan University (advised by <a href="https://admis.fudan.edu.cn/sgzhou/">Prof. Shuigeng Zhou</a>).
+              Before that, I completed both my master's and bachelor's degrees in Computer Science at Fudan University (advised by <a href="https://admis.fudan.edu.cn/sgzhou/">Prof. Shuigeng Zhou</a>). My works have received multiple recognitions including ACM PODS Best Newcomer Award. group has been collaborating closely with the industry */}
+              I am a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University, and an affiliated member of <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>.
+              I earned my Ph.D. in Computer Science from the University of Hong Kong and later completed my postdoc training at Harvard University. I completed both my master's and bachelor's degrees in Computer Science at Fudan University. My group has been collaborating closely with the industry to put research into practice, and my works have received multiple recognitions including ACM PODS Best Newcomer Award in 2026. 
               <br/>
               {/* <br/>
               I have also been a visiting student/intern at the University of Cambridge (hosted by <a href="https://www.cl.cam.ac.uk/~tms41/">Prof. Thomas Sauerwald</a>), Nanyang Technological University (hosted by <a href="https://www.comp.nus.edu.sg/~xiaoxk/">Prof. Xiaokui Xiao</a>)
               and Tsinghua University (hosted by <a href="https://dbgroup.cs.tsinghua.edu.cn/ligl/">Prof. Guoliang Li</a>).
               <br/> */}
               <br/>
-              I have broad interest in efficient and effective big data analytics, queries and mining, particularly about:
+              I have broad interest in efficient and effective big data storage and analytics, particularly about:
               <p>
                 1. Scalable graph analytics and mining <br/>
                 2. Scalable data storage and systems
@@ -69,12 +71,10 @@ export class SelfIntro extends React.Component {
                 border: 'solid', borderColor: '#99CCFF', padding: '0.2rem',
                 color: '#2170BF', borderRadius: '0.6rem'
               }}>
-                <span style={{ marginLeft: '0.2rem' }}>Recruitment (Updated in Dec 2024):</span>
+                <span style={{ marginLeft: '0.2rem' }}>Recruitment (Updated in Dec 2025):</span>
                 </p>
                 <p> 
-                  A few opennings for Research Assistant (remote or physical) <br/>
-                  One openning for postdoc working on data systems or graph learning <br/>
-                  One openning for Ph.D. student working on data systems or graph learning <br/>
+                  One openning for postdoc working on data systems, particularly about agentic memory management <br/>
                   Interested candidates are welcome to submit CVs by email (<a href="mailto:siqiang.luo@ntu.edu.sg">siqiang.luo@ntu.edu.sg</a>).
                 </p>
               </div>
