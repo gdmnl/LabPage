@@ -1,7 +1,7 @@
 [
   {
     "name": "SC4023 Big Data Management",
-    "keyword": "Undergraduate Course (Recent 3 years teaching feedback: > 95/100)",
+    "keyword": "(Course Designer and Instructor)  Recent 3 years teaching feedback score > 95/100",
     "years": [
       {
         "year": "0",
@@ -12,7 +12,7 @@
   },
   {
     "name": "DS6126 Scalable Data Systems",
-    "keyword": "Graduate Courses (Recent 2 teaching feedback: > 97/100)",
+    "keyword": "(Course Designer and Instructor)  Recent 2 teaching feedback score > 97/100",
     "years": [
       {
         "year": "0",
@@ -89,12 +89,24 @@
     "category": "Conference Services"
   },
   {
-    "name": "Web Conference",
-    "keyword": "WWW",
+    "name": "IEEE International Conference on Data Engineering",
+    "keyword": "ICDE",
     "years": [
       {
         "role": "PC Member",
-        "year": "2022-2024"
+        "year": "2022,2025,2026,2027"
+      },
+      {
+        "role": "TKDE poster",
+        "year": "2023"
+      },
+      {
+        "role": "industrial PC Member",
+        "year": "2024"
+      },
+      {
+        "role": "Sponsorship Co-Chair",
+        "year": "2025"
       }
     ],
     "category": "Conference Services"
@@ -114,25 +126,13 @@
     ],
     "category": "Conference Services"
   },
-  {
-    "name": "IEEE International Conference on Data Engineering",
-    "keyword": "ICDE",
+   {
+    "name": "Web Conference",
+    "keyword": "WWW",
     "years": [
       {
         "role": "PC Member",
-        "year": "2022,2025,2026"
-      },
-      {
-        "role": "TKDE poster",
-        "year": "2023"
-      },
-      {
-        "role": "industrial PC Member",
-        "year": "2024"
-      },
-      {
-        "role": "Sponsorship Co-Chair",
-        "year": "2025"
+        "year": "2022-2024"
       }
     ],
     "category": "Conference Services"
@@ -155,6 +155,10 @@
       {
         "role": "Reviewer",
         "year": "2022,2023,2026"
+      },
+      {
+        "role": "Silver Reviewer",
+        "year": "2026"
       }
     ],
     "category": "Conference Services"
@@ -203,28 +207,28 @@
     ],
     "category": "Conference Services"
   },
-  {
-    "name": "International Conference on Web Information Systems Engineering",
-    "keyword": "WISE",
-    "years": [
-      {
-        "role": "PC Member",
-        "year": "2019-2021"
-      }
-    ],
-    "category": "Conference Services"
-  },
-  {
-    "name": "ACM Turing Celebration Conference 2020",
-    "keyword": "SIGMOD China",
-    "years": [
-      {
-        "role": "PC Member",
-        "year": "2020"
-      }
-    ],
-    "category": "Conference Services"
-  },
+  // {
+  //   "name": "International Conference on Web Information Systems Engineering",
+  //   "keyword": "WISE",
+  //   "years": [
+  //     {
+  //       "role": "PC Member",
+  //       "year": "2019-2021"
+  //     }
+  //   ],
+  //   "category": "Conference Services"
+  // },
+  // {
+  //   "name": "ACM Turing Celebration Conference 2020",
+  //   "keyword": "SIGMOD China",
+  //   "years": [
+  //     {
+  //       "role": "PC Member",
+  //       "year": "2020"
+  //     }
+  //   ],
+  //   "category": "Conference Services"
+  // },
   {
     "name": "Special Interest Group on Management of Data Conference",
     "keyword": "SIGMOD Reproducibility",
@@ -301,38 +305,39 @@
       }
     ],
     "category": "Journal Services"
-  },
-  {
-    "name": "World Wide Web",
-    "keyword": "WWWJ",
-    "years": [
-      {
-        "year": "0",
-        "role": "Reviewer"
-      }
-    ],
-    "category": "Journal Services"
-  },
-  {
-    "name": "Geoinformatica",
-    "keyword": "",
-    "years": [
-      {
-        "year": "0",
-        "role": "Reviewer"
-      }
-    ],
-    "category": "Journal Services"
-  },
-  {
-    "name": "International Journal of Machine Learning and Cybernetics",
-    "keyword": "",
-    "years": [
-      {
-        "year": "0",
-        "role": "Reviewer"
-      }
-    ],
-    "category": "Journal Services"
   }
+  // ,
+  // {
+  //   "name": "World Wide Web",
+  //   "keyword": "WWWJ",
+  //   "years": [
+  //     {
+  //       "year": "0",
+  //       "role": "Reviewer"
+  //     }
+  //   ],
+  //   "category": "Journal Services"
+  // },
+  // {
+  //   "name": "Geoinformatica",
+  //   "keyword": "",
+  //   "years": [
+  //     {
+  //       "year": "0",
+  //       "role": "Reviewer"
+  //     }
+  //   ],
+  //   "category": "Journal Services"
+  // },
+  // {
+  //   "name": "International Journal of Machine Learning and Cybernetics",
+  //   "keyword": "",
+  //   "years": [
+  //     {
+  //       "year": "0",
+  //       "role": "Reviewer"
+  //     }
+  //   ],
+  //   "category": "Journal Services"
+  // }
 ]
