@@ -51,14 +51,6 @@
   ],
   "RA": [
     {
-      "name": "Weitang Ye",
-      "date": "Aug 2025 - Present",
-      "img": "weitang.jpg",
-      "bg": "BS from RUC",
-      "web": "https://github.com/WittenYeh",
-      "area": "Data Systems"
-    },
-    {
       "name": "Mengke He",
       "date": "Mar 2025 - Present",
       "img": "mengke.jpg",
@@ -69,20 +61,19 @@
   ],
   "phds": [
     {
-      "name": "Zulun ZHU",
-      "img": "ZhuZulun.jpg",
-      "date": "Feb 2022 - Present",
-      "bg": "BS from Zhejiang University",
-      "web": "https://dblp.org/pid/219/4427.html",
-      "area": "Graph Algorithm"
-    },
-    {
       "name": "Weiping YU",
       "img": "YuWeiping.JPG",
       "date": "Feb 2022 - Present",
       "bg": "MS from Beijing Institute of Technology",
       "web": "https://scholar.google.fi/citations?hl=en&user=5SU2rSgAAAAJ",
       "area": "Data Systems"
+    },
+    {
+      "name": "Zhaoqi ZHANG",
+      "date": "Feb 2022 - Present",
+      "bg": "co-supervised with Prof. Cong GAO",
+      "web": "https://scholar.google.com/citations?user=eige9cUAAAAJ&hl=en",
+      "area": "Spatial Data Mining"
     },
     {
       "name": "Fan WANG",
@@ -125,19 +116,27 @@
       "area": "Graph Algorithm"
     },
     {
-      "name": "Zhaoqi ZHANG",
-      "date": "Feb 2022 - Present",
-      "bg": "co-supervised with Prof. Cong GAO",
-      "web": "https://scholar.google.com/citations?user=eige9cUAAAAJ&hl=en",
-      "area": "Spatial Data Mining"
-    },
-    {
       "name": "Yige JIANG",
       "date": "Aug 2025 - Present",
       "bg": "BS from Chinese University of Hong Kong, Shenzhen",
       "web": "https://kiwihm.github.io",
       "img": "yige.jpg",
       "area": "Data Systems"
+    },
+    {
+      "name": "Weitang Ye",
+      "date": "Aug 2025 - Present",
+      "img": "weitang.jpg",
+      "bg": "BS from RUC",
+      "web": "https://github.com/WittenYeh",
+      "area": "Data Systems"
+    },
+    {
+      "name": "Levina Mengting Li",
+      "date": "Aug 2026 (incoming)",
+      "bg": "BS from UCLA",
+      "web": "https://levinaxu.github.io/",
+      "area": "T.B.D."
     }
   ],
   "masters": [
@@ -167,7 +166,7 @@
       "web": "https://volatill.github.io/",
       "area": "Data Systems",
       "position": "Graduated PhD",
-      "next": "PostDoc @ NTU"
+      "next": "Research Fellow @ NTU"
     },
     {
       "name": "Ningyi LIAO",
@@ -180,13 +179,23 @@
       "next":"PostDoc @ UBC"
     },
     {
+      "name": "Zulun ZHU",
+      "img": "ZhuZulun.jpg",
+      "date": "Feb 2022 - Present",
+      "bg": "BS from Zhejiang University",
+      "web": "https://dblp.org/pid/219/4427.html",
+      "area": "Graph Algorithm",
+      "position": "Graduated PhD",
+      "next": "ByteDance @ Singapore"
+    },
+    {
       "name": "Meng LI",
       "date": "Jul 2021 - Jul 2022",
       "bg": "Visiting PhD ",
       "area": "Current: Assistant Researcher (Faculty) at Nanjing University",
       "web": "https://njulimn.github.io/",
       "position": "Visiting PhD",
-      "next": "Assistant Researcher (Faculty) @ Nanjing University"
+      "next": "Assistant Professor @ Nanjing University"
     },
     {
       "name": "Ling LI",
@@ -195,7 +204,7 @@
       "area": "",
       "web": "",
       "position": "Visiting PhD",
-      "next": ""
+      "next": "Assistant Professor @ Shanxi University"
     },
     {
       "name": "Wenting ZHAO",
@@ -222,7 +231,7 @@
       "area": "",
       "web": "https://cfc87.github.io/",
       "position": "Intern",
-      "next": "PhD of University of Wisconsin-Madison"
+      "next": "PhD @ University of Wisconsin-Madison"
     },
     {
       "name": "Chunbo LI",
@@ -234,22 +243,13 @@
       "next": "Xiaomi"
     },
     {
-      "name": "Yixiang DONG",
-      "date": "Joined in Sep 2022",
-      "bg": "",
-      "area": "Visiting PhD",
-      "web": "https://dblp.org/pid/260/0886.html",
-      "position": "Visiting PhD",
-      "next": ""
-    },
-    {
       "name": "Yufei HAN",
       "date": "",
       "bg": "Research Assistant",
       "area": "Next: Columbia University",
       "web": "",
       "position": "Intern",
-      "next": "Columbia University"
+      "next": "MS @ Columbia University"
     },
     {
       "name": "Zefeng LI",
@@ -258,16 +258,16 @@
       "area": "",
       "web": "",
       "position": "Intern",
-      "next": "PhD@UBC"
+      "next": "PhD @ UBC, Canada"
     },
     {
       "name": "Guanduo CHEN",
       "date": "Joined in Feb 2023",
       "bg": "Master Intern from Fudan University",
-      "area": "",
+      "area": "Current: Moonshot AI",
       "web": "https://woooooow-pro.github.io/",
       "position": "Intern",
-      "next": ""
+      "next": "Moonshot AI"
     },
     {
       "name": "Yinan HE",
