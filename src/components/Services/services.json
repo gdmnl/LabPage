@@ -1,7 +1,7 @@
 [
   {
-    "name": "CE/CZ4123 Big Data Management",
-    "keyword": "",
+    "name": "SC4023 Big Data Management",
+    "keyword": "Undergraduate Course (Recent 3 years teaching feedback: > 95/100)",
     "years": [
       {
         "year": "0",
@@ -12,7 +12,7 @@
   },
   {
     "name": "DS6126 Scalable Data Systems",
-    "keyword": "Graduate Courses",
+    "keyword": "Graduate Courses (Recent 2 teaching feedback: > 97/100)",
     "years": [
       {
         "year": "0",
@@ -60,11 +60,11 @@
     "years": [
       {
         "role": "PC Member",
-        "year": "2023,2025,2026"
+        "year": "2023,2025,2026,2027"
       },
       {
         "role": "Proceeding Co-Chair",
-        "year": "2026"
+        "year": "2026,2027"
       }
     ],
     "category": "Conference Services"
@@ -154,7 +154,12 @@
     "years": [
       {
         "role": "Reviewer",
-        "year": "2022,2023"
+        "year": "2022,2023,2026"
+      }
+      ,
+      {
+        "role": "Silver Reviewer",
+        "year": "2026"
       }
     ],
     "category": "Conference Services"
@@ -259,6 +264,17 @@
     "category": "Journal Services"
   },
   {
+    "name": "Distributed and Parallel Databases",
+    "keyword": "",
+    "years": [
+      {
+        "year": "0",
+        "role": "Associate Editor"
+      }
+    ],
+    "category": "Journal Services"
+  },
+  {
     "name": "ACM Transactions on Data Systems",
     "keyword": "TODS",
     "years": [
@@ -320,17 +336,6 @@
       {
         "year": "0",
         "role": "Reviewer"
-      }
-    ],
-    "category": "Journal Services"
-  },
-  {
-    "name": "Distributed and Parallel Databases",
-    "keyword": "",
-    "years": [
-      {
-        "year": "0",
-        "role": "Associate Editor"
       }
     ],
     "category": "Journal Services"
