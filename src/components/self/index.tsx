@@ -48,10 +48,10 @@ export class SelfIntro extends React.Component {
               I earned my Ph.D. in Computer Science from the University of Hong Kong under the supervision of <a href="https://www.cs.hku.hk/index.php/people/academic-staff/kao">Prof. Ben Kao</a> and <a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a>.
               Before that, I completed both my master's and bachelor's degrees in Computer Science at Fudan University (advised by <a href="https://admis.fudan.edu.cn/sgzhou/">Prof. Shuigeng Zhou</a>).
               <br/>
-              <br/>
+              {/* <br/>
               I have also been a visiting student/intern at the University of Cambridge (hosted by <a href="https://www.cl.cam.ac.uk/~tms41/">Prof. Thomas Sauerwald</a>), Nanyang Technological University (hosted by <a href="https://www.comp.nus.edu.sg/~xiaoxk/">Prof. Xiaokui Xiao</a>)
               and Tsinghua University (hosted by <a href="https://dbgroup.cs.tsinghua.edu.cn/ligl/">Prof. Guoliang Li</a>).
-              <br/>
+              <br/> */}
               <br/>
               I have broad interest in efficient and effective big data analytics, queries and mining, particularly about:
               <p>
