@@ -2290,5 +2290,35 @@
     "code": "",
     "confExtra": "",
     "isJournal": false
+  },
+  {
+    "title": "CausalPOI: Spatio-Temporal Graph-Based Causal Modeling for Cold-Start POI Check-in Forecasting", 
+    "authors": [
+      "Zhaoqi Zhang", 
+      "Miao Xie", 
+      "Yi Li", 
+      "Cai linyou", 
+      "Siqiang Luo", 
+      "Gao Cong"
+    ],
+    "conference": "SIGKDD",
+    "year": 2026,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph Data Analytics" 
+    ],
+    "id": 80,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
   }
 ]
