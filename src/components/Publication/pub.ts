@@ -47,16 +47,34 @@ export const pubData: PubType[] = pubDatabase.sort((a, b) => {
   if (a.conference !== "PVLDB" && b.conference === "PVLDB") {
     return 1;
   }
+  if (a.conference === "PODS" && b.conference !== "PODS") {
+    return -1;
+  }
+  if (a.conference !== "PODS" && b.conference === "PODS") {
+    return 1;
+  }
   if (a.conference === "ICDE" && b.conference !== "ICDE") {
     return -1;
   }
   if (a.conference !== "ICDE" && b.conference === "ICDE") {
     return 1;
   }
+  if (a.conference === "SIGKDD" && b.conference !== "SIGKDD") {
+    return -1;
+  }
+  if (a.conference !== "SIGKDD" && b.conference === "SIGKDD") {
+    return 1;
+  }
   if (a.conference === "ICML" && b.conference !== "ICML") {
     return -1;
   }
   if (a.conference !== "ICML" && b.conference === "ICML") {
+    return 1;
+  }
+  if (a.conference === "ICLR" && b.conference !== "ICLR") {
+    return -1;
+  }
+  if (a.conference !== "ICLR" && b.conference === "ICLR") {
     return 1;
   }
   if (a.conference === "NeurIPS" && b.conference !== "NeurIPS") {
