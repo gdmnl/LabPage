@@ -69,6 +69,13 @@
       "area": "Data Systems"
     },
     {
+      "name": "Zhaoqi ZHANG",
+      "date": "Feb 2022 - Present",
+      "bg": "co-supervised with Prof. Cong GAO",
+      "web": "https://scholar.google.com/citations?user=eige9cUAAAAJ&hl=en",
+      "area": "Spatial Data Mining"
+    },
+    {
       "name": "Fan WANG",
       "img": "WangFan.jpg",
       "date": "Feb 2023 - Present",
@@ -109,13 +116,6 @@
       "area": "Graph Algorithm"
     },
     {
-      "name": "Zhaoqi ZHANG",
-      "date": "Feb 2022 - Present",
-      "bg": "co-supervised with Prof. Cong GAO",
-      "web": "https://scholar.google.com/citations?user=eige9cUAAAAJ&hl=en",
-      "area": "Spatial Data Mining"
-    },
-    {
       "name": "Yige JIANG",
       "date": "Aug 2025 - Present",
       "bg": "BS from Chinese University of Hong Kong, Shenzhen",
@@ -124,19 +124,19 @@
       "area": "Data Systems"
     },
     {
-      "name": "Levina Mengting Li",
-      "date": "Aug 2026 (incoming)",
-      "bg": "BS from UCLA",
-      "web": "https://scholar.google.com/citations?user=eige9cUAAAAJ&hl=en",
-      "area": "T.B.D."
-    },
-    {
       "name": "Weitang Ye",
       "date": "Aug 2025 - Present",
       "img": "weitang.jpg",
       "bg": "BS from RUC",
       "web": "https://github.com/WittenYeh",
       "area": "Data Systems"
+    },
+    {
+      "name": "Levina Mengting Li",
+      "date": "Aug 2026 (incoming)",
+      "bg": "BS from UCLA",
+      "web": "https://levinaxu.github.io/",
+      "area": "T.B.D."
     }
   ],
   "masters": [
@@ -231,7 +231,7 @@
       "area": "",
       "web": "https://cfc87.github.io/",
       "position": "Intern",
-      "next": "PhD of University of Wisconsin-Madison"
+      "next": "PhD @ University of Wisconsin-Madison"
     },
     {
       "name": "Chunbo LI",
@@ -249,7 +249,7 @@
       "area": "Next: Columbia University",
       "web": "",
       "position": "Intern",
-      "next": "Columbia University"
+      "next": "MS @ Columbia University"
     },
     {
       "name": "Zefeng LI",
@@ -258,7 +258,7 @@
       "area": "",
       "web": "",
       "position": "Intern",
-      "next": "PhD@UBC"
+      "next": "PhD @ UBC, Canada"
     },
     {
       "name": "Guanduo CHEN",
