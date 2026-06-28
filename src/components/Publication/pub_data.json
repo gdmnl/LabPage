@@ -2345,7 +2345,7 @@
     "id": 81,
     "isExtension": false,
     "hasExtension": -1,
-    "isVisible": false,
+    "isVisible": true,
     "code": "",
     "confExtra": "",
     "isJournal": false
