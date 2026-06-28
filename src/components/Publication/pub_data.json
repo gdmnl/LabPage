@@ -24,7 +24,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": false,
-    "code": "",
+    "code": "https://github.com/gdmnl/Spectral-GNN-Benchmark",
     "confExtra": "",
     "isJournal": false
   },
@@ -1952,7 +1952,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/gdmnl/Unifews",
     "confExtra": "",
     "isJournal": false
   },
@@ -1981,7 +1981,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/gdmnl/Spectral-GNN-Benchmark",
     "confExtra": "",
     "isJournal": false
   },
@@ -1996,7 +1996,7 @@
     "conference": "NeurIPS",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://openreview.net/pdf?id=OJMLzo8rEX",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -2009,7 +2009,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/gdmnl/HubGT",
     "confExtra": "",
     "isJournal": false
   },
@@ -2054,7 +2054,7 @@
     "conference": "SIGKDD",
     "year": 2026,
     "video": "",
-    "href": "",
+    "href": "https://dl.acm.org/doi/pdf/10.1145/3770854.3780219",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -2081,7 +2081,7 @@
     "conference": "PVLDB",
     "year": 2026,
     "video": "",
-    "href": "",
+    "href": "https://www.vldb.org/pvldb/vol19/p958-liu.pdf",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -2108,20 +2108,20 @@
     "conference": "SIGMOD",
     "year": 2026,
     "video": "",
-    "href": "",
+    "href": "https://dl.acm.org/doi/pdf/10.1145/3786686",
     "description": "",
     "imgSrc": "",
-    "keywords": [
-      "Graph Algorithms"
+     "keywords": [
+      "Data Systems"
     ],
     "subKeywords": [
-      "Graph System" 
+      "Application Specialized" 
     ],
     "id": 73,
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/ForwardStar/RadixGraph",
     "confExtra": "",
     "isJournal": false
   },
@@ -2138,7 +2138,7 @@
     "conference": "ACM Computing Survey",
     "year": 2026,
     "video": "",
-    "href": "",
+    "href": "https://dl.acm.org/doi/epdf/10.1145/3795880",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -2166,7 +2166,7 @@
     "conference": "PODS",
     "year": 2026,
     "video": "",
-    "href": "",
+    "href": "https://arxiv.org/pdf/2507.14462",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -2193,7 +2193,7 @@
     "conference": "SIGMOD",
     "year": 2026,
     "video": "",
-    "href": "",
+    "href": "https://dl.acm.org/doi/pdf/10.1145/3802014",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -2248,7 +2248,7 @@
     "conference": "ICLR (Oral)",
     "year": 2026,
     "video": "",
-    "href": "",
+    "href": "https://arxiv.org/pdf/2603.13434",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -2261,7 +2261,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/JhuoW/MF-GIA",
     "confExtra": "",
     "isJournal": false
   },
@@ -2287,12 +2287,12 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://arxiv.org/pdf/2606.08491",
     "confExtra": "",
     "isJournal": false
   },
   {
-    "title": "CausalPOI: Spatio-Temporal Graph-Based Causal Modeling for Cold-Start POI Check-in Forecasting", 
+    "title": "CausalPOI: Spatio-Temporal Graph-Based Causal Modeling for Cold-Start POI Check-in Forecasting.", 
     "authors": [
       "Zhaoqi Zhang", 
       "Miao Xie", 
@@ -2314,6 +2314,62 @@
       "Graph Data Analytics" 
     ],
     "id": 80,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "Evaluating Learned Indexes in LSM-tree Systems: Benchmarks, Insights and Design Choices.", 
+    "authors": [
+      "Junfeng Liu", 
+      "Jiarui Ye", 
+      "Mengshi Chen", 
+      "Meng Li", 
+      "Siqiang Luo"
+    ],
+    "conference": "EDBT",
+    "year": 2026,
+    "video": "",
+    "href": "https://www.openproceedings.org/2026/conf/edbt/paper-111.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Data Systems"
+    ],
+    "subKeywords": [
+      "Instance Optimization" 
+    ],
+    "id": 81,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "AdCache: Adaptive Cache Management with Admission Control for LSM-tree Key-Value Stores.", 
+    "authors": [
+      "Jiarui Ye", 
+      "Junfeng Liu", 
+      "Siqiang Luo"
+    ],
+    "conference": "EDBT",
+    "year": 2026,
+    "video": "",
+    "href": "https://www.openproceedings.org/2026/conf/edbt/paper-89.pdf",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Data Systems"
+    ],
+    "subKeywords": [
+      "Instance Optimization" 
+    ],
+    "id": 82,
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
