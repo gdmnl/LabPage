@@ -9,22 +9,6 @@
       "area": "Graph Algorithm & Learning"
     },
     {
-      "name": "Chaoyu GONG",
-      "date": "May 2025 - Present",
-      "img": "chaoyu.jpg",
-      "bg": "PhD from NUS",
-      "web": "https://scholar.google.com/citations?user=sp6xe90AAAAJ&hl=zh-CN",
-      "area": "Graph Algorithm & Learning"
-    },
-    {
-      "name": "Zizhong MENG",
-      "date": "Feb 2025 - Present",
-      "img": "",
-      "bg": "PhD from NTU",
-      "web": "https://scholar.google.com/citations?user=9bOrHwsAAAAJ&hl=en",
-      "area": "Data Systems"
-    },
-    {
       "name": "Wei ZHUO",
       "date": "Jul 2025 - Present",
       "img": "zhuowei.png",
@@ -60,14 +44,6 @@
     }
   ],
   "phds": [
-    {
-      "name": "Weiping YU",
-      "img": "YuWeiping.JPG",
-      "date": "Feb 2022 - Present",
-      "bg": "MS from Beijing Institute of Technology",
-      "web": "https://scholar.google.fi/citations?hl=en&user=5SU2rSgAAAAJ",
-      "area": "Data Systems"
-    },
     {
       "name": "Zhaoqi ZHANG",
       "date": "Feb 2022 - Present",
@@ -181,10 +157,20 @@
     {
       "name": "Zulun ZHU",
       "img": "ZhuZulun.jpg",
-      "date": "Feb 2022 - Present",
+      "date": "Feb 2022 - April 2026",
       "bg": "BS from Zhejiang University",
       "web": "https://dblp.org/pid/219/4427.html",
       "area": "Graph Algorithm",
+      "position": "Graduated PhD",
+      "next": "ByteDance @ Singapore"
+    },
+    {
+      "name": "Weiping YU",
+      "img": "YuWeiping.JPG",
+      "date": "Feb 2022 - June 2026",
+      "bg": "MS from Beijing Institute of Technology",
+      "web": "https://scholar.google.fi/citations?hl=en&user=5SU2rSgAAAAJ",
+      "area": "Data Systems",
       "position": "Graduated PhD",
       "next": "ByteDance @ Singapore"
     },
@@ -286,6 +272,26 @@
       "web": "",
       "position": "PostDoc",
       "next": "Senior Lecturer @ Universiti Putra Malaysia"
+    },
+    {
+      "name": "Zizhong MENG",
+      "date": "Feb 2025 - Feb 2026",
+      "img": "",
+      "bg": "PhD from NTU",
+      "web": "https://scholar.google.com/citations?user=9bOrHwsAAAAJ&hl=en",
+      "area": "Data Systems",
+      "position": "PostDoc",
+      "next": "Research Fellow @ NTU"
+    },
+    {
+      "name": "Chaoyu GONG",
+      "date": "May 2025 - May 2026",
+      "img": "chaoyu.jpg",
+      "bg": "PhD from NUS",
+      "web": "https://scholar.google.com/citations?user=sp6xe90AAAAJ&hl=zh-CN",
+      "area": "Graph Algorithm & Learning",
+      "position": "PostDoc",
+      "next": "Associate Professor @ SouthEast University"
     },
     {
       "name": "Tiancheng HUANG",

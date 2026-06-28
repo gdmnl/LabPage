@@ -48,20 +48,21 @@ export class SelfIntro extends React.Component {
               I earned my Ph.D. in Computer Science from the University of Hong Kong under the supervision of <a href="https://www.cs.hku.hk/index.php/people/academic-staff/kao">Prof. Ben Kao</a> and <a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a>.
               Before that, I completed both my master's and bachelor's degrees in Computer Science at Fudan University (advised by <a href="https://admis.fudan.edu.cn/sgzhou/">Prof. Shuigeng Zhou</a>). My works have received multiple recognitions including ACM PODS Best Newcomer Award. group has been collaborating closely with the industry */}
               I am a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University, and an affiliated member of <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>.
-              I earned my Ph.D. in Computer Science from the University of Hong Kong and later completed my postdoc training at Harvard University. I completed both my master's and bachelor's degrees in Computer Science at Fudan University. My group has been collaborating closely with the industry to put research into practice, and my works have received multiple recognitions including ACM PODS Best Newcomer Award in 2026. 
+              I earned my Ph.D. in Computer Science from the University of Hong Kong and later completed my postdoc training at Harvard University. I completed both my master's and bachelor's degrees in Computer Science at Fudan University. My group has been collaborating closely with the industry to put research into practice, and my works have received multiple recognitions including ACM PODS Best Newcomer Award in 2026, PREMIA Paper Awards in 2024 and 2025. 
               <br/>
               {/* <br/>
               I have also been a visiting student/intern at the University of Cambridge (hosted by <a href="https://www.cl.cam.ac.uk/~tms41/">Prof. Thomas Sauerwald</a>), Nanyang Technological University (hosted by <a href="https://www.comp.nus.edu.sg/~xiaoxk/">Prof. Xiaokui Xiao</a>)
               and Tsinghua University (hosted by <a href="https://dbgroup.cs.tsinghua.edu.cn/ligl/">Prof. Guoliang Li</a>).
               <br/> */}
               <br/>
-              I have broad interest in efficient and effective big data storage and analytics, particularly about:
+              Working on data management area, I have broad interest in efficient and effective data storage and data analytics over massive data, particularly about:
               <p>
                 1. Scalable graph analytics and mining <br/>
                 2. Scalable data storage and systems
               </p>
+              Many of my works uncover new computational complexities, limits, or design spaces of data management problems.
               <p>
-                Please refer to our <a href="/lab">lab website</a> for more details.
+                Please refer to our <a href="/lab">lab website</a> and <a href="/project">representative directions</a> for more details.
               </p>
             </p>
             <p style={{ display: 'flex', justifyContent: 'start' }}>
