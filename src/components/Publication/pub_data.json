@@ -24,7 +24,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": false,
-    "code": "",
+    "code": "https://github.com/gdmnl/Spectral-GNN-Benchmark",
     "confExtra": "",
     "isJournal": false
   },
@@ -1952,7 +1952,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/gdmnl/Unifews",
     "confExtra": "",
     "isJournal": false
   },
@@ -1996,7 +1996,7 @@
     "conference": "NeurIPS",
     "year": 2025,
     "video": "",
-    "href": "",
+    "href": "https://openreview.net/pdf?id=OJMLzo8rEX",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -2009,7 +2009,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/gdmnl/HubGT",
     "confExtra": "",
     "isJournal": false
   },
@@ -2081,7 +2081,7 @@
     "conference": "PVLDB",
     "year": 2026,
     "video": "",
-    "href": "",
+    "href": "https://www.vldb.org/pvldb/vol19/p958-liu.pdf",
     "description": "",
     "imgSrc": "",
     "keywords": [
@@ -2121,7 +2121,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/ForwardStar/RadixGraph",
     "confExtra": "",
     "isJournal": false
   },
@@ -2261,7 +2261,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://github.com/JhuoW/MF-GIA",
     "confExtra": "",
     "isJournal": false
   },
@@ -2287,7 +2287,7 @@
     "isExtension": false,
     "hasExtension": -1,
     "isVisible": true,
-    "code": "",
+    "code": "https://arxiv.org/pdf/2606.08491",
     "confExtra": "",
     "isJournal": false
   },
@@ -2345,7 +2345,7 @@
     "id": 81,
     "isExtension": false,
     "hasExtension": -1,
-    "isVisible": true,
+    "isVisible": false,
     "code": "",
     "confExtra": "",
     "isJournal": false
