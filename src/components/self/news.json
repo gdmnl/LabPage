@@ -11,6 +11,11 @@
   },
   {
     "year": 2026,
+    "month": "May",
+    "content": "AsterVec project updated! Please check out code at <a href=\"https://github.com/NTU-Siqiang-Group/AsterVec\"></a>!"
+  },
+  {
+    "year": 2026,
     "month": "April",
     "content": "Our paper “Near-Optimality for Single-Source Personalized PageRank” has received the Best Newcomer Award of PODS 2026!"
   },
