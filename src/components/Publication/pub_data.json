@@ -1940,7 +1940,7 @@
     "year": 2025,
     "video": "",
     "href": "https://openreview.net/pdf?id=INg866tEaT",
-    "description": "",
+    "description": "For graph neural networks, simple edge pruning can be powerful.",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithms"
@@ -1969,7 +1969,7 @@
     "year": 2026,
     "video": "",
     "href": "https://arxiv.org/pdf/2406.09675",
-    "description": "",
+    "description": "Most Graph Neural Network models can be put in the form of Spectral GNNs. This study unifies many GNN models in the same framework and give a comprehensive comparison.",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithms"
@@ -2055,7 +2055,7 @@
     "year": 2026,
     "video": "",
     "href": "https://dl.acm.org/doi/pdf/10.1145/3770854.3780219",
-    "description": "",
+    "description": "Can graph models help with AI video analysis? Here is an answer.",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithms"
@@ -2082,7 +2082,7 @@
     "year": 2026,
     "video": "",
     "href": "https://www.vldb.org/pvldb/vol19/p958-liu.pdf",
-    "description": "",
+    "description": "Autonomous key-value store for fully dynamic online workload has been achieved!",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -2109,7 +2109,7 @@
     "year": 2026,
     "video": "",
     "href": "https://dl.acm.org/doi/pdf/10.1145/3786686",
-    "description": "",
+    "description": "A graph storage system designed for intensive graph updates.",
     "imgSrc": "",
      "keywords": [
       "Data Systems"
@@ -2139,7 +2139,7 @@
     "year": 2026,
     "video": "",
     "href": "https://dl.acm.org/doi/epdf/10.1145/3795880",
-    "description": "",
+    "description": "This survey introduces most topics lying in the intersection between graphs and RAG.",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithms"
@@ -2167,7 +2167,7 @@
     "year": 2026,
     "video": "",
     "href": "https://arxiv.org/pdf/2507.14462",
-    "description": "",
+    "description": "PPR has been improving over 2 decades; for the first time, we largely close the gap between upper bound and lower bound.",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithms"
@@ -2194,7 +2194,7 @@
     "year": 2026,
     "video": "",
     "href": "https://dl.acm.org/doi/pdf/10.1145/3802014",
-    "description": "",
+    "description": "Learning for Database often assumes the testing workload has the same distribution with the training workload. Is the assumption reliable? This study answers the question.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -2223,7 +2223,7 @@
     "year": 2026,
     "video": "",
     "href": "",
-    "description": "",
+    "description": "Diffusion model is not only effective in computer vision, it can do community search well.",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithms"
@@ -2249,7 +2249,7 @@
     "year": 2026,
     "video": "",
     "href": "https://arxiv.org/pdf/2603.13434",
-    "description": "",
+    "description": "When you even do not have text in your graph, can you still effectively do domain alignment for graph models? This paper provides an approach.",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithms"
@@ -2275,7 +2275,7 @@
     "year": 2026,
     "video": "",
     "href": "",
-    "description": "",
+    "description": "Learning over relation database often model the DB as a graph, based on DB schema. This is not correct.",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithms"
@@ -2334,7 +2334,7 @@
     "year": 2026,
     "video": "",
     "href": "https://www.openproceedings.org/2026/conf/edbt/paper-111.pdf",
-    "description": "",
+    "description": "Is learned index really effective in LSM-tree systems? This study answers this question.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -2361,7 +2361,7 @@
     "year": 2026,
     "video": "",
     "href": "https://www.openproceedings.org/2026/conf/edbt/paper-89.pdf",
-    "description": "",
+    "description": "Cache management is a core issue in RocksDB; this paper provides a machine learning approach to address the issue.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
