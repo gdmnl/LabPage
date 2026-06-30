@@ -1824,7 +1824,7 @@
     "year": 2025,
     "video": "",
     "href": "https://dl.acm.org/doi/pdf/10.1145/3725310",
-    "description": "",
+    "description": "How to Grow an LSM-tree? A serious revisit of LSM-tree data ingestion to bridge the gap between theory and systems.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -1969,7 +1969,7 @@
     "year": 2026,
     "video": "",
     "href": "https://arxiv.org/pdf/2406.09675",
-    "description": "Most Graph Neural Network models can be put in the form of Spectral GNNs. This study unifies many GNN models in the same framework and give a comprehensive comparison.",
+    "description": "Most Graph Neural Network models can be put in the form of Spectral GNNs. This study unifies many GNN models in the same framework and gives a comprehensive comparison.",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithms"
@@ -2082,7 +2082,7 @@
     "year": 2026,
     "video": "",
     "href": "https://www.vldb.org/pvldb/vol19/p958-liu.pdf",
-    "description": "Autonomous key-value store for fully dynamic online workload has been achieved!",
+    "description": "Autonomous key-value stores for fully dynamic online workloads have been achieved!",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -2194,7 +2194,7 @@
     "year": 2026,
     "video": "",
     "href": "https://dl.acm.org/doi/pdf/10.1145/3802014",
-    "description": "Learning for Database often assumes the testing workload has the same distribution with the training workload. Is the assumption reliable? This study answers the question.",
+    "description": "Learning for Database components often assumes the testing workload has the same distribution with the training workload. Is the assumption reliable? This study answers the question.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
@@ -2223,7 +2223,7 @@
     "year": 2026,
     "video": "",
     "href": "",
-    "description": "Diffusion model is not only effective in computer vision, it can do community search well.",
+    "description": "",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithms"
@@ -2249,7 +2249,7 @@
     "year": 2026,
     "video": "",
     "href": "https://arxiv.org/pdf/2603.13434",
-    "description": "When you even do not have text in your graph, can you still effectively do domain alignment for graph models? This paper provides an approach.",
+    "description": "Without text in graphs, can you still effectively do domain alignment for graph models? This paper provides an approach.",
     "imgSrc": "",
     "keywords": [
       "Graph Algorithms"
@@ -2361,7 +2361,7 @@
     "year": 2026,
     "video": "",
     "href": "https://www.openproceedings.org/2026/conf/edbt/paper-89.pdf",
-    "description": "Cache management is a core issue in RocksDB; this paper provides a machine learning approach to address the issue.",
+    "description": "Cache management is a core issue in LSM-tree systems; this paper provides an adaptive approach to address the issue.",
     "imgSrc": "",
     "keywords": [
       "Data Systems"
