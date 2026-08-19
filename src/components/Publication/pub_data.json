@@ -2376,5 +2376,89 @@
     "code": "",
     "confExtra": "",
     "isJournal": false
+  },
+  {
+    "title": "VectorMaton: Efficient Vector Search with Pattern Constraints via an Enhanced Suffix Automaton.", 
+    "authors": [
+      "Haoxuan Xie",
+      "Siqiang Luo"
+    ],
+    "conference": "PVLDB",
+    "year": 2026,
+    "video": "",
+    "href": "https://arxiv.org/pdf/2603.01525",
+    "description": "Vector search with string filter!",
+    "imgSrc": "",
+    "keywords": [
+      "Data Systems"
+    ],
+    "subKeywords": [
+      "Application Specialized" 
+    ],
+    "id": 83,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "Scalable Graph Kernel Query with Error Guarantees.", 
+    "authors": [
+      "Changan Liu",
+      "Haoyu Liu",
+      "Siqiang Luo",
+      "Laks V.S. Lakshmanan"      
+    ],
+    "conference": "PVLDB",
+    "year": 2026,
+    "video": "",
+    "href": "",
+    "description": "Scaling up graph kernel queries with error guarantees.",
+    "imgSrc": "",
+    "keywords": [
+      "Graph Algorithms"
+    ],
+    "subKeywords": [
+      "Graph Data Analytics" 
+    ],
+    "id": 84,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "Replace or Augment: Rethinking the Role of Learned Indexes in Relational Databases.", 
+    "authors": [
+      "Zhipeng Chen",
+      "Meng Li",
+      "Hancheng Wang",
+      "Junhan Lv",
+      "Haipeng Dai",
+      "Siqiang Luo"     
+    ],
+    "conference": "PVLDB",
+    "year": 2027,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Data Systems"
+    ],
+    "subKeywords": [
+      "Application Specialized" 
+    ],
+    "id": 85,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
   }
 ]
