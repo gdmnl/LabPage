@@ -17,40 +17,23 @@
       "web": "https://wei2hu0.github.io/"
     },
     {
-      "name": "Tianhao WU",
-      "date": "Aug 2025 - Present",
-      "img": "tianhao.jpg",
-      "bg": "PhD from Tsinghua University",
-      "web": "https://herew.github.io",
-      "area": "Graph Algorithm & Learning"
-    },
-    {
       "name": "Yao CHENG",
       "date": "Aug 2025 - Present",
       "img": "chengyao.jpg",
       "bg": "PhD from East China Normal University",
       "web": "https://scholar.google.com/citations?user=0BzLJqkAAAAJ&hl=zh-CN",
       "area": "Graph Algorithm & Learning"
-    }
-  ],
-  "RA": [
+    },
     {
-      "name": "Mengke He",
-      "date": "Mar 2025 - Present",
-      "img": "mengke.jpg",
-      "bg": "Master from Nanyang Technological University",
-      "web": "https://scholar.google.com/citations?hl=zh-CN&user=B69QIDUAAAAJ",
-      "area": "Graph Algorithm & Learning"
+      "name": "Dingheng MO",
+      "date": "2021 - 2025",
+      "img": "MoDingheng.png",
+      "bg": "Graduated PhD",
+      "web": "https://volatill.github.io/",
+      "area": "Data Systems"
     }
   ],
   "phds": [
-    {
-      "name": "Zhaoqi ZHANG",
-      "date": "Feb 2022 - Present",
-      "bg": "co-supervised with Prof. Cong GAO",
-      "web": "https://scholar.google.com/citations?user=eige9cUAAAAJ&hl=en",
-      "area": "Spatial Data Mining"
-    },
     {
       "name": "Fan WANG",
       "img": "WangFan.jpg",
@@ -92,6 +75,14 @@
       "area": "Graph Algorithm"
     },
     {
+      "name": "Jiarui YE",
+      "date": "Aug 2024 - Present",
+      "bg": "BS from Fudan University",
+      "web": "",
+      "area": "",
+      "img": "jiarui.jpg"
+    },
+    {
       "name": "Yige JIANG",
       "date": "Aug 2025 - Present",
       "bg": "BS from Chinese University of Hong Kong, Shenzhen",
@@ -117,20 +108,11 @@
   ],
   "masters": [
     {
-      "name": "Jiarui YE",
-      "date": "Aug 2024 - Present",
-      "bg": "BS from Fudan University",
+      "name": "Xinpeng JIANG",
+      "date": "Aug 2025 - Present",
+      "bg": "BS from Peking University",
       "web": "",
-      "area": "",
-      "img": "jiarui.jpg"
-    },
-    {
-      "name": "Shambhavi Das",
-      "date": "Dec 2023 - Present",
-      "bg": "By MSDS",
-      "web": "",
-      "area": "",
-      "img": ""
+      "area": ""
     }
   ],
   "alumni": [
@@ -173,6 +155,15 @@
       "area": "Data Systems",
       "position": "Graduated PhD",
       "next": "ByteDance @ Singapore"
+    },
+    {
+      "name": "Zhaoqi ZHANG",
+      "date": "Feb 2022 - Present",
+      "bg": "co-supervised with Prof. Cong GAO",
+      "web": "https://scholar.google.com/citations?user=eige9cUAAAAJ&hl=en",
+      "area": "Spatial Data Mining",
+      "position": "Graduated PhD",
+      "next": "T.B.D."
     },
     {
       "name": "Meng LI",
@@ -227,6 +218,15 @@
       "web": "",
       "position": "Master",
       "next": "Xiaomi"
+    },
+    {
+      "name": "Mengke He",
+      "date": "Mar 2025 - Present",
+      "img": "mengke.jpg",
+      "bg": "Master from Nanyang Technological University",
+      "web": "https://scholar.google.com/citations?hl=zh-CN&user=B69QIDUAAAAJ",
+      "area": "Graph Algorithm & Learning",
+      "position": "Research Assistant"
     },
     {
       "name": "Yufei HAN",
@@ -301,6 +301,16 @@
       "area": "Graph Algorithm & Learning",
       "position": "PostDoc",
       "next": "Associate Professor @ SouthEast University"
+    },
+    {
+      "name": "Tianhao WU",
+      "date": "Aug 2025 - Present",
+      "img": "tianhao.jpg",
+      "bg": "PhD from Tsinghua University",
+      "web": "https://herew.github.io",
+      "area": "Graph Algorithm & Learning",
+      "position": "PostDoc",
+      "next": "Lecturer @ Tianjin University"
     },
     {
       "name": "Tiancheng HUANG",
