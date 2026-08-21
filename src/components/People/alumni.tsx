@@ -65,9 +65,9 @@ export class Alumni extends React.Component<{ isVisible: boolean }> {
                     alumniGroup.map((alumnus, _) => (
                       alumnus.web.length > 0 ?
                       <a href={alumnus.web}>
-                        <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next} />
+                        <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next ?? ""} />
                       </a> :
-                      <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next} />
+                      <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next ?? ""} />
                     ))
                   }
                 </div>
@@ -83,9 +83,9 @@ export class Alumni extends React.Component<{ isVisible: boolean }> {
                     alumniGroup.map((alumnus, _) => (
                       alumnus.web.length > 0 ?
                       <a href={alumnus.web}>
-                        <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next} />
+                        <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next ?? ""} />
                       </a> :
-                      <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next} />
+                      <AlumnusCard name={alumnus.name} pos="" date={alumnus.date} nxt={alumnus.next ?? ""} />
                     ))
                   }
                 </div>
@@ -101,9 +101,9 @@ export class Alumni extends React.Component<{ isVisible: boolean }> {
                     alumniGroup.map((alumnus, _) => (
                       alumnus.web.length > 0 ?
                       <a href={alumnus.web}>
-                        <AlumnusCard name={alumnus.name} pos={alumnus.position} date={alumnus.date} nxt={alumnus.next} />
+                        <AlumnusCard name={alumnus.name} pos={alumnus.position} date={alumnus.date} nxt={alumnus.next ?? ""} />
                       </a> :
-                      <AlumnusCard name={alumnus.name} pos={alumnus.position} date={alumnus.date} nxt={alumnus.next} />
+                      <AlumnusCard name={alumnus.name} pos={alumnus.position} date={alumnus.date} nxt={alumnus.next ?? ""} />
                     ))
                   }
                 </div>
