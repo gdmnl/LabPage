@@ -3,7 +3,6 @@ import * as React from "react";
 import { Col, Row } from "antd";
 import { Content } from "antd/es/layout/layout";
 import NewsList from "./news";
-import FundingList from "./fundingList";
 
 export class SelfIntro extends React.Component {
   public render()  {
@@ -84,9 +83,6 @@ export class SelfIntro extends React.Component {
         </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <NewsList />
-        </div>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <FundingList />
         </div>
       </Content>
     );
