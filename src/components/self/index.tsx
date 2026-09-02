@@ -25,7 +25,7 @@ export class SelfIntro extends React.Component {
                   Siqiang Luo
                 </div>
                 <div style={{ fontSize: "20px", textAlign: "left", lineHeight: "2.5" }}>
-                  Nanyang Assistant Professor
+                  Associate Professor
                 </div>
                 <div style={{ fontSize: "15px", textAlign: "left", lineHeight: "1.7" }}>
                   College of Computing and Data Science, Nanyang Technological University
@@ -46,7 +46,7 @@ export class SelfIntro extends React.Component {
               I was a Postdoctoral Researcher at Harvard University, advised by <a href="https://stratos.seas.harvard.edu/">Prof. Stratos Idreos</a>.
               I earned my Ph.D. in Computer Science from the University of Hong Kong under the supervision of <a href="https://www.cs.hku.hk/index.php/people/academic-staff/kao">Prof. Ben Kao</a> and <a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a>.
               Before that, I completed both my master's and bachelor's degrees in Computer Science at Fudan University (advised by <a href="https://admis.fudan.edu.cn/sgzhou/">Prof. Shuigeng Zhou</a>). My works have received multiple recognitions including ACM PODS Best Newcomer Award. group has been collaborating closely with the industry */}
-              I am a Nanyang Assistant Professor at the College of Computing and Data Science, Nanyang Technological University, and an affiliated member of <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>.
+              I am an Associate Professor at the College of Computing and Data Science, Nanyang Technological University, and an affiliated member of <a href="https://www3.ntu.edu.sg/computing/DMAL/Dante/member.html">DANTE</a>.
               I earned my Ph.D. in Computer Science from the University of Hong Kong and later completed my postdoc training at Harvard University. I completed both my master's and bachelor's degrees in Computer Science at Fudan University. My group has been collaborating closely with the industry to put research into practice, and my works have received multiple recognitions including ACM PODS Best Newcomer Award in 2026, PREMIA Paper Awards in 2024 and 2025. 
               <br/>
               {/* <br/>
