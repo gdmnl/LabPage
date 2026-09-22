@@ -2460,5 +2460,58 @@
     "code": "",
     "confExtra": "",
     "isJournal": false
+  },
+  {
+    "title": "Don't Forget Range Delete! Enhancing LSM-based Key-Value Stores with More Compatible Lookups and Deletes.", 
+    "authors": [
+      "Fan Wang",
+      "Dingheng Mo",
+      "Siqiang Luo"     
+    ],
+    "conference": "SIGMOD",
+    "year": 2027,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Data Systems"
+    ],
+    "subKeywords": [
+      "Instance Optimization" 
+    ],
+    "id": 86,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
+  },
+  {
+    "title": "RDL-Bench: A Benchmark for Task-Aware Question Answering over Relational Databases.", 
+    "authors": [
+      "Yao Cheng",
+      "Siqiang Luo"     
+    ],
+    "conference": "ICDE",
+    "year": 2027,
+    "video": "",
+    "href": "",
+    "description": "",
+    "imgSrc": "",
+    "keywords": [
+      "Data Systems"
+    ],
+    "subKeywords": [
+      "Application Specialized" 
+    ],
+    "id": 86,
+    "isExtension": false,
+    "hasExtension": -1,
+    "isVisible": true,
+    "code": "",
+    "confExtra": "",
+    "isJournal": false
   }
 ]

@@ -31,6 +31,14 @@
       "bg": "Graduated PhD",
       "web": "https://volatill.github.io/",
       "area": "Data Systems"
+    },
+    {
+      "name": "Yifan SONG",
+      "date": "Sept 2026 - Present",
+      "img": "Songyifan.jpeg",
+      "bg": "PhD from HKUSTGZ",
+      "web": "https://yfsong00.github.io/smallhammer.github.io/",
+      "area": "Graph Algorithm & Learning"
     }
   ],
   "RA": [],
