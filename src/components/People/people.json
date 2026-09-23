@@ -26,7 +26,7 @@
     },
     {
       "name": "Dingheng MO",
-      "date": "2021 - 2025",
+      "date": "2025 - present",
       "img": "MoDingheng.png",
       "bg": "Graduated PhD",
       "web": "https://volatill.github.io/",
@@ -109,11 +109,11 @@
     },
     {
       "name": "Levina LI",
-      "date": "Aug 2026 (incoming)",
-      "img": "",
+      "date": "Aug 2026 - Present",
+      "img": "Levina.jpg",
       "bg": "BS from UCLA",
       "web": "https://levinaxu.github.io/",
-      "area": "T.B.D."
+      "area": "Graph Learning and AI"
     }
   ],
   "masters": [
