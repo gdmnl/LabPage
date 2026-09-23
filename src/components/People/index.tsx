@@ -47,7 +47,7 @@ export class PeopleList extends React.Component<{}, { alumniVisible: boolean }> 
             <img src="avatar/SiqiangLuo.jpg" style={{ width: "10rem", height: "10rem", borderRadius: "50%" }}/>
             </a>
             <div style={{ fontSize: "1.2rem", marginTop: "1rem" }}>Siqiang LUO</div>
-            <div style={{ fontSize: "1rem", color: "#7d7d7d" }}> Assistant Professor</div>
+            <div style={{ fontSize: "1rem", color: "#7d7d7d" }}> Associate Professor</div>
           </Col>
         </Row>
         <div style={{ fontSize: "30px", marginTop: "1rem" }}>PhD Students</div>
