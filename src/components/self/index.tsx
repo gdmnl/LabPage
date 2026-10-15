@@ -71,11 +71,10 @@ export class SelfIntro extends React.Component {
                 border: 'solid', borderColor: '#99CCFF', padding: '0.2rem',
                 color: '#2170BF', borderRadius: '0.6rem'
               }}>
-                <span style={{ marginLeft: '0.2rem' }}>Recruitment (Updated in Dec 2025):</span>
+                <span style={{ marginLeft: '0.2rem' }}>Recruitment:</span>
                 </p>
                 <p> 
-                  One openning for postdoc working on data systems, particularly about agentic memory management <br/>
-                  Interested candidates are welcome to submit CVs by email (<a href="mailto:siqiang.luo@ntu.edu.sg">siqiang.luo@ntu.edu.sg</a>).
+                  I occationally have opennings in PhDs, postdocs, or RAs. If you are interested in joining our group, please feel free to contact me by email (<a href="mailto:siqiang.luo@ntu.edu.sg">siqiang.luo@ntu.edu.sg</a>).
                 </p>
               </div>
             </p>
