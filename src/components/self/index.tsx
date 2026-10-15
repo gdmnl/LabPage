@@ -74,7 +74,7 @@ export class SelfIntro extends React.Component {
                 <span style={{ marginLeft: '0.2rem' }}>Recruitment:</span>
                 </p>
                 <p> 
-                  I occationally have opennings in PhDs, postdocs, or RAs. If you are interested in joining our group, please feel free to contact me by email (<a href="mailto:siqiang.luo@ntu.edu.sg">siqiang.luo@ntu.edu.sg</a>).
+                  I occasionally have openings for PhD students, postdoctoral researchers, and research assistants. If you are interested in joining our group, please feel free to contact me at (<a href="mailto:siqiang.luo@ntu.edu.sg">siqiang.luo@ntu.edu.sg</a>).
                 </p>
               </div>
             </p>
